@@ -1,4 +1,4 @@
-# vue-cli3-tpl
+# generator-project-cli
 
 ## 项目描述
 基于yeoman-generator脚手架搭建的项目模板
