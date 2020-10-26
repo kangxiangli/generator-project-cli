@@ -1,0 +1,10 @@
+{
+  "status": "success",
+  "content": {
+    "riskScore": "1",
+    "field": "event_name",
+    "fieldValue": "dyl_1009_74"
+  },
+  "message": null,
+  "errorCode": null
+}

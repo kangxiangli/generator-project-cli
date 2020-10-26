@@ -1,0 +1,13 @@
+{
+    "status": "success",
+    "content": {
+        "id": 1,
+        "dictName": "asset",
+        "dictChName": "内置资产表",
+        "dictSchema": "{\"dictChName\":\"内置资产表\",\"dictFields\":[{\"fieldLength\":100,\"fieldName\":\"ip\",\"fieldType\":\"string\"},{\"fieldLength\":1000,\"fieldName\":\"asset_name\",\"fieldType\":\"string\"},{\"fieldLength\":1000,\"fieldName\":\"asset_type\",\"fieldType\":\"string\"},{\"fieldLength\":1000,\"fieldName\":\"asset_value\",\"fieldType\":\"string\"},{\"fieldLength\":1000,\"fieldName\":\"business_system\",\"fieldType\":\"string\"},{\"fieldLength\":1000,\"fieldName\":\"network_domain\",\"fieldType\":\"string\"},{\"fieldLength\":1000,\"fieldName\":\"owner\",\"fieldType\":\"string\"}],\"dictName\":\"asset\"}",
+        "dictQuerySql": "select a.`ipv4` as ip,a.name as asset_name,a.owner_name as owner,a.asset_value,a.businesses_name as business_system ,b.name as asset_type ,c.name as network_domain from asset a  left join property_tree b on b.id=a.asset_type_id  left join property_tree c on c.id=a.security_domain_id",
+        "dictEditable": false
+    },
+    "message": null,
+    "errorCode": null
+}

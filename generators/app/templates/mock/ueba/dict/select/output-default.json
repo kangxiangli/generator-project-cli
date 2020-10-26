@@ -1,0 +1,29 @@
+{
+  "status": "success",
+  "content": [
+    {
+      "id": 0,
+      "strategyId": 0,
+      "filed": "61",
+      "valueBefore": "",
+      "valueAfter": "",
+      "valueType": "1",
+      "eventFiled": "197",
+      "addList": false,
+      "listId": 0
+    },
+    {
+      "id": 0,
+      "strategyId": 0,
+      "filed": "391",
+      "valueBefore": "",
+      "valueAfter": "",
+      "valueType": "2",
+      "eventFiled": "206",
+      "addList": false,
+      "listId": 0
+    }
+  ],
+  "message": "获取默认输出成功",
+  "errorCode": null
+}

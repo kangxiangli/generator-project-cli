@@ -1,0 +1,19 @@
+{
+  "status": "success",
+  "content": [
+    {
+      "key": "1",
+      "name": "站内消息"
+    },
+    {
+      "key": "2",
+      "name": "邮件消息"
+    },
+    {
+      "key": "3",
+      "name": "站内和邮件"
+    }
+  ],
+  "message": "获取字典信息 D0061 成功",
+  "errorCode": "null"
+}

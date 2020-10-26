@@ -1,0 +1,94 @@
+{
+  "status": "success",
+  "content": {
+    "total": 12,
+    "data": [
+      {
+        "policyName": "策略名称",
+        "policyLabel": "策略标签",
+        "alarmTime": "2019-08-11 11:00:00",
+        "severity": "警告",
+        "condGroup": "CPU >= 80 And DISK <= 20"
+      },
+      {
+        "policyName": "策略名称",
+        "policyLabel": "策略标签",
+        "alarmTime": "2019-08-11 11:00:00",
+        "severity": "警告",
+        "condGroup": "CPU >= 80 And DISK <= 20"
+      },
+      {
+        "policyName": "策略名称",
+        "policyLabel": "策略标签",
+        "alarmTime": "2019-08-11 11:00:00",
+        "severity": "警告",
+        "condGroup": "CPU >= 80 And DISK <= 20"
+      },
+      {
+        "policyName": "策略名称",
+        "policyLabel": "策略标签",
+        "alarmTime": "2019-08-11 11:00:00",
+        "severity": "警告",
+        "condGroup": "CPU >= 80 And DISK <= 20"
+      },
+      {
+        "policyName": "策略名称",
+        "policyLabel": "策略标签",
+        "alarmTime": "2019-08-11 11:00:00",
+        "severity": "警告",
+        "condGroup": "CPU >= 80 And DISK <= 20"
+      },
+      {
+        "policyName": "策略名称",
+        "policyLabel": "策略标签",
+        "alarmTime": "2019-08-11 11:00:00",
+        "severity": "警告",
+        "condGroup": "CPU >= 80 And DISK <= 20"
+      },
+      {
+        "policyName": "策略名称",
+        "policyLabel": "策略标签",
+        "alarmTime": "2019-08-11 11:00:00",
+        "severity": "警告",
+        "condGroup": "CPU >= 80 And DISK <= 20"
+      },
+      {
+        "policyName": "策略名称",
+        "policyLabel": "策略标签",
+        "alarmTime": "2019-08-11 11:00:00",
+        "severity": "警告",
+        "condGroup": "CPU >= 80 And DISK <= 20"
+      },
+      {
+        "policyName": "策略名称",
+        "policyLabel": "策略标签",
+        "alarmTime": "2019-08-11 11:00:00",
+        "severity": "警告",
+        "condGroup": "CPU >= 80 And DISK <= 20"
+      },
+      {
+        "policyName": "策略名称",
+        "policyLabel": "策略标签",
+        "alarmTime": "2019-08-11 11:00:00",
+        "severity": "警告",
+        "condGroup": "CPU >= 80 And DISK <= 20"
+      },
+      {
+        "policyName": "策略名称",
+        "policyLabel": "策略标签",
+        "alarmTime": "2019-08-11 11:00:00",
+        "severity": "警告",
+        "condGroup": "CPU >= 80 And DISK <= 20"
+      },
+      {
+        "policyName": "策略名称",
+        "policyLabel": "策略标签",
+        "alarmTime": "2019-08-11 11:00:00",
+        "severity": "警告",
+        "condGroup": "CPU >= 80 And DISK <= 20"
+      }
+    ]
+  },
+  "message": null,
+  "errorCode": null
+}

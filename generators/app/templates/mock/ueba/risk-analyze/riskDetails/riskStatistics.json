@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "content": {
+    "alarm": 123,
+    "event": 560,
+    "riskType": 2,
+    "asset": 123,
+    "location": 2,
+    "intelligence": 2,
+    "deviceId": 0,
+    "browserId": 0,
+    "openId": 0
+  },
+  "message": null,
+  "errorCode": null
+}

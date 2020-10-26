@@ -1,0 +1,68 @@
+{
+    "errorCode": "000000",
+    "message": "服务执行成功",
+    "content": {
+        "bakManage": [
+            {
+                "children": [
+                    {
+                        "bakId": "296573552583380992",
+                        "fileName": "20190606192702",
+                        "autoGenerateName": true,
+                        "indexTemplate": "security_log_",
+                        "startTime": "2019-01-28 20:52:29",
+                        "finishTime": "2019-09-17 08:25:49",
+                        "bakWay": "local",
+                        "bakFinishDel": false,
+                        "bakAuto": false,
+                        "protocolType": "",
+                        "account": "",
+                        "passwd": "",
+                        "bakPath": "",
+                        "createTime": "2019-06-06 19:24:15",
+                        "executeCycle": "day",
+                        "executeDate": "",
+                        "executeTime": "6:25"
+                    }
+                ],
+                "fileName": "备份",
+                "bakId": "root"
+            },
+            {
+                "children": [
+                    {
+                        "bakId": "296573552872787968",
+                        "bakManageId": "296573552583380992",
+                        "fileName": "20190606192415",
+                        "bakFileName": "20190606192415",
+                        "recordId": "296573552872787968",
+                        "bakStatus": "bak_success",
+                        "bakTime": "2019-06-06 19:24:15",
+                        "bakFailCause": null,
+                        "bakCount": 15,
+                        "bakSize": 1824974,
+                        "bakPath": "/var/backups/HHvgvhrfTuav5wNRX9C7-A.dat"
+                    },
+                    {
+                        "recordId": "296574252457529344",
+                        "bakFileName": "20190606192702",
+                        "bakId": "296574252457529344",
+                        "bakManageId": "296573552583380992",
+                        "fileName": "20190606192702",
+                        "bakStatus": "bak_success",
+                        "bakTime": "2019-06-06 19:27:02",
+                        "bakFailCause": null,
+                        "bakCount": 0,
+                        "bakSize": 0,
+                        "bakPath": "/var/backups/VSpi27pQR_qaM7JaMbCNBA.dat"
+                    }
+                ],
+                "fileName": "备份记录",
+                "bakFileName": "备份记录",
+                "recordId": "recordRoot",
+                "bakId": "recordRoot"
+            }
+        ]
+    },
+    "status": "success"
+}

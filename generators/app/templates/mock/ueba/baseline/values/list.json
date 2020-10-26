@@ -1,0 +1,135 @@
+{
+  "status": "success",
+  "content": {
+    "total": 14,
+    "totalPage": 1,
+    "column": [
+      {
+        "key": "user_name",
+        "name": "用户名"
+      },
+      {
+        "key": "hour",
+        "name": "时"
+      }
+    ],
+    "data": [
+      {
+        "key": "a,14",
+        "hour": "14",
+        "user_name": "a",
+        "value": "200",
+        "baselineId": 35,
+        "id": 21
+      },
+      {
+        "key": "h,1",
+        "hour": "1",
+        "user_name": "h",
+        "value": "30",
+        "baselineId": 35,
+        "id": 8
+      },
+      {
+        "key": "i,2",
+        "hour": "2",
+        "user_name": "i",
+        "value": "30",
+        "baselineId": 35,
+        "id": 9
+      },
+      {
+        "key": "j,3",
+        "hour": "3",
+        "user_name": "j",
+        "value": "30",
+        "baselineId": 35,
+        "id": 10
+      },
+      {
+        "key": "k,4",
+        "hour": "4",
+        "user_name": "k",
+        "value": "30",
+        "baselineId": 35,
+        "id": 11
+      },
+      {
+        "key": "l,5",
+        "hour": "5",
+        "user_name": "l",
+        "value": "20",
+        "baselineId": 35,
+        "id": 12
+      },
+      {
+        "key": "m,6",
+        "hour": "6",
+        "user_name": "m",
+        "value": "200",
+        "baselineId": 35,
+        "id": 13
+      },
+      {
+        "key": "n,7",
+        "hour": "7",
+        "user_name": "n",
+        "value": "100",
+        "baselineId": 35,
+        "id": 14
+      },
+      {
+        "key": "o,8",
+        "hour": "8",
+        "user_name": "o",
+        "value": "60",
+        "baselineId": 35,
+        "id": 15
+      },
+      {
+        "key": "p,9",
+        "hour": "9",
+        "user_name": "p",
+        "value": "qw",
+        "baselineId": 35,
+        "id": 16
+      },
+      {
+        "key": "r,10",
+        "hour": "10",
+        "user_name": "r",
+        "value": "a",
+        "baselineId": 35,
+        "id": 17
+      },
+      {
+        "key": "s,11",
+        "hour": "11",
+        "user_name": "s",
+        "value": "q",
+        "baselineId": 35,
+        "id": 18
+      },
+      {
+        "key": "t,12",
+        "hour": "12",
+        "user_name": "t",
+        "value": "200",
+        "baselineId": 35,
+        "id": 19
+      },
+      {
+        "key": "u,13",
+        "hour": "13",
+        "user_name": "u",
+        "value": "o",
+        "baselineId": 35,
+        "id": 20
+      }
+    ],
+    "pageSize": 20,
+    "pageNum": 1
+  },
+  "message": "查询成功",
+  "errorCode": null
+}

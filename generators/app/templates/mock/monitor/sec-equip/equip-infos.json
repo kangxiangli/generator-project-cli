@@ -1,0 +1,55 @@
+{
+  "status": "success",
+  "content": [
+    {
+      "equipName": "192.168.200.107",
+      "errCount": 12341235243,
+      "infoCount": 2456435634,
+      "cpu": {
+        "key": "CPU",
+        "name": "100%",
+        "value": 100
+      },
+      "mem": {
+        "key": "内存",
+        "name": "64G,801123gg6465",
+        "value": 80
+      },
+      "ip": "192.168.101.11",
+      "health": "健康",
+      "disk": "22G/300G",
+      "temperature": "42℃",
+      "voltage": "32V",
+      "networkDown": "32.32K/s",
+      "networkUp": "3.00G/s",
+      "activeTime": "10小时",
+      "reportTime": "2019-09-03 10:14"
+    },
+    {
+      "equipName": "设备名称2",
+      "errCount": 34565363451,
+      "infoCount": 2767456845784678457,
+      "cpu": {
+        "key": "CPU",
+        "name": "100%",
+        "value": 100
+      },
+      "mem": {
+        "key": "内存",
+        "name": "64G,80%",
+        "value": 80
+      },
+      "ip": "192.168.101.12",
+      "health": "健康",
+      "disk": "22G/300G",
+      "temperature": "42℃",
+      "voltage": "32V",
+      "networkDown": "32.32K/s",
+      "networkUp": "3.00G/s",
+      "activeTime": "10小时",
+      "reportTime": "2019-09-03 10:14"
+    }
+  ],
+  "message": null,
+  "errorCode": null
+}

@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "content": {
+    "id": 10,
+    "type": "E1101",
+    "intelligenceType":"D1001",
+    "filterExpression": "aaa=bb and aa=adasd",
+    "conditionRelation": "{\"condition\":\"&&\",\"children\":[{\"key\":1535337115112,\"field\":\"74\",\"ruleParam\":[{\"key\":\"condition\",\"value\":12,\"type\":\"operation\"},{\"key\":\"param1\",\"value\":\"aaa\",\"type\":\"string\"}],\"type\":\"compare\"}]}"
+  },
+  "message": "增加成功",
+  "errorCode": null
+}

@@ -1,0 +1,9 @@
+{
+  "status": "success",
+  "content": {
+    "monitorCount": 10,
+    "sendedCount": 8,
+    "notSendedCount": 2,
+    "notMonitorCount": 5
+  }
+}

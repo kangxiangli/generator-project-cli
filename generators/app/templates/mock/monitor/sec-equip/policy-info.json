@@ -1,0 +1,23 @@
+{
+  "status": "success",
+  "content": {
+      "total": 12,
+      "data": [{
+          "policyId": "0d33492ad3954d8d8053fd00f8714021",
+          "policyName": "策略名称",
+          "policyLabel": "策略标签",
+          "severity": "警告",
+          "policyStatus": "0",
+          "condGroup": "cpu=1 AND mem>=3"
+      }, {
+          "policyId": "0d33492ad3954d8d8053fd00f8714022",
+          "policyName": "策略名称",
+          "policyLabel": "策略标签",
+          "severity": "错误",
+          "policyStatus": "1",
+          "condGroup": "cpu=1 AND mem>=3"
+      }]
+  },
+  "message": null,
+  "errorCode": null
+}

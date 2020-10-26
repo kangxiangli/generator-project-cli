@@ -1,0 +1,19 @@
+{
+  "status": "success",
+  "content": {
+    "id": 362,
+    "strategyId": 552,
+    "riskType": 299,
+    "riskLevel": 28,
+    "killChainStage": 468,
+    "riskScore": 120,
+    "alarmCondition": "",
+    "noticeStation": true,
+    "noticeUsers": "",
+    "mailNotice": true,
+    "mailAddress": "aaab,aaa,ASA",
+    "internalEvent": true
+  },
+  "message": null,
+  "errorCode": null
+}

@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "content": {
+    "taskName": "安全事件月报表v1",
+    "comment": "xxxxxxxxxxxx",
+    "reportType": "安全事件报表",
+    "outputType": ["SCV"],
+    "frequency": "repeat",
+    "cycle": "month",
+    "cycleTime": "2",
+    "startTime": "1511409689992",
+    "statistics": {
+      "day": ["1","2","3"],
+      "week": [],
+      "month": ["1"]
+    }
+  }
+}

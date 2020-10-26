@@ -1,0 +1,41 @@
+{
+  "status": "success",
+  "content": {
+    "id": 41,
+    "instanceId": null,
+    "ip": "10.10.10.1",
+    "publicIp": null,
+    "domain": null,
+    "hostName": "金库",
+    "macAddr": null,
+    "businessesId": null,
+    "businessesName": "运维",
+    "departments": "业务部",
+    "importantAssetType": null,
+    "ownerName": "1qaz11",
+    "ownerEmail": null,
+    "ownerPhone": null,
+    "vendor": "张爱国",
+    "knownAssetsType": false,
+    "networkDomain": "办公区域",
+    "riskScore": 0,
+    "assetValue": null,
+    "manufacturer": null,
+    "maintainerName": null,
+    "maintainerPhone": null,
+    "maintainerMail": null,
+    "remark": "首批",
+    "updateDate": 1525918254000,
+    "regenerator": "admin",
+    "assetsSrc": "人工添加",
+    "assetMap": {
+      "ip": "10.10.10.1",
+      "id": 41
+    },
+    "ossystem": "windows 7",
+    "osdistro": null,
+    "osversion": null
+  },
+  "message": "查询成功！",
+  "errorCode": null
+}

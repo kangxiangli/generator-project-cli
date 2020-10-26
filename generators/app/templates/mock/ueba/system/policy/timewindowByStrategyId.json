@@ -1,0 +1,19 @@
+{
+  "status": "success",
+  "content": {
+    "id": 2036,
+    "strategyId": 552,
+    "timeFlag": 1,
+    "startTime": null,
+    "endTime": null,
+    "timeInterval": null,
+    "timeUnit": null,
+    "window": 1,
+    "windowType": "s",
+    "step": 1,
+    "stepType": "s",
+    "confidenceInterval": null
+  },
+  "message": null,
+  "errorCode": null
+}

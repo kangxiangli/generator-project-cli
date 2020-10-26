@@ -1,0 +1,126 @@
+{
+  "status": "success",
+  "content": {
+    "filterConfig": {
+      "createTime": 1537428568048,
+      "updateUser": "sysadmin",
+      "filterRule": {
+        "ruleConfigId": 542,
+        "rules": "[{\"dId\":257,\"name\":\"dyl_test_06\",\"condition\":\"&&\",\"fileds\":[{\"keyBy\":\"\",\"group\":[{\"condition\":\"&&\",\"children\":[],\"type\":\"0\"}]}]},{\"dId\":258,\"name\":\"dyl_jx_1\",\"condition\":\"&&\",\"fileds\":[{\"keyBy\":\"\",\"group\":[{\"condition\":\"&&\",\"children\":[],\"type\":\"0\"}]}]},{\"dId\":0,\"name\":\"关联条件\",\"group\":[{\"condition\":\"&&\",\"children\":[{\"dataCollection1\":257,\"field\":\"\",\"ruleParam\":[],\"type\":\"\"}]}]}]",
+        "id": 542
+      },
+      "strategyId": 802,
+      "createUser": "sysadmin",
+      "updateTime": 1537428568048,
+      "id": 542,
+      "filterAgg": [
+        {
+          "id": 514,
+          "dataCollection1": 257,
+          "keyBy1": "",
+          "dataCollection2": 258,
+          "keyBy2": null,
+          "ruleConfigId": 542,
+          "resMap": {
+            "keyBy2": null,
+            "keyBy1": "",
+            "ruleConfigId": 542,
+            "id": 514,
+            "dataCollection2": 258,
+            "dataCollection1": 257
+          }
+        }
+      ]
+    },
+    "actionConfig": {
+      "id": 415,
+      "strategyId": 802,
+      "riskType": 21,
+      "riskLevel": 28,
+      "eventType": 464,
+      "eventName": "dyl_cc",
+      "noticeStation": false,
+      "noticeUsers": "",
+      "killChainStage": 465,
+      "riskScore": 5,
+      "alarmCondition": "43",
+      "mailNotice": false,
+      "mailAddress": "",
+      "internalEvent": 687,
+      "eventDeviceType": 525,
+      "earlyWarning": false
+    },
+    "strategy": {
+      "id": 802,
+      "name": "a",
+      "description": "s",
+      "scene": null,
+      "type": "2",
+      "riskType": 464,
+      "datasetOneId": "257",
+      "datasetTwoId": "258",
+      "timeWindowId": 2154,
+      "filterId": 0,
+      "actionConfigId": 415,
+      "actionConditionId": 0,
+      "status": true,
+      "jobId": null,
+      "editStatus": 14,
+      "createTime": 1537428568022,
+      "createUser": "sysadmin"
+    },
+    "outPutList": [
+      {
+        "filed": "61",
+        "addList": false,
+        "strategyId": 0,
+        "valueType": "1",
+        "valueAfter": "",
+        "eventFiled": "860",
+        "id": 0,
+        "valueBefore": ""
+      },
+      {
+        "filed": "74",
+        "addList": false,
+        "strategyId": 0,
+        "valueType": "1",
+        "valueAfter": "",
+        "eventFiled": "871",
+        "id": 0,
+        "valueBefore": ""
+      }
+    ],
+    "timeWindow": {
+      "id": 2154,
+      "strategyId": 802,
+      "timeFlag": 2,
+      "startTime": 1537342157996,
+      "endTime": 1537428557996,
+      "timeInterval": null,
+      "timeUnit": null,
+      "window": 1,
+      "windowType": "s",
+      "step": 1,
+      "stepType": "s",
+      "confidenceInterval": null,
+      "map": {
+        "windowType": "s",
+        "strategyId": 802,
+        "time": {
+          "timeInterval": null,
+          "timeUnit": null,
+          "startTime": 1537342157996,
+          "timeFlag": 2,
+          "endTime": 1537428557996
+        },
+        "step": 1,
+        "window": 1,
+        "id": 2154,
+        "stepType": "s"
+      }
+    }
+  },
+  "message": "保存成功！",
+  "errorCode": null
+}

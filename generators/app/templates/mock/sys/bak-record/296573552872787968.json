@@ -1,0 +1,16 @@
+{
+    "errorCode": "000000",
+    "message": "服务执行成功",
+    "content": {
+        "recordId": "296480993961971712",
+        "bakManageId": "296480993785810944",
+        "bakFileName": "20190606131627",
+        "bakStatus": "bak_error",
+        "bakTime": "2019-06-06 13:16:28",
+        "bakFailCause": null,
+        "bakCount": 0,
+        "bakSize": 0,
+        "bakPath": "/var/backups/3-djKqQOQ3O9Im2A4z2-oA.dat"
+    },
+    "status": "success"
+}

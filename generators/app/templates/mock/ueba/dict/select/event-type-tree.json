@@ -1,0 +1,149 @@
+{
+  "status": "success",
+  "content": [
+    {
+      "name": "网络威胁分析",
+      "id": 464,
+      "children": [
+        {
+          "name": "网络入侵",
+          "children": [
+            {
+              "name": "密码猜测攻击",
+              "id": 442,
+              "alias": "/NetThreatAnalysis/NetIntrusion/PassGuessAttack"
+            },
+            {
+              "name": "WEB攻击",
+              "id": 443,
+              "alias": "/NetThreatAnalysis/NetIntrusion/WebAttack"
+            },
+            {
+              "name": "恶意扫描",
+              "id": 444,
+              "alias": "/NetThreatAnalysis/NetIntrusion/ScanAttack"
+            },
+            {
+              "name": "恶意程序",
+              "id": 445,
+              "alias": "/NetThreatAnalysis/NetIntrusion/MalwareAttack"
+            },
+            {
+              "name": "其它网络攻击",
+              "id": 446,
+              "alias": "/NetThreatAnalysis/NetIntrusion/OtherAttack"
+            }
+          ],
+          "id": 441,
+          "alias": "/NetThreatAnalysis/NetIntrusion"
+        },
+        {
+          "name": "异常流量检测",
+          "children": [
+            {
+              "name": "DDOS异常流量",
+              "id": 448,
+              "alias": "/NetThreatAnalysis/AbnormalFlow/DdosAbnormalTraffic"
+            },
+            {
+              "name": "业务异常流量",
+              "id": 449,
+              "alias": "/NetThreatAnalysis/AbnormalFlow/BizAbnormalTraffic"
+            }
+          ],
+          "id": 447,
+          "alias": "/NetThreatAnalysis/AbnormalFlow"
+        }
+      ],
+      "alias": "/NetThreatAnalysis"
+    },
+    {
+      "name": "系统安全",
+      "id": 463,
+      "children": [
+        {
+          "name": "系统攻击分析",
+          "children": [
+            {
+              "name": "日志破坏检测",
+              "id": 451,
+              "alias": "/SysSecurity/SysAttackAnalysis/LogDestruction"
+            },
+            {
+              "name": "系统提权检测",
+              "id": 452,
+              "alias": "/SysSecurity/SysAttackAnalysis/ChangePermissions"
+            },
+            {
+              "name": "错误日志检测",
+              "id": 453,
+              "alias": "/SysSecurity/SysAttackAnalysis/ErrorLog"
+            }
+          ],
+          "id": 450,
+          "alias": "/SysSecurity/SysAttackAnalysis"
+        }
+      ],
+      "alias": "/SysSecurity"
+    },
+    {
+      "name": "威胁情报分析",
+      "id": 462,
+      "children": [
+        {
+          "name": "外部攻击识别",
+          "id": 454,
+          "alias": "/TiAnalysis/ExternalAttack"
+        },
+        {
+          "name": "历史攻击回溯",
+          "id": 455,
+          "alias": "/TiAnalysis/HistoricalAttack"
+        },
+        {
+          "name": "内部网络行为分析",
+          "id": 456,
+          "alias": "/TiAnalysis/InternalNetworkAnalysis"
+        },
+        {
+          "name": "情报关联分析",
+          "id": 457,
+          "alias": "/TiAnalysis/IntelligenceCorrelationAnalysis"
+        },
+        {
+          "name": "资产筛选",
+          "id": 458,
+          "alias": "/TiAnalysis/AssetFilterAnalysis"
+        },
+        {
+          "name": "漏洞情报分析",
+          "id": 459,
+          "alias": "/TiAnalysis/AssetVulAnalysis"
+        }
+      ],
+      "alias": "/TiAnalysis"
+    },
+    {
+      "name": "用户行为分析",
+      "id": 460,
+      "alias": "/UserBehaviorAnalysis"
+    },
+    {
+      "name": "业务风险分析",
+      "id": 461,
+      "alias": "/BusinessRiskControlAnalysis"
+    },
+    {
+      "name": "其他攻击",
+      "id": 462,
+      "alias": "/OtherAttack"
+    },
+    {
+      "name": "网页防篡改",
+      "id": 463,
+      "alias": "/WebSiteTamperResistant"
+    }
+  ],
+  "message": null,
+  "errorCode": null
+}

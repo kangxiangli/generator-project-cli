@@ -1,0 +1,152 @@
+{
+  "status": "success",
+  "content": {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              
+            ],
+            "parentCategoryId": "C0001",
+            "label": "日志源",
+            "id": "D1001"
+          },
+          {
+            "children": [
+              
+            ],
+            "parentCategoryId": "C0001",
+            "label": "基本信息",
+            "id": "D1002"
+          },
+          {
+            "children": [
+              
+            ],
+            "parentCategoryId": "C0001",
+            "label": "来源信息",
+            "id": "D1003"
+          },
+          {
+            "children": [
+              
+            ],
+            "parentCategoryId": "C0001",
+            "label": "目的信息",
+            "id": "D1004"
+          },
+          {
+            "children": [
+              
+            ],
+            "parentCategoryId": "C0001",
+            "label": "效果信息",
+            "id": "D1005"
+          },
+          {
+            "children": [
+              
+            ],
+            "parentCategoryId": "C0001",
+            "label": "分类信息",
+            "id": "D1006"
+          },
+          {
+            "children": [
+              
+            ],
+            "parentCategoryId": "C0001",
+            "label": "文件信息",
+            "id": "D1007"
+          },
+          {
+            "children": [
+              
+            ],
+            "parentCategoryId": "C0001",
+            "label": "其他信息",
+            "id": "D1008"
+          }
+        ],
+        "parentCategoryId": "0",
+        "label": "日志字段",
+        "id": "C0001"
+      },
+      {
+        "children": [
+          
+        ],
+        "parentCategoryId": "0",
+        "label": "运算符",
+        "id": "C0002"
+      },
+      {
+        "children": [
+          
+        ],
+        "parentCategoryId": "0",
+        "label": "筛选函数",
+        "id": "C0003"
+      },
+      {
+        "children": [
+          
+        ],
+        "parentCategoryId": "0",
+        "label": "策略函数",
+        "id": "C0004"
+      },
+      {
+        "children": [
+          {
+            "children": [
+              
+            ],
+            "parentCategoryId": "C0005",
+            "label": "运维操作场景",
+            "id": "D5001"
+          },
+          {
+            "children": [
+              
+            ],
+            "parentCategoryId": "C0005",
+            "label": "登录场景",
+            "id": "D5002"
+          }
+        ],
+        "parentCategoryId": "0",
+        "label": "策略场景",
+        "id": "C0005"
+      },
+      {
+        "children": [
+          
+        ],
+        "parentCategoryId": "0",
+        "label": "风险级别",
+        "id": "C0006"
+      },
+      {
+        "children": [
+          
+        ],
+        "parentCategoryId": "0",
+        "label": "杀伤链阶段",
+        "id": "C0007"
+      },
+      {
+        "children": [
+          
+        ],
+        "parentCategoryId": "0",
+        "label": "名单运算符",
+        "id": "C0008"
+      }
+    ],
+    "label": "字典类别"
+  },
+  "message": "获取字典类型树成功",
+  "errorCode": null
+}

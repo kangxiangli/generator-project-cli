@@ -1,0 +1,187 @@
+{
+    "status": "success",
+    "content": [
+        {
+            "uuid": "ff8080816a24f6e9016a24fbd4720001",
+            "chName": "网络IDS",
+            "enName": "/IDS/Network"
+        },
+        {
+            "uuid": "ff8080816a24f6e9016a24fbd4720002",
+            "chName": "WEB应用防护产品",
+            "enName": "/IDS/Network/WAF"
+        },
+        {
+            "uuid": "ff8080816a24f6e9016a24fbd4720003",
+            "chName": "主机IDS",
+            "enName": "/IDS/Host"
+        },
+        {
+            "uuid": "ff8080816a24f6e9016a24fbd4720004",
+            "chName": "文件完整性检查产品",
+            "enName": "/IDS/Host/FileIntegrity"
+        },
+        {
+            "uuid": "ff8080816a24f6e9016a24fbd4720005",
+            "chName": "防病毒产品",
+            "enName": "/IDS/Host/Antivirus"
+        },
+        {
+            "uuid": "ff8080816a24f6e9016a24fbd4720006",
+            "chName": "应用系统",
+            "enName": "/Application"
+        },
+        {
+            "uuid": "ff8080816a24f6e9016a24fbd4720007",
+            "chName": "邮件系统",
+            "enName": "/Application/MailServer"
+        },
+        {
+            "uuid": "ff8080816a24f6e9016a24fbd4720008",
+            "chName": "FTP服务",
+            "enName": "/Application/FTPServer"
+        },
+        {
+            "uuid": "ff8080816a24f6e9016a24fbd4720009",
+            "chName": "WEB系统",
+            "enName": "/Application/WEBServer"
+        },
+        {
+            "uuid": "ff8080816a24f6e9016a24fbd4720010",
+            "chName": "DNS服务",
+            "enName": "/Application/DNSServer"
+        },
+        {
+            "uuid": "ff8080816a24f6e9016a24fbd4720011",
+            "chName": "数据库",
+            "enName": "/Application/Database"
+        },
+        {
+            "uuid": "ff8080816a24f6e9016a24fbd4720012",
+            "chName": "操作系统",
+            "enName": "/OperatingSystem"
+        },
+        {
+            "uuid": "ff8080816a24f6e9016a24fbd4720013",
+            "chName": "网络设备",
+            "enName": "/NetworkEquipment"
+        },
+        {
+            "uuid": "ff8080816a24f6e9016a24fbd4720014",
+            "chName": "路由器",
+            "enName": "/NetworkEquipment/Router"
+        },
+        {
+            "uuid": "ff8080816a24f6e9016a24fbd4720015",
+            "chName": "交换机",
+            "enName": "/NetworkEquipment/Switches"
+        },
+        {
+            "uuid": "ff8080816a24f6e9016a24fbd4720016",
+            "chName": "防火墙",
+            "enName": "/NetworkEquipment/Firewall"
+        },
+        {
+            "uuid": "ff8080816a24f6e9016a24fbd4720017",
+            "chName": "VPN",
+            "enName": "/VPN"
+        },
+        {
+            "uuid": "ff8080816a24f6e9016a24fbd4720018",
+            "chName": "身份管理产品",
+            "enName": "/IdentityManagement"
+        },
+        {
+            "uuid": "ff8080816a24f6e9016a24fbd4720019",
+            "chName": "安全信息管理产品，如secview、arcsight",
+            "enName": "/SecurityInformationManager"
+        },
+        {
+            "uuid": "ff8080816a24f6e9016a24fbd4720020",
+            "chName": "评估工具",
+            "enName": "/AssessmentTool"
+        },
+        {
+            "uuid": "ff8080816a24f6e9016a24fbd4720021",
+            "chName": "蜜罐产品",
+            "enName": "/IDS/Honeypot"
+        },
+        {
+            "uuid": "ff8080816a24f6e9016a24fbd4720022",
+            "chName": "本地负载均衡/服务器负载均衡",
+            "enName": "/NetworkEquipment/loadblance"
+        },
+        {
+            "uuid": "ff8080816a24f6e9016a24fbd4720023",
+            "chName": "全局负载均衡/智能DNS",
+            "enName": "/NetworkEquipment/GSLB"
+        },
+        {
+            "uuid": "ff8080816a24f6e9016a24fbd4720024",
+            "chName": "网络性能管理",
+            "enName": "/NetworkEquipment/NPM"
+        },
+        {
+            "uuid": "ff8080816a24f6e9016a24fbd4720025",
+            "chName": "应用性能管理",
+            "enName": "/Application/APM"
+        },
+        {
+            "uuid": "ff8080816a24f6e9016a24fbd4720026",
+            "chName": "LDAP",
+            "enName": "/IdentityManagement/LDAP"
+        },
+        {
+            "uuid": "ff8080816a24f6e9016a24fbd4720027",
+            "chName": "Ddos",
+            "enName": "/DDOS"
+        },
+        {
+            "uuid": "ff8080816a24f6e9016a24fbd4720028",
+            "chName": "业务日志-实时业务风控系统",
+            "enName": "/BusinessApplication/BusinessRiskControlSystem"
+        },
+        {
+            "uuid": "ff8080816a24f6e9016a24fbd4720029",
+            "chName": "应用操作日志",
+            "enName": "/AppOperatingLog"
+        },
+        {
+            "uuid": "ff8080816a24f6e9016a24fbd4720030",
+            "chName": "终端SDK数据",
+            "enName": "/CellphoneSDK"
+        },
+        {
+            "uuid": "ff8080816a24f6e9016a24fbd4720031",
+            "chName": "DLP",
+            "enName": "/DLP"
+        },
+        {
+            "uuid": "ff8080816a24f6e9016a24fbd4720032",
+            "chName": "堡垒机",
+            "enName": "/OperationGateway"
+        },
+        {
+            "uuid": "ff8080816a24f6e9016a24fbd4720033",
+            "chName": "流量设备",
+            "enName": "/NetworkEquipment/NetFlow"
+        },
+        {
+            "uuid": "ff8080816a24f6e9016a24fbd4720034",
+            "chName": "数据库审计",
+            "enName": "/DBAudit"
+        },
+        {
+            "uuid": "ff8080816a24f6e9016a24fbd4720035",
+            "chName": "网页防篡改/防挂马",
+            "enName": "/WebIntegrity"
+        },
+        {
+            "uuid": "ff8080816a24f6e9016a24fbd4720036",
+            "chName": "其它产品",
+            "enName": "/Others"
+        }
+    ],
+    "message": null,
+    "errorCode": null
+}

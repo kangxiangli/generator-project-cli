@@ -1,0 +1,21 @@
+{
+  "status": "success",
+  "content": [{
+    "deptName": "北京中信",
+    "uid": "40971b21-e191-433a-9ae1-ae545cae59ce",
+    "level": "master",
+    "kafkaAddr": "10.10.10.60:9092"
+  }, {
+    "deptName": "天津中信",
+    "uid": "37094a83-24c8-4491-8d0a-346c36338743",
+    "level": "slave",
+    "kafkaAddr": "10.10.10.57:9092"
+  }, {
+    "deptName": "测试",
+    "uid": "95cc7a13-37e5-4070-881e-7eace6e1f129",
+    "level": "slave",
+    "kafkaAddr": "10.10.10.60:9092,10.10.10.127:9092"
+  }],
+  "message": null,
+  "errorCode": null
+}

@@ -1,0 +1,23 @@
+{
+  "status": "success",
+  "content": {
+    "id": 552,
+    "name": "aaa",
+    "scene": "D5003",
+    "type": "2",
+    "riskType": 299,
+    "datasetOneId": "214",
+    "datasetTwoId": "",
+    "timeWindowId": 2036,
+    "filterId": 0,
+    "actionConfigId": 362,
+    "actionConditionId": 0,
+    "status": 0,
+    "jobId": "",
+    "editStatus": 4,
+    "createTime": 1533109177000,
+    "createUser": "admin"
+  },
+  "message": null,
+  "errorCode": null
+}

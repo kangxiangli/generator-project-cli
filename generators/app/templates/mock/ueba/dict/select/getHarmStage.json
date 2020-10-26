@@ -1,0 +1,90 @@
+{
+  "status": "success",
+  "content": [
+    {
+      "name": "系统损害",
+      "children": [
+        {
+          "name": "应用出错",
+          "id": 466,
+          "alias": "/System_Compromise/Syntax_Error"
+        },
+        {
+          "name": "策略破坏",
+          "id": 467,
+          "alias": "/System_Compromise/Policy_Breach"
+        }
+      ],
+      "id": 465,
+      "alias": "/System_Compromise"
+    },
+    {
+      "name": "安装&植入",
+      "children": [
+        {
+          "name": "隐藏",
+          "id": 469,
+          "alias": "/Exploitation_Installation/CovertChannel"
+        },
+        {
+          "name": "后门程序",
+          "id": 470,
+          "alias": "/Exploitation_Installation/Code"
+        }
+      ],
+      "id": 468,
+      "alias": "/Exploitation_Installation"
+    },
+    {
+      "name": "传送&攻击",
+      "children": [
+        {
+          "name": "畸形流量",
+          "id": 472,
+          "alias": "/Delivery_attack/TrafficAnomaly"
+        },
+        {
+          "name": "拒绝服务",
+          "id": 473,
+          "alias": "/Delivery_attack/DoS"
+        },
+        {
+          "name": "服务访问",
+          "id": 474,
+          "alias": "/Delivery_attack/Service"
+        },
+        {
+          "name": "重定向",
+          "id": 475,
+          "alias": "/Delivery_attack/Redirection"
+        }
+      ],
+      "id": 471,
+      "alias": "/Delivery_attack"
+    },
+    {
+      "name": "侦查&探测",
+      "children": [
+        {
+          "name": "漏洞利用",
+          "id": 477,
+          "alias": "/Reconnaissance_Probing/Vulnerability"
+        },
+        {
+          "name": "扫描",
+          "id": 478,
+          "alias": "/Reconnaissance_Probing/Scan"
+        }
+      ],
+      "id": 476,
+      "alias": "/Reconnaissance_Probing"
+    },
+    {
+      "name": "其它",
+      "id": 479,
+      "alias": "/Others"
+    }
+  ],
+  "message": "获取字典成功",
+  "errorCode": null
+}

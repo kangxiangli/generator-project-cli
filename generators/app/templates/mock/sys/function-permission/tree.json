@@ -1,0 +1,1027 @@
+{
+  "status": "success",
+  "content": {
+    "routers": [
+      {
+        "name": "situation",
+        "meta": {
+          "title": "态势"
+        },
+        "children": [
+          {
+            "name": "situation-synthetical-safety",
+            "meta": {
+              "title": "综合安全态势"
+            }
+          },
+          {
+            "name": "situation-security-operation-situation",
+            "meta": {
+              "title": "安全运营态势"
+            }
+          },
+          {
+            "name": "situation-imp-biz-sys",
+            "meta": {
+              "title": "重要业务系统态势"
+            }
+          },
+          {
+            "name": "situation-network-threaten",
+            "meta": {
+              "title": "网络威胁态势"
+            },
+            "children": [
+              {
+                "name": "situation-network-threaten-invade",
+                "meta": {
+                  "title": "网络入侵"
+                }
+              },
+              {
+                "name": "situation-network-threaten-ddos-unusual",
+                "meta": {
+                  "title": "DDOS异常流量"
+                }
+              },
+              {
+                "name": "situation-network-threaten-business-unusual",
+                "meta": {
+                  "title": "业务异常流量"
+                }
+              }
+            ]
+          },
+          {
+            "name": "situation-system-safety",
+            "meta": {
+              "title": "系统安全态势"
+            },
+            "children": [
+              {
+                "name": "situation-system-safety-attack",
+                "meta": {
+                  "title": "系统攻击"
+                }
+              },
+              {
+                "name": "situation-system-safety-frail",
+                "meta": {
+                  "title": "脆弱性"
+                }
+              }
+            ]
+          },
+          {
+            "name": "situation-user",
+            "meta": {
+              "title": "用户行为态势"
+            },
+            "children": [
+              {
+                "name": "situation-user-unusual-behaviour",
+                "meta": {
+                  "title": "用户异常行为"
+                }
+              },
+              {
+                "name": "situation-user-portrait",
+                "meta": {
+                  "title": "用户画像"
+                }
+              },
+              {
+                "name": "situation-user-portrait-group",
+                "meta": {
+                  "title": "群体用户画像",
+                  "hidden": true
+                }
+              },
+              {
+                "name": "situation-user-portrait-personal",
+                "meta": {
+                  "title": "个体用户画像",
+                  "hidden": true
+                }
+              },
+              {
+                "name": "situation-user-risk-survey",
+                "meta": {
+                  "title": "风险概览"
+                }
+              }
+            ]
+          },
+          {
+            "name": "situation-report",
+            "meta": {
+              "title": "安全态势报告"
+            }
+          },
+          {
+            "name": "situation-warning",
+            "meta": {
+              "title": "安全态势预警"
+            },
+            "children": [
+              {
+                "name": "situation-warning-trend",
+                "meta": {
+                  "title": "趋势预警"
+                }
+              },
+              {
+                "name": "situation-warning-threaten",
+                "meta": {
+                  "title": "威胁情报预警"
+                }
+              },
+              {
+                "name": "situation-warning-frail",
+                "meta": {
+                  "title": "脆弱性预警"
+                }
+              }
+            ]
+          },
+          {
+            "name": "situation-big-screen",
+            "meta": {
+              "title": "安全态势大屏展示"
+            }
+          },
+          {
+            "name": "situation-monitor",
+            "meta": {
+              "title": "网络拓扑监控"
+            },
+            "children": [
+              {
+                "name": "idss-situation-monitor-overview",
+                "meta": {
+                  "title": "全网总览",
+                  "noCache": true
+                }
+              },
+              {
+                "name": "idss-situation-monitor-topo",
+                "meta": {
+                  "title": "安全域拓扑",
+                  "noCache": true
+                }
+              }
+            ]
+          },
+          {
+            "name": "insight",
+            "meta": {
+              "title": "仪表盘"
+            },
+            "children": [
+              {
+                "name": "idss-insight-dashboard",
+                "meta": {
+                  "title": "自定义仪表盘"
+                }
+              },
+              {
+                "name": "idss-insight-component-group",
+                "meta": {
+                  "title": "自定义组件组"
+                }
+              },
+              {
+                "name": "idss-insight-component-config-add",
+                "meta": {
+                  "title": "自定义组件添加",
+                  "hidden": true
+                }
+              },
+              {
+                "name": "idss-insight-component-config-edit",
+                "meta": {
+                  "title": "自定义组件编辑",
+                  "hidden": true
+                }
+              },
+              {
+                "name": "idss-insight-task-config",
+                "meta": {
+                  "title": "组件任务管理"
+                }
+              },
+              {
+                "name": "idss-insight-linkage",
+                "meta": {
+                  "title": "联动配置"
+                }
+              },
+              {
+                "name": "idss-insight-data-import",
+                "meta": {
+                  "title": "数据导入"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "event",
+        "meta": {
+          "title": "事件"
+        },
+        "children": [
+          {
+            "name": "event-monitor",
+            "meta": {
+              "title": "事件监控"
+            }
+          },
+          {
+            "name": "event-event-board",
+            "meta": {
+              "title": "事件看板",
+              "hidden": true
+            }
+          },
+          {
+            "name": "event-ip-board",
+            "meta": {
+              "title": "ip看板",
+              "hidden": true
+            }
+          },
+          {
+            "name": "event-domain-board",
+            "meta": {
+              "title": "域名看板",
+              "hidden": true
+            }
+          }
+        ]
+      },
+      {
+        "name": "analysis",
+        "meta": {
+          "title": "分析"
+        },
+        "children": [
+          {
+            "name": "analysis-search",
+            "meta": {
+              "title": "全文检索"
+            }
+          },
+          {
+            "name": "analysis-event-source",
+            "meta": {
+              "title": "事件溯源"
+            }
+          },
+          {
+            "name": "analysis-event-source-add",
+            "meta": {
+              "title": "新建溯源任务",
+              "hidden": true
+            }
+          },
+          {
+            "name": "analysis-source-search",
+            "meta": {
+              "title": "溯源查看结果",
+              "hidden": true
+            }
+          },
+          {
+            "name": "analysis-model",
+            "meta": {
+              "title": "模型分析"
+            },
+            "children": [
+              {
+                "name": "analysis-model-webshell",
+                "meta": {
+                  "title": "WEBSHELL 检测模型"
+                }
+              },
+              {
+                "name": "analysis-model-abnormal-user",
+                "meta": {
+                  "title": "WEB 异常用户检测模型"
+                }
+              },
+              {
+                "name": "analysis-main-fall",
+                "meta": {
+                  "title": "主机失陷"
+                }
+              },
+              {
+                "name": "analysis-wind-scene",
+                "meta": {
+                  "title": "风控场景分析"
+                }
+              }
+            ]
+          },
+          {
+            "name": "analysis-interactive",
+            "meta": {
+              "title": "交互式分析"
+            },
+            "children": [
+              {
+                "name": "analysis-interactive-task-management",
+                "meta": {
+                  "title": "交互分析任务管理"
+                }
+              },
+              {
+                "name": "analysis-interactive-time-series",
+                "meta": {
+                  "title": "时间序列异常分析"
+                }
+              },
+              {
+                "name": "analysis-interactive-atlas",
+                "meta": {
+                  "title": "图谱分析"
+                }
+              },
+              {
+                "name": "analysis-interactive-user",
+                "meta": {
+                  "title": "用户群体分析"
+                }
+              }
+            ]
+          },
+          {
+            "name": "analysis-user",
+            "meta": {
+              "title": "用户行为分析"
+            },
+            "children": [
+              {
+                "name": "analysis-user-behavior",
+                "meta": {
+                  "title": "用户行为分析"
+                }
+              },
+              {
+                "name": "analysis-user-list",
+                "meta": {
+                  "title": "用户列表"
+                }
+              }
+            ]
+          },
+          {
+            "name": "analysis-assets",
+            "meta": {
+              "title": "资产行为分析"
+            },
+            "children": [
+              {
+                "name": "analysis-assets-behavior",
+                "meta": {
+                  "title": "资产行为分析"
+                }
+              },
+              {
+                "name": "analysis-abnormal-behavior",
+                "meta": {
+                  "title": "异常资产分析"
+                }
+              }
+            ]
+          },
+          {
+            "name": "analysis-vulnerability",
+            "meta": {
+              "title": "脆弱性分析"
+            },
+            "children": [
+              {
+                "name": "analysis-vulnerability-use",
+                "meta": {
+                  "title": "脆弱性利用"
+                }
+              },
+              {
+                "name": "analysis-vulnerability-config",
+                "meta": {
+                  "title": "脆弱性利用配置管理"
+                }
+              }
+            ]
+          },
+          {
+            "name": "analysis-threat-intelligence",
+            "meta": {
+              "title": "威胁情报查询"
+            }
+          },
+          {
+            "name": "analysis-threat",
+            "meta": {
+              "title": "威胁情报分析"
+            },
+            "children": [
+              {
+                "name": "analysis-threat-assets",
+                "meta": {
+                  "title": "资产筛选"
+                }
+              },
+              {
+                "name": "analysis-threat-assets-analyze-period",
+                "meta": {
+                  "title": "分析周期配置",
+                  "hidden": true
+                }
+              },
+              {
+                "name": "analysis-threat-assets-ip",
+                "meta": {
+                  "title": "IP类型",
+                  "hidden": true
+                }
+              },
+              {
+                "name": "analysis-threat-assets-url",
+                "meta": {
+                  "title": "URL类型",
+                  "hidden": true
+                }
+              },
+              {
+                "name": "analysis-threat-external",
+                "meta": {
+                  "title": "外部攻击分析"
+                }
+              },
+              {
+                "name": "analysis-threat-external-analyze-period",
+                "meta": {
+                  "title": "分析周期配置",
+                  "hidden": true
+                }
+              },
+              {
+                "name": "analysis-threat-bug",
+                "meta": {
+                  "title": "漏洞情报分析"
+                }
+              },
+              {
+                "name": "analysis-threat-bug-analyze-period",
+                "meta": {
+                  "title": "分析周期配置",
+                  "hidden": true
+                }
+              },
+              {
+                "name": "analysis-threat-history",
+                "meta": {
+                  "title": "历史攻击回溯分析"
+                }
+              },
+              {
+                "name": "analysis-threat-history-analyze-period",
+                "meta": {
+                  "title": "分析周期配置",
+                  "hidden": true
+                }
+              },
+              {
+                "name": "analysis-threat-inner",
+                "meta": {
+                  "title": "内部高风险网络行为分析"
+                }
+              }
+            ]
+          },
+          {
+            "name": "analysis-investigation-list",
+            "meta": {
+              "title": "调查任务"
+            }
+          },
+          {
+            "name": "analysis-investigation-details",
+            "meta": {
+              "title": "任务详情",
+              "hidden": true
+            }
+          }
+        ]
+      },
+      {
+        "name": "operation",
+        "meta": {
+          "title": "安全运维"
+        },
+        "children": [
+          {
+            "name": "operation-approval",
+            "meta": {
+              "title": "审批页"
+            }
+          },
+          {
+            "name": "operation-asset",
+            "meta": {
+              "title": "资产管理"
+            },
+            "children": [
+              {
+                "name": "operation-asset-manage",
+                "meta": {
+                  "title": "内部资产管理"
+                }
+              },
+              {
+                "name": "operation-asset-monitor",
+                "meta": {
+                  "title": "外部资产发现与监控"
+                }
+              },
+              {
+                "name": "operation-asset-safety",
+                "meta": {
+                  "title": "安全补丁分析"
+                }
+              }
+            ]
+          },
+          {
+            "name": "event-classification-management",
+            "meta": {
+              "title": "事件分类管理"
+            }
+          },
+          {
+            "name": "operation-name-list",
+            "meta": {
+              "title": "名单管理"
+            }
+          },
+          {
+            "name": "operation-leak-management",
+            "meta": {
+              "title": "漏洞管理"
+            }
+          },
+          {
+            "name": "interface-setup-management",
+            "meta": {
+              "title": "接口设置管理"
+            }
+          },
+          {
+            "name": "interface-setup-component",
+            "meta": {
+              "title": "接口设置"
+            }
+          },
+          {
+            "name": "operation-repository-manage",
+            "meta": {
+              "title": "知识库管理"
+            }
+          },
+          {
+            "name": "operation-outside-information",
+            "meta": {
+              "title": "外部情报管理"
+            },
+            "children": [
+              {
+                "name": "operation-outside-information-manage",
+                "meta": {
+                  "title": "外部情报管理"
+                }
+              },
+              {
+                "name": "operation-outside-information-analysis",
+                "meta": {
+                  "title": "情报关联分析"
+                }
+              }
+            ]
+          },
+          {
+            "name": "operation-inside-information-config",
+            "meta": {
+              "title": "内部情报配置"
+            }
+          }
+        ]
+      },
+      {
+        "name": "manage",
+        "meta": {
+          "title": "系统管理"
+        },
+        "children": [
+          {
+            "name": "manage-base",
+            "meta": {
+              "title": "基础管理"
+            },
+            "children": [
+              {
+                "name": "manage-base-user",
+                "meta": {
+                  "title": "用户管理"
+                }
+              },
+              {
+                "name": "manage-base-dept",
+                "meta": {
+                  "title": "部门管理"
+                }
+              },
+              {
+                "name": "manage-base-role",
+                "meta": {
+                  "title": "角色管理"
+                }
+              },
+              {
+                "name": "manage-base-org",
+                "meta": {
+                  "title": "组织架构"
+                }
+              },
+              {
+                "name": "manage-base-log",
+                "meta": {
+                  "title": "系统日志"
+                }
+              },
+              {
+                "name": "manage-base-data-dictionary",
+                "meta": {
+                  "title": "数据字段管理"
+                }
+              },
+              {
+                "name": "manage-base-sys",
+                "meta": {
+                  "title": "系统参数管理"
+                }
+              }
+            ]
+          },
+          {
+            "name": "handle",
+            "meta": {
+              "title": "处置管理"
+            },
+            "children": [
+              {
+                "name": "manage-handle-event",
+                "meta": {
+                  "title": "事件对接平台"
+                }
+              },
+              {
+                "name": "manage-handle-waf",
+                "meta": {
+                  "title": "waf联动配置"
+                }
+              }
+            ]
+          },
+          {
+            "name": "report",
+            "meta": {
+              "title": "报表管理"
+            },
+            "children": [
+              {
+                "name": "manage-report-template",
+                "meta": {
+                  "title": "报表模板管理"
+                }
+              },
+              {
+                "name": "manage-report-task",
+                "meta": {
+                  "title": "报表任务管理"
+                }
+              }
+            ]
+          },
+          {
+            "name": "manage-strategy",
+            "meta": {
+              "title": "策略管理"
+            },
+            "children": [
+              {
+                "name": "manage-strategy-manage",
+                "meta": {
+                  "title": "策略管理"
+                }
+              },
+              {
+                "name": "manage-strategy-manage-config-add",
+                "meta": {
+                  "title": "新建策略",
+                  "hidden": true
+                }
+              },
+              {
+                "name": "manage-strategy-manage-config-edit",
+                "meta": {
+                  "title": "编辑策略",
+                  "hidden": true
+                }
+              },
+              {
+                "name": "manage-strategy-offline",
+                "meta": {
+                  "title": "离线策略配置"
+                }
+              },
+              {
+                "name": "manage-strategy-realtime",
+                "meta": {
+                  "title": "近实时策略配置"
+                }
+              },
+              {
+                "name": "manage-strategy-threshold",
+                "meta": {
+                  "title": "阀值助手"
+                }
+              },
+              {
+                "name": "manage-strategy-filtrate",
+                "meta": {
+                  "title": "数据筛选器"
+                }
+              },
+              {
+                "name": "manage-strategy-setting",
+                "meta": {
+                  "title": "策略配置器"
+                }
+              },
+              {
+                "name": "manage-strategy-personnel",
+                "meta": {
+                  "title": "人员管理"
+                }
+              },
+              {
+                "name": "manage-strategy-field",
+                "meta": {
+                  "title": "字段管理"
+                }
+              }
+            ]
+          },
+          {
+            "name": "manage-baseline",
+            "meta": {
+              "title": "基线配置"
+            },
+            "children": [
+              {
+                "name": "manage-baseline-manage",
+                "meta": {
+                  "title": "基线管理"
+                }
+              },
+              {
+                "name": "manage-baseline-detail",
+                "meta": {
+                  "title": "基线详情"
+                }
+              },
+              {
+                "name": "manage-baseline-add",
+                "meta": {
+                  "title": "基线新建"
+                }
+              }
+            ]
+          },
+          {
+            "name": "manage-model",
+            "meta": {
+              "title": "模型管理"
+            },
+            "children": [
+              {
+                "name": "manage-model-monitor",
+                "meta": {
+                  "title": "模型监控"
+                }
+              },
+              {
+                "name": "manage-model-white",
+                "meta": {
+                  "title": "白名单管理"
+                }
+              }
+            ]
+          },
+          {
+            "name": "manage-data",
+            "meta": {
+              "title": "数据"
+            },
+            "children": [
+              {
+                "name": "manage-data-server",
+                "meta": {
+                  "title": "数据输入"
+                }
+              },
+              {
+                "name": "manage-data--allpicker",
+                "meta": {
+                  "title": "提取器",
+                  "hidden": true
+                }
+              },
+              {
+                "name": "manage-data-extractor-setting",
+                "meta": {
+                  "title": "提取器配置",
+                  "hidden": true
+                }
+              },
+              {
+                "name": "manage-data-job",
+                "meta": {
+                  "title": "作业管理"
+                }
+              },
+              {
+                "name": "manage-data-extract",
+                "meta": {
+                  "title": "提取配置"
+                }
+              },
+              {
+                "name": "manage-data-dynamic",
+                "meta": {
+                  "title": "动态字典"
+                }
+              }
+            ]
+          },
+          {
+            "name": "manage-datasource",
+            "meta": {
+              "title": "数据源管理"
+            },
+            "children": [
+              {
+                "name": "manage-datasource-datasource",
+                "meta": {
+                  "title": "数据源管理"
+                }
+              },
+              {
+                "name": "manage-datasource-field",
+                "meta": {
+                  "title": "字段管理"
+                }
+              },
+              {
+                "name": "manage-datasource-individual-value",
+                "meta": {
+                  "title": "个别字段值管理"
+                }
+              }
+            ]
+          },
+          {
+            "name": "manage-license-management",
+            "meta": {
+              "title": "授权管理"
+            }
+          },
+          {
+            "name": "manage-monitor",
+            "meta": {
+              "title": "健康监控"
+            },
+            "children": [
+              {
+                "name": "manage-monitor-server",
+                "meta": {
+                  "title": "服务器监控"
+                }
+              },
+              {
+                "name": "manage-monitor-components",
+                "meta": {
+                  "title": "组件监控"
+                }
+              },
+              {
+                "name": "manage-monitor-quality",
+                "meta": {
+                  "title": "数据质量监控"
+                }
+              },
+              {
+                "name": "manage-monitor-setting",
+                "meta": {
+                  "title": "监控配置"
+                }
+              }
+            ]
+          },
+          {
+            "name": "manage-archive",
+            "meta": {
+              "title": "归档管理"
+            },
+            "children": [
+              {
+                "name": "manage-archive-data",
+                "meta": {
+                  "title": "数据归档配置"
+                }
+              },
+              {
+                "name": "manage-archive-opt",
+                "meta": {
+                  "title": "归档数据操作"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "user",
+        "meta": {
+          "title": "用户信息",
+          "hidden": true
+        },
+        "children": [
+          {
+            "name": "user-msg",
+            "meta": {
+              "title": "消息中心"
+            }
+          }
+        ]
+      },
+      {
+        "name": "demo",
+        "meta": {
+          "title": "示例"
+        },
+        "children": [
+          {
+            "name": "demo-charts",
+            "meta": {
+              "title": "图表示例"
+            }
+          },
+          {
+            "name": "demo-components",
+            "meta": {
+              "title": "组件示例"
+            }
+          },
+          {
+            "name": "demo-table",
+            "meta": {
+              "title": "表格"
+            }
+          },
+          {
+            "name": "demo-form",
+            "meta": {
+              "title": "表单"
+            }
+          },
+          {
+            "name": "demo-socket",
+            "meta": {
+              "title": "socket 示例",
+              "noCache": true
+            }
+          }
+        ]
+      }
+    ],
+    "permission": {
+      "synthetical": 15,
+      "dashboard": 7
+    }
+  }
+}

@@ -1,0 +1,274 @@
+{
+  "status": "success",
+  "content": {
+    "permission": {
+      "idss-insight-linkage": 15,
+      "idss-insight-data-import": 15,
+      "idss-insight-task-config": 15,
+      "manage-base-user": 15,
+      "manage-base-dept": 15,
+      "idss-insight-component-group": 15,
+      "manage-base-org": 15,
+      "idss-insight-dashboard": 15,
+      "idss-insight-component-config-edit": 15,
+      "manage-base-role": 15,
+      "idss-insight-component-config-add": 15
+    },
+    "routers": [
+      {
+        "name": "manage",
+        "meta": {
+          "title": "系统管理"
+        },
+        "children": [
+          {
+            "name": "manage-base",
+            "meta": {
+              "title": "基础管理"
+            },
+            "children": [
+              {
+                "name": "manage-base-user",
+                "meta": {
+                  "title": "用户管理"
+                }
+              },
+              {
+                "name": "manage-base-dept",
+                "meta": {
+                  "title": "部门管理"
+                }
+              },
+              {
+                "name": "manage-base-role",
+                "meta": {
+                  "title": "角色管理"
+                }
+              },
+              {
+                "name": "manage-base-org",
+                "meta": {
+                  "title": "组织架构"
+                }
+              },
+              {
+                "name": "manage-base-log",
+                "meta": {
+                  "title": "系统日志"
+                }
+              },
+              {
+                "name": "iframe",
+                "meta": {
+                  "title": "测试iframe"
+                }
+              }
+            ]
+          },
+          {
+            "name": "manage-data",
+            "meta": {
+              "title": "数据管理"
+            },
+            "children": [
+              {
+                "name": "manage-data-job",
+                "meta": {
+                  "title": "数据接入任务管理"
+                }
+              },
+              {
+                "name": "manage-data-allpicker",
+                "meta": {
+                  "title": "提取器",
+                  "manageFree": true
+                }
+              },
+              {
+                "name": "manage-data-extractor-setting",
+                "meta": {
+                  "title": "提取器设置",
+                  "manageFree": true
+                }
+              },
+              {
+                "name": "manage-data-extract",
+                "meta": {
+                  "title": "提取设置",
+                  "manageFree": true
+                }
+              },
+              {
+                "name": "manage-data-manage",
+                "meta": {
+                  "title": "解析规则管理"
+                }
+              },
+              {
+                "name": "manage-data-analyzeAdd",
+                "meta": {
+                  "title": "新增解析规则",
+                  "manageFree": true
+                }
+              },
+              {
+                "name": "manage-data-analyzeEdit",
+                "meta": {
+                  "title": "编辑解析规则",
+                  "manageFree": true
+                }
+              },
+              {
+                "name": "manage-data-analyzeLook",
+                "meta": {
+                  "title": "查看解析规则",
+                  "manageFree": true
+                }
+              },
+              {
+                "name": "manage-data-dynamic",
+                "meta": {
+                  "title": "我的表单数据"
+                }
+              },
+              {
+                "name": "manage-data-deptEtl",
+                "meta": {
+                  "title": "组件所属部门管理"
+                }
+              },
+              {
+                "name": "manage-base-data-dictionary",
+                "meta": {
+                  "title": "自定义参数选项"
+                }
+              },
+              {
+                "name": "manage-strategy-field",
+                "meta": {
+                  "title": "规则引擎字段管理"
+                }
+              },
+              {
+                "name": "manage-base-sys",
+                "meta": {
+                  "title": "组件节点管理"
+                }
+              }
+            ]
+          },
+          {
+            "name": "manage-monitor",
+            "meta": {
+              "title": "健康监控"
+            },
+            "children": [
+              {
+                "name": "manage-monitor-server",
+                "meta": {
+                  "title": "服务器监控"
+                }
+              },
+              {
+                "name": "manage-monitor-components",
+                "meta": {
+                  "title": "组件监控"
+                }
+              },
+              {
+                "name": "manage-monitor-quality",
+                "meta": {
+                  "title": "数据质量监控"
+                }
+              },
+              {
+                "name": "manage-monitor-collector",
+                "meta": {
+                  "title": "采集器数据量监控"
+                }
+              },
+              {
+                "name": "manage-monitor-terminal-log",
+                "meta": {
+                  "title": "终端发送日志量监控"
+                }
+              },
+              {
+                "name": "manage-monitor-setting",
+                "meta": {
+                  "title": "监控配置"
+                }
+              }
+            ]
+          },
+          {
+            "name": "manage-datasource",
+            "meta": {
+              "title": "数据源管理"
+            },
+            "children": [
+              {
+                "name": "manage-datasource-datasource",
+                "meta": {
+                  "title": "数据源管理"
+                }
+              },
+              {
+                "name": "manage-datasource-field",
+                "meta": {
+                  "title": "字段管理"
+                }
+              },
+              {
+                "name": "manage-datasource-individual-value",
+                "meta": {
+                  "title": "字段值管理"
+                }
+              },
+              {
+                "name": "manage-data-server",
+                "meta": {
+                  "title": "数据接入任务设置",
+                  "manageFree": true
+                }
+              }
+            ]
+          },
+          {
+            "name": "manage-whole-info",
+            "meta": {
+              "title": "全局配置"
+            }
+          },
+          {
+            "name": "manage-license-management",
+            "meta": {
+              "title": "授权管理"
+            }
+          }
+        ]
+      },
+      {
+        "name": "user",
+        "meta": {
+          "title": "用户信息",
+          "manageFree": true
+        },
+        "children": [
+          {
+            "name": "user-msg",
+            "meta": {
+              "title": "消息中心"
+            }
+          },
+          {
+            "name": "user-download-center",
+            "meta": {
+              "title": "下载中心"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

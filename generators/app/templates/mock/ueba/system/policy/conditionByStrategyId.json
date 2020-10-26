@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "content": {
+    "id": 234,
+    "strategyId": 552,
+    "repaceType": "h",
+    "repaceValue": "00: 45",
+    "timerCron": " 45 00  * * * ?",
+    "repaceTime": ""
+  },
+  "message": null,
+  "errorCode": null
+}

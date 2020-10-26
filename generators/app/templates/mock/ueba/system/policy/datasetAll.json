@@ -1,0 +1,649 @@
+{
+  "status": "success",
+  "content": [
+    {
+      "id": 218,
+      "name": "hlb测试2",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": "string"
+    },
+    {
+      "id": 217,
+      "name": "hlb测试1",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": "string"
+    },
+    {
+      "id": 216,
+      "name": "thl-数据审计",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": "CX201808031120593961025219954166861824"
+    },
+    {
+      "id": 215,
+      "name": "string",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": "string"
+    },
+    {
+      "id": 214,
+      "name": "测试hlb1",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": "CX201805300944363231001640486945034240"
+    },
+    {
+      "id": 213,
+      "name": "lb",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": "CX201807131058076791017604055595356160"
+    },
+    {
+      "id": 211,
+      "name": "xqtest0713-02",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": "CX201807131058076791017604055595356160"
+    },
+    {
+      "id": 210,
+      "name": "xqtest0713-01",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": "CX201807131058076791017604055595356160"
+    },
+    {
+      "id": 209,
+      "name": "xqtest01",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": "CX201807051717199841014800382758621184"
+    },
+    {
+      "id": 208,
+      "name": "功能测试xq-0705-2",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": "CX201807131058076791017604055595356160"
+    },
+    {
+      "id": 207,
+      "name": "功能测试xq-0705-1",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": "CX201807131058076791017604055595356160"
+    },
+    {
+      "id": 206,
+      "name": "双数据集测试2",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": "CX201806291129427751012538574081495040"
+    },
+    {
+      "id": 205,
+      "name": "双数据集测试1",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": "CX201806291129427751012538574081495040"
+    },
+    {
+      "id": 204,
+      "name": "lulu_test_03",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": "CX201807051717199841014800382758621184"
+    },
+    {
+      "id": 202,
+      "name": "lulu_test_01",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": "CX201806291129427751012538574081495040"
+    },
+    {
+      "id": 201,
+      "name": "test_xq0702-1",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": "CX201806291129427751012538574081495040"
+    },
+    {
+      "id": 200,
+      "name": "业务风控test_xq0629-1",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": "CX201806291129427751012538574081495040"
+    },
+    {
+      "id": 196,
+      "name": "111",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": "CX201806291129427751012538574081495040"
+    },
+    {
+      "id": 194,
+      "name": "北京联通测试_hlb",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": "CX201806141801177001007201300955402240"
+    },
+    {
+      "id": 193,
+      "name": "test_02_1w",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": "CX201806141256243881007124573252096000"
+    },
+    {
+      "id": 192,
+      "name": "dyl_1000w",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": "CX201806130948201361006714855799001088"
+    },
+    {
+      "id": 191,
+      "name": "dyl_test_04_500w",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": "CX201806121258338521006400340528074752"
+    },
+    {
+      "id": 190,
+      "name": "dyl_test_03_200w",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": "CX201806060953358021004179464738967552"
+    },
+    {
+      "id": 189,
+      "name": "テストグループ1号",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": "CX201805311839197241002137442339393536"
+    },
+    {
+      "id": 188,
+      "name": "dyl_test_100w",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": "CX201806051618036491003913830432116736"
+    },
+    {
+      "id": 187,
+      "name": "dyl_test_01_1w",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": "CX201807031649291011014068598827782144"
+    },
+    {
+      "id": 185,
+      "name": "dyl_test_1w",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": "CX201806051134479981003842545505144832"
+    },
+    {
+      "id": 184,
+      "name": "dyl_test_1w11",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": "CX201806041657122191003561293187256320"
+    },
+    {
+      "id": 183,
+      "name": "ttt",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": "CX201806011625558841002466259666866176"
+    },
+    {
+      "id": 182,
+      "name": "冒烟测试",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": "CX201806011536402411002453862809997312"
+    },
+    {
+      "id": 181,
+      "name": "wlb名称",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": "CX201806011050518751002381937341501440"
+    },
+    {
+      "id": 180,
+      "name": "test61",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": ""
+    },
+    {
+      "id": 179,
+      "name": "1",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": ""
+    },
+    {
+      "id": 178,
+      "name": "cdy70",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": "CX201805311659168911002112264637124608"
+    },
+    {
+      "id": 177,
+      "name": "dyl_撞库",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": "CX201806011050518751002381937341501440"
+    },
+    {
+      "id": 176,
+      "name": "cdy530_2",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": ""
+    },
+    {
+      "id": 175,
+      "name": "dyl_sl_012",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 174,
+      "name": "dyl_sl_011",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 173,
+      "name": "dyl_条件_02",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 172,
+      "name": "dyl_条件_01",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 171,
+      "name": "dyl_cd_04",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": "CX201805301550273481001732556216995840"
+    },
+    {
+      "id": 169,
+      "name": "cdy530",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": ""
+    },
+    {
+      "id": 168,
+      "name": "528_time",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 167,
+      "name": "函数Leng测试1527574991",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 165,
+      "name": "数据集1527573493",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 164,
+      "name": "数据集test1527572006",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 163,
+      "name": "数据集test5",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 162,
+      "name": "dyl_cd_03",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 161,
+      "name": "数据集test4",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 160,
+      "name": "dyl_cd_02",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 159,
+      "name": "528_all",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 158,
+      "name": "数据集test3",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 157,
+      "name": "dyl_cd_01",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 156,
+      "name": "dyl_fun_08",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 154,
+      "name": "528黑名单",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 153,
+      "name": "数据集test1",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 152,
+      "name": "528非黑名单",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 151,
+      "name": "新增数据集测试——0528",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 150,
+      "name": "aaa",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 149,
+      "name": "528_regexp",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 148,
+      "name": "dyl_fun_06",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 147,
+      "name": "528_timePeriods",
+      "conditionRelation": "[{\"condition\":\"&&\",\"value\":[],\"trims\":{\"kfunction\":[{\"field\":\"45\",\"condition\":174,\"paramType\":[{\"name\":\"timerange\"}],\"param\":[[\"2018-05-28T07:00:00.000Z\",\"2018-05-28T10:00:00.000Z\"]]}],\"kbaseline\":[],\"kroster\":[],\"kcompare\":[]}}]",
+      "dataSource": null
+    },
+    {
+      "id": 145,
+      "name": "test_new_add0005",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 144,
+      "name": "new_add0004",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 139,
+      "name": "string.length",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 138,
+      "name": "528_datePeriods",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 137,
+      "name": "dyl_fun_005",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 135,
+      "name": "datePeriods10_14",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 133,
+      "name": "525_contains",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 132,
+      "name": "dyl_fun_04",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 131,
+      "name": "dyl_fun_03",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 130,
+      "name": "test_c_sz_new0001",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": "CX201805291834570051001411564684840960"
+    },
+    {
+      "id": 129,
+      "name": "cannot_use_thanku",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 127,
+      "name": "c_test_upd_or_add",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 126,
+      "name": "5月25日操作",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 125,
+      "name": "dyl_test_fun",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 123,
+      "name": "startsWith2",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 122,
+      "name": "dyl_fun_01",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 121,
+      "name": "number比较测试1",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 120,
+      "name": "number比较测试",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 119,
+      "name": "dyl_test_08",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 118,
+      "name": "startsWith",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 117,
+      "name": "dyl_test_07",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 116,
+      "name": "dyl_test_06",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 110,
+      "name": "5月24日",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 108,
+      "name": "dyl_test_06",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 105,
+      "name": "内部IP",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 104,
+      "name": "5月23日登录失败",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 101,
+      "name": "dyl_test_05",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 95,
+      "name": "dyl_test_04",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 94,
+      "name": "5月23日",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 93,
+      "name": "dyl_test_04",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 92,
+      "name": "dyl_test_03",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 90,
+      "name": "5月22日",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 89,
+      "name": "dyl_test_02",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": "test_new_add"
+    },
+    {
+      "id": 88,
+      "name": "ip白名单",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 87,
+      "name": "5月21日",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 86,
+      "name": "登录失败hlb",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 85,
+      "name": "登录成功hlb",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 84,
+      "name": "hlb404集",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 81,
+      "name": "登录失败hlb1",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": "CX201805300944363231001640486945034240"
+    },
+    {
+      "id": 80,
+      "name": "访问白名单",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 79,
+      "name": "ip白名单",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 76,
+      "name": "测试1",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 67,
+      "name": "用户登录数据",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": null
+    },
+    {
+      "id": 55,
+      "name": "stream2",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": "2333"
+    },
+    {
+      "id": 54,
+      "name": "stream1",
+      "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+      "dataSource": "CX201806141801177001007201300955402240"
+    }
+  ],
+  "message": null,
+  "errorCode": null
+}

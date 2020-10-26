@@ -1,0 +1,324 @@
+ /* --------------------- 业务类变量 --------------------- */
+/**
+ * 文件说明：针对项目的个性化定制样式，项目中通用全局样式 
+ */
+[data-theme] {
+  /* Margin
+  ---------------------------------------------------- */
+  --idss-margin-small: 10px;
+  --idss-margin-medium: 15px;
+  --idss-margin-large: 20px;
+  /* Padding
+  ---------------------------------------------------- */
+  --idss-padding-small: 10px;
+  --idss-padding-medium: 15px;
+  --idss-padding-large: 20px;
+
+
+  --color-warning-bg: color-mod(#e6a23c blend(white 60%)); /* 告警状态 - 背景色 *
+  /*
+  ----------------------------------------------------------- */
+ }
+/* 元素全屏下的状态
+---------------------------------------------------------- */
+.idss-full-screen:fullscreen {
+  width: 100%;
+  height: 100%;
+}
+
+/* Margin
+---------------------------------------------------------- */
+.idss-margin--s {
+  margin: var(--idss-margin-small);
+}
+.idss-margin--m {
+  margin: var(--idss-margin-medium);
+}
+.idss-margin--l {
+  margin: var(--idss-margin-large);
+}
+
+.idss-margin--t-s {
+  margin-top: var(--idss-margin-small);
+}
+.idss-margin--r-s {
+  margin-right: var(--idss-margin-small);
+}
+.idss-margin--b-s {
+  margin-bottom: var(--idss-margin-small);
+}
+.idss-margin--l-s {
+  margin-left: var(--idss-margin-small);
+}
+
+.idss-margin--t-m {
+  margin-top: var(--idss-margin-medium);
+}
+.idss-margin--r-m {
+  margin-right: var(--idss-margin-medium);
+}
+.idss-margin--b-m {
+  margin-bottom: var(--idss-margin-medium);
+}
+.idss-margin--l-m {
+  margin-left: var(--idss-margin-medium);
+}
+
+.idss-margin--t-l {
+  margin-top: var(--idss-margin-large);
+}
+.idss-margin--r-l {
+  margin-right: var(--idss-margin-large);
+}
+.idss-margin--b-l {
+  margin-bottom: var(--idss-margin-large);
+}
+.idss-margin--l-l {
+  margin-left: var(--idss-margin-large);
+}
+
+
+/* Padding
+---------------------------------------------------------- */
+.idss-padding--s {
+  padding: var(--idss-padding-small);
+}
+.idss-padding--m {
+  padding: var(--idss-padding-medium);
+}
+.idss-padding--l {
+  padding: var(--idss-padding-large);
+}
+
+.idss-padding--t-s {
+  padding-top: var(--idss-padding-small);
+}
+.idss-padding--r-s {
+  padding-right: var(--idss-padding-small);
+}
+.idss-padding--b-s {
+  padding-bottom: var(--idss-padding-small);
+}
+.idss-padding--l-s {
+  padding-left: var(--idss-padding-small);
+}
+
+.idss-padding--t-m {
+  padding-top: var(--idss-padding-medium);
+}
+.idss-padding--r-m {
+  padding-right: var(--idss-padding-medium);
+}
+.idss-padding--b-m {
+  padding-bottom: var(--idss-padding-medium);
+}
+.idss-padding--l-m {
+  padding-left: var(--idss-padding-medium);
+}
+
+.idss-padding--t-l {
+  padding-top: var(--idss-padding-large);
+}
+.idss-padding--r-l {
+  padding-right: var(--idss-padding-large);
+}
+.idss-padding--b-l {
+  padding-bottom: var(--idss-padding-large);
+}
+.idss-padding--l-l {
+  padding-left: var(--idss-padding-large);
+}
+
+/* 文本超出样式
+---------------------------------------------------------- */
+.idss-text-overflow {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+/* clearfix
+---------------------------------------------------------- */
+.clearfix {
+  *display: inline-block;
+   _height: 1%;
+}
+.clearfix:after {
+  display: block;
+  height: 0;
+  clear: both;
+  font-size: 0;
+  visibility: hidden;
+  content: "";
+}
+
+/* 居中对齐【绝对定位】
+------------------------------------------------------------ */
+.idss-center--absolute {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Title @fixme 待优化
+------------------------------------------------------------ */
+.idss-font--title {
+  display: inline-block;
+  font-size: var(--font-size-4);
+  font-weight: bold;
+  line-height: 1;
+}
+.idss-font--sub {
+  font-size: var(--font-size-default);
+  line-height: 1;
+}
+
+/* 文本对齐
+------------------------------------------------------------ */
+.idss-txt--right {
+  text-align: right;
+}
+.idss-txt--left {
+  text-align: left;
+}
+.idss-txt--center {
+  text-align: center;
+}
+
+/* 链接文本
+-------------------------------------------------------------- */
+.idss-txt-link {
+  color: var(--button-text-color);
+  cursor: pointer;
+}
+
+/* 自定义 Tag 标签
+-------------------------------------------------------------- */
+.idss-custom-tag {
+  margin-right: 15px;
+  margin-top: 8px;
+  display: inline-block;
+  cursor: pointer;
+  font-size: var(--font-size-default);
+}
+
+/* 筛选条件
+-------------------------------------------------------------- */
+.idss-title-filtrate {
+  font-weight: bolder;
+  font-size: var(--font-size-4);
+  color: var(--color-font-2);
+}
+
+/* 全局暂无数据样式控制
+-------------------------------------------------------------- */
+.idss-empty{
+  font-size: var(--font-size-default);
+  min-height: 120px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  & svg.idss-svg-icon  {
+    width: 5.2em;
+    height: 5.2em;
+    vertical-align: -2.2em;
+  }
+}
+
+/* 通过行高设置垂直居中
+-------------------------------------------------------------- */
+.idss-vertical-align {
+  display: inline-block; 
+  line-height: 1; 
+  vertical-align: middle;
+}
+
+/* 等级样式
+-------------------------------------------------------------- */
+.idss-severity-critical {
+  fill: var(--color-alarm-1) !important;
+}
+.idss-severity-high {
+  fill: var(--color-alarm-2) !important;
+}
+.idss-severity-medium {
+  fill: var(--color-alarm-3) !important;
+}
+.idss-severity-low {
+  fill: var(--color-alarm-4) !important;
+}
+.idss-severity-info {
+  fill: var(--color-alarm-5) !important;
+}
+
+
+/* 单值【有上、下箭头对比 eg: 综合安全态势】
+-------------------------------------------------------------- */
+.idss-single-value-up {
+  cursor: pointer;
+  .horizontal .right {
+    color: var(--color-font-6);
+    background-color: transparent;
+    font-size: 22px;
+    svg.idss-svg-icon {
+      fill: var(--color-font-6);
+      width: 24px;
+      height: 24px;
+    }
+  }
+}
+.idss-single-value-down {
+  cursor: pointer;
+  .horizontal .right {
+    color: var(--color-alarm-2);
+    background-color: transparent;
+    font-size: 22px;
+    svg.idss-svg-icon {
+      fill: var(--color-alarm-2);
+      width: 24px;
+      height: 24px;
+    }
+  }
+}
+
+/* el-tags
+-------------------------------------------------------------- */
+.idss-tags {
+  .el-tag + .el-tag {
+    margin-left: 10px;
+  }
+}
+
+
+/* 业务异常流量、 系统攻击 页面中的刷新图标 */
+svg.idss-svg-icon.icon-refresh {
+  height: 16px;
+  width: 16px;
+  fill: var(--color-font-default);
+  cursor: pointer;
+}
+svg.idss-svg-icon.icon-refresh:hover {
+  transform: scale(1.2);
+  fill: var(--color-font-default);
+}
+
+
+/* 综合态势 重要业务系统态势、网络入侵、DDOS异常流量、业务异常流量、攻击画像、系统攻击、脆弱性、用户异常行为 */
+.idss-single-time-container {
+  &__vertical {
+    display: inline-block; 
+    line-height: 1; 
+    vertical-align: middle;
+  }
+}
+
+/* 表格中图片样式【风险概览、异常用户分析】 */
+.idss-user-image {
+  vertical-align: middle;
+  width: 30px;
+  border-radius: 50%;
+}

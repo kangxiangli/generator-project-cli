@@ -1,0 +1,8 @@
+{
+    "status": "success",
+    "content": [
+        {
+            "message": "{\"create_time1\":\"26/Aug/2017:04:458:55 +0800\",\"raw_log1\":\"<4> 116.25.99.235 - - [26/Aug/2017:04:458:55 +0800] \"POST /goldsun/home/getBanners/1.0 HTTP/1.1\" 200 473 \"-\" \"iGoldSunMain/1.2.0 (iPhone; iOS 9.1; Scale/2.00)\" 10.33.124.240 0.001 0.001 goldsundg.guosen.com.cn 200 \"10.33.65.109:8080\" \"1.45\" \"Apache=f3963bdc.554a273451005; sec_uid=wKgJjlmJPWUhPFTdCIgkAg==\"\",\"dst_port1\":\"8080\",\"dst_ip1\":\"10.33.65.109\",\"domain1\":\"goldsundg.guosen.com.cn\",\"cookie1\":\"Apache=f3963bdc.554a273451005; sec_uid=wKgJjlmJPWUhPFTdCIgkAg==\",\"eqpt_device_type1\":\"/Application\",\"severity1\":\"4\",\"status1\":\"200\",\"url1\":\"/goldsun/home/getBanners/1.0\",\"id1\":\"c8d52cff-7f31-4555-ba0e-795ba26394d0\",\"user_agent1\":\"iGoldSunMain/1.2.0 (iPhone; iOS 9.1; Scale/2.00)\",\"src_ip1\":\"10.33.124.240\",\"response_size1\":\"473\",\"protocol1\":\"HTTP/1.1\"\",\"http_method1\":\"POST\",\"eqpt_ip1\":\"116.25.99.235\"}"
+        }
+    ]
+}

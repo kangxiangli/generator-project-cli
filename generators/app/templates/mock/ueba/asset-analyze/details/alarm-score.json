@@ -1,0 +1,8 @@
+{
+  "status": "success",
+  "content": {
+    "score": 101
+  },
+  "message": "查询成功！",
+  "errorCode": null
+}

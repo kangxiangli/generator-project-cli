@@ -1,0 +1,27 @@
+{
+  "status":"success",
+  "content":{
+    "alarm":{
+      "current":2352,
+      "prev":2352
+    },
+    "risk":{
+      "current":22099.0,
+      "prev":22099.0
+    },
+    "event":{
+      "current":13015,
+      "prev":-13015
+    },
+    "asset":{
+      "current":510,
+      "prev":510
+    },
+    "user":{
+      "current":4,
+      "prev":4
+    }
+  },
+  "message":"获取风险概览值成功",
+  "errorCode":null
+}

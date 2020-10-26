@@ -1,0 +1,19 @@
+{
+  "status": "success",
+  "content": [
+    {
+      "value": "actionName1",
+      "key": "actionName1"
+    },
+    {
+      "value": "actionName2",
+      "key": "actionName2"
+    },
+    {
+      "value": "actionName3",
+      "key": "actionName3"
+    }
+  ],
+  "message": "获取恶意行为列表成功",
+  "errorCode": null
+}

@@ -1,0 +1,12 @@
+{
+  "errorCode": "000000",
+  "message": "服务执行成功",
+  "content": [{
+    "id": "1",
+    "name": "日志编号"
+  }, {
+    "id": "2",
+    "name": "源IP"
+  }],
+  "status": "success"
+}

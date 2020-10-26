@@ -1,0 +1,44 @@
+{
+  "status": "success",
+  "content": {
+    "srcIP": 0,
+    "mail_enable": false,
+    "eventCategory": null,
+    "description": "",
+    "categoryDesc": "系统安全/系统攻击分析/日志破坏检测",
+    "number": "20191561093958868516",
+    "eqptDeviceType": "/IDS/Network",
+    "eventName": "12",
+    "id": 84,
+    "dstIP": 0,
+    "notice_user_list": "[]",
+    "severity": "info",
+    "analyzerJoinList": [],
+    "risk_type": "注册场景/机器行为",
+    "risk_score": 11,
+    "eventSubCategory": "/System_Compromise/Policy_Breach",
+    "updateUser": 0,
+    "updateTime": 1561093959000,
+    "analyzerDescList": [],
+    "notice_enable": false,
+    "createTime": 1561093959000,
+    "analyzerConditionList": [
+      {
+        "filterId": 45,
+        "timewindow": 1,
+        "count": 1,
+        "id": 435,
+        "analyzerId": 84
+      }
+    ],
+    "internal_event": "1",
+    "name": "123123",
+    "analyzerGroupList": [],
+    "createUser": 0,
+    "mail_list": "",
+    "categoryId": "/SysSecurity/SysAttackAnalysis/LogDestruction",
+    "status": 0
+  },
+  "message": "查询成功！",
+  "errorCode": null
+}

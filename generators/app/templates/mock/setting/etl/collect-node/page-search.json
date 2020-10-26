@@ -1,0 +1,42 @@
+{
+  "status": "success",
+  "content": {
+    "pageNum": 1,
+    "pageSize": 20,
+    "total": 4,
+    "pageCount": 1,
+    "data": [{
+      "id": 13,
+      "workerIp": "string",
+      "nodeTagName": "采集器1",
+      "nodePhysicalAddr": "0.0.0.0",
+      "nodeLogicAddr": "1.1.1.1",
+      "taskNum": 0
+    }, {
+      "id": 6,
+      "workerIp": "192.168.0.130",
+      "nodeTagName": "2",
+      "nodePhysicalAddr": "2",
+      "nodeLogicAddr": "2",
+      "taskNum": 0
+    }, {
+      "id": 4,
+      "workerIp": "10.10.10.57",
+      "nodeTagName": null,
+      "nodePhysicalAddr": null,
+      "nodeLogicAddr": null,
+      "taskNum": 8
+    }, {
+      "id": 3,
+      "workerIp": "10.10.10.60",
+      "nodeTagName": null,
+      "nodePhysicalAddr": null,
+      "nodeLogicAddr": null,
+      "taskNum": 34
+    }],
+    "preurl": null,
+    "nexturl": null
+  },
+  "message": null,
+  "errorCode": null
+}

@@ -1,0 +1,24 @@
+[data-theme="guan-blue2"] {
+  /* 【系统主题色】可用范围：login/plan2,layout/plan2,layout/plan3
+  ----------------------------------------------------------------- */
+  @mixin themeColor guan, #0e8fd8, true; /* 方案二-主题色 对应设计规范中的 --guan-6 */ 
+  @mixin themeColor guan-highlight, #3fafd2, true; /* 方案二-菜单选中辅助色 对应设计规范中的 --guan-2-6 */   
+  @mixin themeColor guan-gray, #929AA6, true; /* 观安主题色的辅助色【影响字体、边线颜色】 */
+
+
+  /* 【定义13组基础颜色，根据每组主颜色衍生出另外9种副颜色】
+  ----------------------------------------------------------------- */
+  @mixin themeColor red, #DF1722; /* 红色 */
+  @mixin themeColor volcano, #FA541C; /* 火山红 */
+  @mixin themeColor orange, #FB9D35; /* 日暮黄 */
+  @mixin themeColor gold, #FAAD14; /* 金盏花【金色】 */
+  @mixin themeColor yellow, #F9D446; /* 日出黄*/
+  @mixin themeColor lime, #A0D911; /* 青柠绿 */
+  @mixin themeColor green, #52C41A; /* 极光绿 */
+  @mixin themeColor cyan, #13C2C2; /* 明青 */
+  @mixin themeColor blue, #4ab9e8, true; /* 方案二-辅助主色 拂晓蓝 */
+  @mixin themeColor geekblue, #2F54EB; /* 极客蓝 */
+  @mixin themeColor purple, #722ED1; /* 酱紫 */
+  @mixin themeColor magenta, #EB2F96; /* 法式洋红 */
+  @mixin themeColor light-gray, #BFBFBF, true; /* 高亮灰 */
+}

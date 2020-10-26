@@ -1,0 +1,420 @@
+[data-theme] {
+  /* 公共规则：
+   * 1、actived、hover、disabled 都在结尾，方便识别； 
+   * 2、border 属性按【颜色】、【soild】、【尺寸】顺序；
+   * 3、height、line-height 统一使用 height【无特殊声明情况下】
+   */
+  /* Input【输入框】【s、m、l、xl从小到大的级别】
+  ----------------------------------------------------------------- */
+  --input-font-size: var(--font-size-default);
+  --input-padding: 0 8px;
+  --input-prefix-padding: 0 0 0 32px;
+  --input-color: var(--color-font-1);
+  --input-color-disabled: var(--color-font-3);
+  --input-placeholder-color: var(--color-font-4);
+  --input-bg: var(--color-bg-5); /* @fixme */
+  --input-bg-disabled: var(--color-bg-3);
+
+  --input-border: var(--color-line-1) solid var(--line-size-default);
+  --input-border-focus: var(--color-font-default) solid var(--line-size-default);
+  --input-border-error: var(--color-font-7) solid var(--line-size-default);
+  --input-border-corner: var(--corner-m);
+
+  --input-height-l: 32px;
+  --input-number-height-l: 30px;
+  --input-height-m: 28px;
+  --input-number-height-m: 26px;
+  --input-height-s: 24px;
+  --input-number-height-s: 22px;
+  --input-height-xs: 20px;
+  --input-number-height-xs: 18px;
+  --input-height-micro: 16px;
+  /* Textarea【文本框】 */
+  --input-textarea-padding: 8px 16px;
+
+
+  /* Select【下拉框】相应的高度继承输入框的高度
+  ----------------------------------------------------------------- */
+  /* 下拉框中的右侧图标 */
+  --select-dropdown-bg: var(--color-bg-5);
+  --select-dropdown-shadow: var(--shadow-default);
+  --select-dropdown-border: var(--color-line-default) solid var(--line-size-default);
+
+  --select-dropdown-suffix-color: var(--color-font-2);
+  --select-dropdown-suffix-color-actived: var(--color-font-default);
+
+  --select-dropdown-item-padding: 0 16px;
+  --select-dropdown-item-color: var(--color-font-2);
+  --select-dropdown-item-font-size: var(--font-size-default);
+  --select-dropdown-item-bg-hover: var(--color-bg-1);
+  --select-dropdown-item-color-actived: var(--color-font-default);
+  --select-dropdown-item-color-sub: var(--color-font-3);
+  --select-dropdown-item-color-disabled: var(--color-font-4);
+  
+
+  /* Radio【单选框】
+  ----------------------------------------------------------------- */
+  --radio-label-color: var(--color-font-2);
+  --radio-label-border: var(--color-line-default) solid var(--line-size-default);
+  --radio-label-font-size: var(--font-size-default);
+  --radio-label-color-actived: var(--color-font-default);
+  --radio-label-color-disabled: var(--color-font-disabled);
+
+
+  /* Checkbox【多选框】
+  ----------------------------------------------------------------- */
+  --checkbox-label-color: var(--color-font-2);
+  --checkbox-border: var(--color-line-default) solid var(--line-size-default);
+  --checkbox-label-font-size: var(--font-size-default);
+  --checkbox-label-color-actived: var(--color-font-default);
+  --checkbox-label-color-disabled: var(--color-font-disabled);
+
+
+  /* Switch【开关】
+  ----------------------------------------------------------------- */
+  --switch-lable-font-size: var(--font-size-default);
+  --switch-lable-color: var(--color-font-3);
+  --switch-lable-color-actived: var(--color-font-default);
+  
+  --switch-core-after-bg: var(--color-bg-5); 
+
+  --switch-core-border: var(--guan-gray-4) solid var(--line-size-default);
+  --switch-core-bg: var(--guan-gray-4);
+  --switch-core-border-actived: var(--color-font-default) solid var(--line-size-default);
+  --switch-core-bg-actived: var(--color-font-default);
+
+
+  /* Form【表单】
+  ----------------------------------------------------------------- */
+  --form-item-height-l: var(--input-height-l);
+  --form-item-height-m: var(--input-height-m);
+  --form-item-height-s: var(--input-height-s);
+  --form-item-height-xs: var(--input-height-xs);
+
+  --form-item-label-color: var(--color-font-2); /* @fixme */
+  /* --form-item-label-font-size: var(--font-size-4); */
+  --form-item-label-padding: 0px 8px 0 0;
+
+  --form-item-margin: 0 16px 22px 0;
+  --form-item-color-error: var(--color-font-7);
+  --form-item-font-size-error: var(--font-size-default);
+
+  /* 详情表单 */
+  --form-detailed-item-content-color: var(--color-font-3);
+  --form-detailed-item-margin: 0 16px 0 0;
+
+  --form-item-single-margin: 0 16px 0 0; /* 帅选条件下单行 form 表单 */
+  --form-collapse-item-margin: 0 16px 8px 0; /* 帅选条件下多行 form 表单 */
+
+
+  /* Tree【树形控件】@fixme
+  ----------------------------------------------------------------- */
+  --tree-lable-root-color: var(--checkbox-label-color);  /* 非 checkbox 类型 */
+  --tree-lable-root-font-size: var(--font-size-5);
+
+  --tree-lable-children-color: var(--checkbox-label-color); 
+  --tree-lable-children-font-size: var(--font-size-default);
+
+
+  /* Button【按钮s、m、l、xl】
+  ----------------------------------------------------------------- */
+  --button-corner: var(--corner-m);
+  --button-l-padding: 8px 16px;
+  --button-m-padding: 6px 8px; 
+  --button-s-padding: 5px 8px; 
+  --button-xs-padding: 3px 8px;
+  
+  /* 主要类型按钮 */
+  --button-main-l-padding: 8px 16px;
+  --button-main-m-padding: 6px 16px; 
+  --button-main-s-padding: 5px 16px; 
+  --button-main-xs-padding: 3px 16px;
+
+  /* plain 类型按钮 */
+  --button-plain-l-padding: 8px 8px;
+  --button-plain-m-padding: 6px 8px; 
+  --button-plain-s-padding: 5px 8px; 
+  --button-plain-xs-padding: 3px 8px;
+
+  /* 所有种类的默认按钮 */
+  --button-default-color: var(--color-font-2);
+  --button-default-color-hover: var(--color-font-5);
+  --button-default-color-focus: var(--color-font-2);
+  --button-default-color-active: var(--light-gray-1);
+  --button-default-color-disabled: var(--color-font-disabled);
+
+  --button-default-bg: var(--light-gray-1);
+  --button-default-bg-hover: var(--blue-5);
+  --button-default-bg-active: var(--blue-6);
+  --button-default-bg-disabled: var(--light-gray-1);
+  
+  --button-default-border-color: var(--color-line-2);
+  --button-default-border-color-hover: var(--blue-5);
+  --button-default-border-color-focus: var(--color-line-2);
+  --button-default-border-color-active: var(--blue-6);
+  --button-default-border-color-disabled: var(--color-line-2);
+
+  /* 【Main】基础类型的按钮 */
+  --button-color: var(--color-font-5);
+  --button-primary-color-hover: var(--color-font-5);
+  --button-primary-color-focus: var(--color-font-5);
+  --button-primary-color-active: var(--light-gray-1);
+
+  --button-primary-bg: var(--blue-6);
+  --button-primary-bg-hover: var(--blue-5);
+  --button-primary-bg-focus: var(--blue-6);
+  --button-primary-bg-active: var(--blue-6);
+  --button-primary-bg-disabled: var(--blue-2);
+
+  --button-primary-border-color: var(--blue-6);
+  --button-primary-border-color-hover: var(--blue-5);
+  --button-primary-border-color-focus: var(--blue-6);
+  --button-primary-border-color-active: var(--blue-6);
+  --button-primary-border-color-disabled: var(--blue-3);
+
+  --button-success-bg: var(--green-7);
+  --button-success-bg-hover: var(--green-6);
+  --button-success-bg-focus: var(--green-7);
+  --button-success-bg-active: var(--green-7);
+  --button-success-bg-disabled: var(--green-2);
+
+  --button-success-border-color: var(--green-7);
+  --button-success-border-color-hover: var(--green-6);
+  --button-success-border-color-focus: var(--green-7);
+  --button-success-border-color-active: var(--green-7);
+  --button-success-border-color-disabled: var(--green-3);
+
+  --button-info-bg: var(--geekblue-4);
+  --button-info-bg-hover: var(--geekblue-3);
+  --button-info-bg-focus: var(--geekblue-4);
+  --button-info-bg-active: var(--geekblue-4);
+  --button-info-bg-disabled: var(--geekblue-3);
+
+  --button-info-border-color: var(--geekblue-4);
+  --button-info-border-color-hover: var(--geekblue-3);
+  --button-info-border-color-focus: var(--geekblue-4);
+  --button-info-border-color-active: var(--geekblue-4);
+  --button-info-border-color-disabled: var(--geekblue-3);
+
+  --button-warning-bg: var(--orange-6);
+  --button-warning-bg-hover: var(--orange-5);
+  --button-warning-bg-focus: var(--orange-6);
+  --button-warning-bg-active: var(--orange-6);
+  --button-warning-bg-disabled: var(--orange-3);
+
+  --button-warning-border-color: var(--orange-6);
+  --button-warning-border-color-hover: var(--orange-5);
+  --button-warning-border-color-focus: var(--orange-6);
+  --button-warning-border-color-active: var(--orange-6);
+  --button-warning-border-color-disabled: var(--orange-3);
+
+  --button-danger-bg: var(--red-5);
+  --button-danger-bg-hover: var(--red-4);
+  --button-danger-bg-focus: var(--red-5);
+  --button-danger-bg-active: var(--red-5);
+  --button-danger-bg-disabled: var(--red-2);
+
+  --button-danger-border-color: var(--red-5);
+  --button-danger-border-color-hover: var(--red-4);
+  --button-danger-border-color-focus: var(--red-5);
+  --button-danger-border-color-active: var(--red-5);
+  --button-danger-border-color-disabled: var(--red-2);
+
+  --button-finished-bg: var(--cyan-6);
+  --button-finished-bg-hover: var(--cyan-5);
+  --button-finished-bg-focus: var(--cyan-6);
+  --button-finished-bg-active: var(--cyan-6);
+  --button-finished-bg-disabled: var(--cyan-3);
+
+  --button-finished-border-color: var(--cyan-6);
+  --button-finished-border-color-hover: var(--cyan-5);
+  --button-finished-border-color-focus: var(--cyan-6);
+  --button-finished-border-color-active: var(--cyan-6);
+  --button-finished-border-color-disabled: var(--cyan-3);
+
+  /* 【Plain】类型的功能按钮、帮助按钮、操作按钮样式统一 */
+  --button-color-hover: var(--color-font-5);
+  --button-color-focus: var(--blue-6);
+  --button-color-active: var(--blue-6);
+  --button-plain-primary-color: var(--blue-6);
+  --button-plain-primary-color-disabled: var(--blue-3);
+
+  --button-plain-primary-bg: var(--blue-1);
+  --button-plain-primary-bg-hover: var(--blue-5);
+  --button-plain-primary-bg-focus: var(--blue-1);
+  --button-plain-primary-bg-active: var(--blue-6);
+
+  --button-plain-primary-border-color: var(--blue-2);
+  --button-plain-primary-border-color-hover: var(--blue-5);
+  --button-plain-primary-border-color-focus: var(--blue-2);
+  --button-plain-primary-border-color-active: var(--blue-6);
+
+  --button-plain-success-color: var(--green-7);
+  --button-plain-success-color-disabled: var(--green-3);
+
+  --button-plain-success-bg: var(--green-1);
+  --button-plain-success-bg-hover: var(--green-6);
+  --button-plain-success-bg-focus: var(--green-1);
+  --button-plain-success-bg-active: var(--green-7);
+
+  --button-plain-success-border-color: var(--green-2);
+  --button-plain-success-border-color-hover: var(--green-6);
+  --button-plain-success-border-color-focus: var(--green-2);
+  --button-plain-success-border-color-active: var(--green-7);
+
+  --button-plain-info-color: var(--geekblue-4);
+  --button-plain-info-color-disabled: var(--geekblue-3);
+
+  --button-plain-info-bg: var(--geekblue-1);
+  --button-plain-info-bg-hover: var(--geekblue-3);
+  --button-plain-info-bg-focus: var(--geekblue-4);
+  --button-plain-info-bg-active: var(--geekblue-4);
+
+  --button-plain-info-border-color: var(--geekblue-2);
+  --button-plain-info-border-color-hover: var(--geekblue-2);
+  --button-plain-info-border-color-focus: var(--geekblue-4);
+  --button-plain-info-border-color-active: var(--geekblue-4);
+
+  --button-plain-warning-color: var(--orange-6);
+  --button-plain-warning-color-disabled: var(--orange-4);
+
+  --button-plain-warning-bg: var(--orange-1);
+  --button-plain-warning-bg-hover: var(--orange-5);
+  --button-plain-warning-bg-focus: var(--orange-1);
+  --button-plain-warning-bg-active: var(--orange-6);
+
+  --button-plain-warning-border-color: var(--orange-3);
+  --button-plain-warning-border-color-hover: var(--orange-5);
+  --button-plain-warning-border-color-focus: var(--orange-3);
+  --button-plain-warning-border-color-active: var(--orange-6);
+
+  --button-plain-danger-color: var(--red-5);
+  --button-plain-danger-color-disabled: var(--red-2);
+
+  --button-plain-danger-bg: var(--red-1);
+  --button-plain-danger-bg-hover: var(--red-4);
+  --button-plain-danger-bg-focus: var(--red-1);
+  --button-plain-danger-bg-active: var(--red-5);
+
+  --button-plain-danger-border-color: var(--red-2);
+  --button-plain-danger-border-color-hover: var(--red-4);
+  --button-plain-danger-border-color-focus: var(--red-2);
+  --button-plain-danger-border-color-active: var(--red-5);
+
+  --button-plain-finished-color: var(--cyan-6);
+  --button-plain-finished-color-disabled: var(--cyan-3);
+
+  --button-plain-finished-bg: var(--cyan-1);
+  --button-plain-finished-bg-hover: var(--cyan-5);
+  --button-plain-finished-bg-focus: var(--cyan-1);
+  --button-plain-finished-bg-active: var(--cyan-6);
+
+  --button-plain-finished-border-color: var(--cyan-2);
+  --button-plain-finished-border-color-hover: var(--cyan-5);
+  --button-plain-finished-border-color-focus: var(--cyan-2);
+  --button-plain-finished-border-color-active: var(--cyan-6);
+
+  /* 文字按钮 */
+  --button-text-color: var(--color-font-default);
+  --button-text-color-hover: var(--blue-5);
+  --button-text-color-focus: var(--color-font-default);
+  --button-text-color-active: var(--color-font-default);
+  --button-text-color-disabled: var(--color-font-disabled);
+  --button-text-font-size: var(--font-size-default);
+
+  /* 关闭按钮 */
+  --button-icon-close-color: var(--color-font-3);
+  --button-icon-close-color-hover: var(--color-font-default);
+  --button-icon-close-font-size: 8px;
+  --button-icon-close-width: 8px;
+  --button-icon-close-height: 8px;
+  --button-icon-close-padding: 4px;
+
+  /* 箭头按钮 */
+  --button-icon-arrow-color: var(--color-font-3);
+  --button-icon-arrow-color-hover: var(--color-font-default);
+  --button-icon-arrow-font-size: 8px;
+  --button-icon-arrow-width: 8px;
+  --button-icon-arrow-height: 8px;
+  --button-icon-arrow-padding: 4px;
+
+  /* 排序按钮 */
+  --button-icon-sort-color: var(--color-font-3);
+  --button-icon-sort-color-actived: var(--color-font-default);
+  --button-icon-sort-font-size: 8px;
+  --button-icon-sort-width: 8px;
+  --button-icon-sort-height: 8px;
+  --button-icon-sort-padding: 2px 8px;
+
+  /* 注释按钮 @fixme */
+  --button-icon-color: var(--color-font-3);
+  --button-icon-color-actived: var(--color-font-default);
+  --button-icon-color-hover: var(--color-font-default);
+  --button-icon-width: 16px;
+  --button-icon-height: 16px;
+
+  /* 单独的svg图标按钮 */
+  --button-icon-svg-color: var(--color-font-2);
+
+
+  /* Table【表格】
+  ----------------------------------------------------------------- */
+  --table-color: var(--color-font-1); 
+  --table-header-color: var(--color-font-2); 
+  --table-header-row-padding: 4px 0;
+  --table-header-font-size: var(--font-size-default);
+  --table-header-bg: var(--color-bg-1);
+  --table-main-color: var(--color-font-1);
+  --table-main-row-padding: 4px 0;
+  --table-main-bg: var(--color-bg-5);
+  --table-main-font-size: var(--font-size-default);
+  --table-main-row-bg-stripe: var(--color-bg-3);
+  --table-main-row-bg-hover: var(--color-bg-2);
+
+  /* 折叠框设置 */
+  --table-main-row-expanded-bg-1: var(--guan-6-a10);
+  --table-main-row-expanded-border-1: var(--guan-6) solid var(--line-size-default);
+  --table-main-row-expanded-bg-2: var(--blue-5-a10);
+  --table-main-row-expanded-border-2: var(--blue-5) solid var(--line-size-default);
+  --table-main-row-expanded-bg-3: var(--cyan-6-a10);
+  --table-main-row-expanded-border-3: var(--cyan-6) solid var(--line-size-default);
+
+
+  /* Pagination【分页】
+  ----------------------------------------------------------------- */
+  --pagination-height: 24px; /* height、line-height 都为 24px */
+  --pagination-padding: 0 5px;
+  --pagination-color: var(--color-font-2);
+  --pagination-font-size: var(--font-size-default);
+  --pagination-pager-color: var(--color-font-2);
+  --pagination-pager-color-hover: var(--color-font-5);
+  --pagination-pager-color-actived: var(--color-font-5);
+  --pagination-pager-bg-hover: var(--color-font-default);
+  --pagination-pager-bg-actived: var(--color-font-default);
+  --pagination-button-color: var(--color-font-2);
+  --pagination-button-color-hover: var(--color-font-default);
+  --pagination-button-color-disabled: var(--color-font-2);
+  
+
+  /* Tooltip【文字提示】继承 Popover【弹出框】
+  ----------------------------------------------------------------- */
+  --tooltip-color: var(--color-font-5);
+  --tooltip-font-size:  var(--font-size-default);
+  --tooltip-bg: var(--color-bg-6);
+  --tooltip-shadow: var(--shadow-default);
+  --tooltip-padding: 10px 16px;
+
+
+  /* Tab【标签】
+  ----------------------------------------------------------------- */
+  --tab-header-margin: 0 0 8px;
+  --tab-font-size: var(--font-size-4);
+  --tab-item-color: var(--color-font-2);
+  --tab-item-color-actived: var(--color-font-default);
+  --tab-item-color-disabled: var(--color-font-4);
+
+  /* type设置为border-card */
+  --tab-card-height: 32px;
+
+
+}

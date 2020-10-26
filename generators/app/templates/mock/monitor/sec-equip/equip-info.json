@@ -1,0 +1,16 @@
+{
+  "errorCode": null,
+  "message": null,
+  "content": {
+    "typeId": "0d33492ad3954d8d8053fd00f8714021",
+    "ip": "1.1.1.1",
+    "equipName": "192.168.200.107",
+    "equipAliasName": "别名A",
+    "osSystem": "windows",
+    "vender": "厂家1",
+    "softList": "软件列表1",
+    "hardList": "硬件列表1",
+    "hostDesc": "主机描述1"
+  },
+  "status": "success"
+}

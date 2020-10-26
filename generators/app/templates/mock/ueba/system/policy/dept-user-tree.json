@@ -1,0 +1,211 @@
+{
+  "status": "success",
+  "content": [
+    {
+      "depth": 1,
+      "children": [
+        {
+          "depth": 2,
+          "children": [
+            {
+              "depth": 3,
+              "children": [
+                {
+                  "depth": 4,
+                  "children": [
+                    {
+                      "depth": 0,
+                      "children": [],
+                      "userId": "e78bc126235d4b2eb2347e9d5613a66c",
+                      "userName": "xiaoshao test",
+                      "deptId": "60f42166092c4a9497b6340aaae66ecc",
+                      "type": "1"
+                    }
+                  ],
+                  "deptId": "60f42166092c4a9497b6340aaae66ecc",
+                  "parentDeptId": "cdf362e1b6fb4d1f9f5d6e8de92d9f5c",
+                  "deptName": "xiaoshao test 222",
+                  "type": "0",
+                  "userCount": 1
+                },
+                {
+                  "depth": 0,
+                  "children": [],
+                  "userId": "e2f952e62ded45108fd713ce376a0302",
+                  "userName": "xiaoshao",
+                  "deptId": "cdf362e1b6fb4d1f9f5d6e8de92d9f5c",
+                  "type": "1"
+                }
+              ],
+              "deptId": "cdf362e1b6fb4d1f9f5d6e8de92d9f5c",
+              "parentDeptId": "143ce9aff00e428bb068460423554862",
+              "deptName": "销售部333322222",
+              "type": "0",
+              "userCount": 2
+            },
+            {
+              "depth": 0,
+              "children": [],
+              "userId": "3cbe7c1f54c84bcdbbfd0d69a67baa32",
+              "userName": "hahajia",
+              "deptId": "143ce9aff00e428bb068460423554862",
+              "type": "1"
+            }
+          ],
+          "deptId": "143ce9aff00e428bb068460423554862",
+          "parentDeptId": "1",
+          "deptName": "研发部2",
+          "type": "0",
+          "userCount": 3
+        },
+        {
+          "depth": 2,
+          "children": [
+            {
+              "depth": 3,
+              "children": [],
+              "deptId": "dd6c000591c74fa39ba3618b8c21b1d9",
+              "parentDeptId": "226709241e024b9f8a8bf999502ce808",
+              "deptName": "dfgdf",
+              "type": "0",
+              "userCount": 0
+            },
+            {
+              "depth": 0,
+              "children": [],
+              "userId": "b05568b12b6c4cf1a29b2c3521b6292e",
+              "userName": "test 1111",
+              "deptId": "226709241e024b9f8a8bf999502ce808",
+              "type": "1"
+            }
+          ],
+          "deptId": "226709241e024b9f8a8bf999502ce808",
+          "parentDeptId": "1",
+          "deptName": "研发部",
+          "type": "0",
+          "userCount": 1
+        },
+        {
+          "depth": 2,
+          "children": [
+            {
+              "depth": 3,
+              "children": [],
+              "deptId": "558bd9479ff54727b035d8116b9a4592",
+              "parentDeptId": "b5087d618e644508b6d3ac63a2213a9e",
+              "deptName": "fddgfdg",
+              "type": "0",
+              "userCount": 0
+            }
+          ],
+          "deptId": "b5087d618e644508b6d3ac63a2213a9e",
+          "parentDeptId": "1",
+          "deptName": "test 5",
+          "type": "0",
+          "userCount": 0
+        },
+        {
+          "depth": 2,
+          "children": [
+            {
+              "depth": 3,
+              "children": [],
+              "deptId": "b939fc866d744cf0b3f2bd76d593ad87",
+              "parentDeptId": "b92b3be9e4cd452698202a6e69b02e02",
+              "deptName": "test 1",
+              "type": "0",
+              "userCount": 0
+            },
+            {
+              "depth": 0,
+              "children": [],
+              "userId": "897c6aed820f4f4a879b4943b6bfff87",
+              "userName": "xiaoshao 21",
+              "deptId": "b92b3be9e4cd452698202a6e69b02e02",
+              "type": "1"
+            }
+          ],
+          "deptId": "b92b3be9e4cd452698202a6e69b02e02",
+          "parentDeptId": "1",
+          "deptName": "dfgfd",
+          "type": "0",
+          "userCount": 1
+        },
+        {
+          "depth": 2,
+          "children": [],
+          "deptId": "c541e978616d4b218b593e8689fa2e39",
+          "parentDeptId": "1",
+          "deptName": "test 2",
+          "type": "0",
+          "userCount": 0
+        },
+        {
+          "depth": 0,
+          "children": [],
+          "userId": "5821e31b18cc41408798c5b41a5af7f6",
+          "userName": "jializhen",
+          "deptId": "1",
+          "type": "1"
+        },
+        {
+          "depth": 0,
+          "children": [],
+          "userId": "f4047413ed0744ffb612fdcedd475a88",
+          "userName": "jializhentest",
+          "deptId": "1",
+          "type": "1"
+        }
+      ],
+      "deptId": "1",
+      "parentDeptId": "",
+      "deptName": "观安测试",
+      "type": "0",
+      "userCount": 7
+    },
+    {
+      "depth": 0,
+      "children": [
+        {
+          "depth": 0,
+          "children": [],
+          "userId": "11bb95af67b5471faf955c6ca8e5ea88",
+          "userName": "jializhe",
+          "deptId": null,
+          "type": "1"
+        },
+        {
+          "depth": 0,
+          "children": [],
+          "userId": "352640179cdd406d8cbba5704c5602a4",
+          "userName": "yangxj_test",
+          "deptId": "",
+          "type": "1"
+        },
+        {
+          "depth": 0,
+          "children": [],
+          "userId": "4e0759daae554fb4845d632b15c49678",
+          "userName": "jialz",
+          "deptId": null,
+          "type": "1"
+        },
+        {
+          "depth": 0,
+          "children": [],
+          "userId": "a2b6266d6cd2469ab0e7c87d4fa8e4e9",
+          "userName": "qqqqq",
+          "deptId": "",
+          "type": "1"
+        }
+      ],
+      "deptId": null,
+      "parentDeptId": null,
+      "deptName": "未分配",
+      "type": "0",
+      "userCount": 4
+    }
+  ],
+  "message": null,
+  "errorCode": null
+}

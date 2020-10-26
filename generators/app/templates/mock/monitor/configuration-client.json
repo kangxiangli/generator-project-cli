@@ -1,0 +1,50 @@
+{
+  "status": "success",
+  "content": {
+    "data": [
+      {
+        "id": 1,
+        "ip": "10.1.1.1",
+        "logType": "waf",
+        "deviceType": "xxx",
+        "macAddr": "xxxxxx",
+        "logicAddr": "xxxxxx",
+        "hostName": "testHostName",
+        "ownerName": "testOwnerName",
+        "collectorIp": "1.1.1.1",
+        "collectType": "xxxxxx",
+        "collectFlg": 1,
+        "monitorFlg": 1
+      },
+      {
+        "id": 2,
+        "ip": "10.1.1.1",
+        "logType": "waf",
+        "deviceType": "xxx",
+        "macAddr": "xxxxxx",
+        "logicAddr": "xxxxxx",
+        "hostName": "testHostName",
+        "ownerName": "testOwnerName",
+        "collectorIp": "1.1.1.1",
+        "collectType": "xxxxxx",
+        "collectFlg": 0,
+        "monitorFlg": 0
+      },
+      {
+        "id": 3,
+        "ip": "10.1.1.1",
+        "logType": "waf",
+        "deviceType": "xxx",
+        "macAddr": "xxxxxx",
+        "logicAddr": "xxxxxx",
+        "hostName": "testHostName",
+        "ownerName": "testOwnerName",
+        "collectorIp": "1.1.1.1",
+        "collectType": "xxxxxx",
+        "collectFlg": 0,
+        "monitorFlg": 0
+      }
+    ],
+    "total":10
+  }
+}

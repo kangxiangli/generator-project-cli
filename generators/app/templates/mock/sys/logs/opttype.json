@@ -1,0 +1,26 @@
+{
+  "status": "success",
+  "message": null,
+  "errorCode": null,
+  "content": {
+    "login": "登陆",
+    "logout": "退出",
+    "detail": "查看",
+    "search": "搜索",
+    "preview": "预览",
+    "refresh": "刷新",
+    "export": "导出",
+    "add": "新增",
+    "copy": "复制",
+    "save": "保存",
+    "import": "导入",
+    "edit": "编辑",
+    "move": "移动",
+    "setting": "配置",
+    "start": "启用",
+    "stop": "停用",
+    "delete": "删除",
+    "upload": "上传",
+    "download": "下载"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "status": "success",
+  "content": {
+    "fileName": "b25bd4dacaea4f3ca55088d4f4694a4c.xlsx",
+    "originalFilename": "ASSET_TEMPLATE.xlsx",
+    "total": 1010,
+    "successCnt": 1000,
+    "failCnt": 10,
+    "errorRowNo": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      110
+    ]
+  },
+  "message": "导出成功"
+}

@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "content": {
+    "total": 0,
+    "data": [],
+    "totalPage": 1,
+    "pageSize": 10,
+    "pageNum": 1
+  },
+  "message": null,
+  "errorCode": null
+}

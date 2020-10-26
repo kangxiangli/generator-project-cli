@@ -1,0 +1,22 @@
+{
+    "errorCode": "000000",
+    "message": "服务执行成功",
+    "content": {
+        "bakId": "296417218848231424",
+        "fileName": "20190606090311",
+        "autoGenerateName": true,
+        "indexTemplate": "security_log_",
+        "startTime": "2019-01-28 20:52:29",
+        "finishTime": "2019-09-17 08:25:49",
+        "bakWay": "local",
+        "bakFinishDel": false,
+        "bakAuto": false,
+        "protocolType": "",
+        "account": "",
+        "passwd": "",
+        "bakPath": "",
+        "autoBakSycle": "",
+        "createTime": "2019-06-06 09:03:15"
+    },
+    "status": "success"
+}

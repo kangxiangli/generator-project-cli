@@ -1,0 +1,11 @@
+{
+  "errorCode": "000000",
+  "message": "服务执行成功",
+  "content": {
+    "expired": 1579415340000,
+    "snNumber": "1223",
+    "timeUnit": "d",
+    "version": "2.5"
+  },
+  "status": "success"
+}

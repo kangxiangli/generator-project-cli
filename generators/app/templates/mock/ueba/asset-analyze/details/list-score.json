@@ -1,0 +1,49 @@
+{
+  "status": "success",
+  "content": {
+    "total": 6,
+    "totalPage": 1,
+    "data": [
+      {
+        "key": "10.10.20.3",
+        "value": 195,
+        "assetId": 47,
+        "name": "10.10.20.3"
+      },
+      {
+        "key": "10.10.10.3",
+        "value": 123,
+        "assetId": 42,
+        "name": "10.10.10.3"
+      },
+      {
+        "key": "10.10.10.2",
+        "value": 117,
+        "assetId": 38,
+        "name": "10.10.10.2"
+      },
+      {
+        "key": "10.10.20.1",
+        "value": 112,
+        "assetId": 37,
+        "name": "10.10.20.1"
+      },
+      {
+        "key": "10.10.10.1",
+        "value": 101,
+        "assetId": 41,
+        "name": "10.10.10.1"
+      },
+      {
+        "key": "10.10.20.2",
+        "value": 34,
+        "assetId": 46,
+        "name": "10.10.20.2"
+      }
+    ],
+    "pageSize": 10,
+    "pageNum": 1
+  },
+  "message": null,
+  "errorCode": null
+}

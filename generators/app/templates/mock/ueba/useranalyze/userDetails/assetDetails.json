@@ -1,0 +1,61 @@
+{
+  "status": "success",
+  "content": {
+    "ip": "10.10.10.101",
+    "OSType": "Windows11",
+    "location": "DMZ",
+    "TopUser": "Lisa",
+    "lastLoginTime": "2018-01-01 23:22:21",
+    "totalUserCnt": 3,
+    "totalEventCnt": 30,
+    "eventDetail": [
+      {
+        "userName": "Lisa",
+        "eventCnt": 17,
+        "proportion": 63
+      },
+      {
+        "userName": "Tom",
+        "eventCnt": 9,
+        "proportion": 26
+      },
+      {
+        "userName": "Tom1",
+        "eventCnt": 9,
+        "proportion": 26
+      },
+      {
+        "userName": "Tom2",
+        "eventCnt": 9,
+        "proportion": 26
+      },
+      {
+        "userName": "Tom3",
+        "eventCnt": 9,
+        "proportion": 26
+      },
+      {
+        "userName": "Tom4",
+        "eventCnt": 9,
+        "proportion": 26
+      },
+      {
+        "userName": "Tom5",
+        "eventCnt": 9,
+        "proportion": 26
+      },
+      {
+        "userName": "Tom6",
+        "eventCnt": 9,
+        "proportion": 26
+      },
+      {
+        "userName": "Tom7",
+        "eventCnt": 9,
+        "proportion": 26
+      }
+    ]
+  },
+  "message": "查询成功！",
+  "errorCode": ""
+}

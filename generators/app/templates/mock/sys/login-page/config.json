@@ -1,0 +1,8 @@
+{
+    "status": "success",
+    "content": {
+        "logoEnable": true,
+        "subTitle": "副标题可能很长",
+        "title": "主标题"
+    }
+}

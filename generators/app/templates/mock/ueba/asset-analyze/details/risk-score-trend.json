@@ -1,0 +1,17 @@
+{
+  "status": "success",
+  "content": [
+    {
+      "key": "1530720000000",
+      "value": 11,
+      "name": "2018-07-05"
+    },
+    {
+      "key": "1531411200000",
+      "value": 90,
+      "name": "2018-07-13"
+    }
+  ],
+  "message": null,
+  "errorCode": null
+}

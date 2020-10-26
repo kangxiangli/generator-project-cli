@@ -1,0 +1,15 @@
+{
+  "status": "success",
+  "content": {
+    "data": [
+      {
+        "ip": "1.1.1.1",
+        "collector": "xxx",
+        "ownerName": "xxxx",
+        "sendedLogCount": 100,
+        "logType": "waf"
+      }
+    ],
+    "total": 10
+  }
+}

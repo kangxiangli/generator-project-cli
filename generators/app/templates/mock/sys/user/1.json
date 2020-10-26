@@ -1,0 +1,23 @@
+{
+  "status": "success",
+  "message": null,
+  "errorCode": null,
+  "content": {
+    "userId": 1,
+    "userName": "zhangsan",
+    "realName": "张三",
+    "code": "1",
+    "sex": "1",
+    "telephone": "110",
+    "email": "abc@idss-cn.com",
+    "leader": "李四",
+    "deptId": 0,
+    "deptName": "研发部",
+    "roleIdList": [0, 2, 4],
+    "roleNameList": ["用户", "系统", "操作"],
+    "periodFrom": "2017-01-30",
+    "periodTo": "2018-01-30",
+    "status": "0",
+    "loginVoucher": "454212"
+  }
+}

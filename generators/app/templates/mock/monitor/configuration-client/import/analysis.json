@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "content": {
+    "fileName": "bars.json",
+    "total": 100,
+    "successCnt": 95,
+    "failCnt": 5,
+    "errorRowNo": [1021,12,12,21,3]
+  },
+  "message": "成功！",
+  "errorCode": ""
+}

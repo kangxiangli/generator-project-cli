@@ -1,0 +1,25 @@
+{
+  "errorCode": "000000",
+  "message": "服务执行成功",
+  "content": {
+    "sysUsersId": "1",
+    "sysDepartId": "",
+    "saltKey": "admin",
+    "saltValueOld": "",
+    "saltValue": "$2a$04$H5Zj6JmtZRyyrVKKMsJmO.txNXcRQNWxo5C.d0KoijnlqCbGdi0fq",
+    "name": "佟盟",
+    "areaId": "",
+    "expiredTime": "1558415640000",
+    "isLocked": false,
+    "onLineStrategy": "1000",
+    "enabled": true,
+    "leader": "",
+    "sex": "",
+    "telephone": "",
+    "email": "",
+    "createTime": "",
+    "updateTime": "2019-02-25 13:43:57",
+    "sysRole": "子角色,超级管理员"
+  },
+  "status": "success"
+}

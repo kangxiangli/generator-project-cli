@@ -1,0 +1,44 @@
+{
+  "errorCode": "000000",
+  "message": "服务执行成功",
+  "content": {
+    "remarkName": "更新",
+    "queryLoopholeList": [
+      {
+        "id": 2222,
+        "sourcesVulnerability": "漏扫3",
+        "sourcesVulnerabilityIp": "0.3.3.3",
+        "vulnerabilityContent": "HTTP GET A",
+        "flag": 0,
+        "showTime": 1550534235000
+      }
+    ],
+    "queryAttackList": [
+      {
+        "id": 333,
+        "sourceAttackRecord": "WAF",
+        "sourceAttackRecordIp": "10.1.1.1",
+        "attackContent": "WEB-CLIENT Attempt To Access Malformed File",
+        "flag": 1,
+        "showTime": 1547855835000
+      },
+      {
+        "id": 444,
+        "sourceAttackRecord": "IPS",
+        "sourceAttackRecordIp": "10.2.2.2",
+        "attackContent": "Access Database MDB Download",
+        "flag": 1,
+        "showTime": 1550534235000
+      },
+      {
+        "id": 555,
+        "sourceAttackRecord": "HIDS",
+        "sourceAttackRecordIp": "10.3.3.3",
+        "attackContent": "HTTP GET",
+        "flag": 1,
+        "showTime": 1552953435000
+      }
+    ]
+  },
+  "status": "success"
+}

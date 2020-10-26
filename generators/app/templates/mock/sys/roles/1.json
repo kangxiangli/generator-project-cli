@@ -1,0 +1,21 @@
+{
+  "status": "success",
+  "content": {
+    "roleId": 1,
+    "roleName": "用户管理",
+    "roleDescribe": "管理用户",
+    "builtin": "0",
+    "dataPermission": [0, 124, 126],
+    "funcPermission": {
+      "situation-imp-biz-sys": 7,
+      "demo-socket": 15
+    },
+    "dataPermission": {
+      "idss-insight-dashboard": {
+        "user1": 13,
+        "user3": 5
+      }
+    }
+  },
+  "message": "查询成功！"
+}

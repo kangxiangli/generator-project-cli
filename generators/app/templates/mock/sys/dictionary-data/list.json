@@ -1,0 +1,170 @@
+{
+    "errorCode": "000000",
+    "message": "服务执行成功",
+    "content": {
+        "data": [
+            {
+                "name": "单页面的维度",
+                "parentName": "root",
+                "code": "singlepage",
+                "dictionaryDataId": "",
+                "isFixed": true,
+                "parentId": "root"
+            },
+            {
+                "name": "适用的图样",
+                "parentName": "root",
+                "code": "can-use-graph",
+                "dictionaryDataId": "1",
+                "isFixed": true,
+                "parentId": "root"
+            },
+            {
+                "name": "趋势图",
+                "parentName": "运算符",
+                "code": "TREND",
+                "dictionaryDataId": "10",
+                "isFixed": true,
+                "parentId": "50"
+            },
+            {
+                "name": "象限图",
+                "parentName": "适用的图样",
+                "code": "QUADRANT",
+                "dictionaryDataId": "11",
+                "isFixed": true,
+                "parentId": "1"
+            },
+            {
+                "name": "迁徙图",
+                "parentName": "适用的图样",
+                "code": "ATTACK",
+                "dictionaryDataId": "12",
+                "isFixed": true,
+                "parentId": "1"
+            },
+            {
+                "name": "入侵检测",
+                "parentName": "日志行为分类",
+                "code": "/IntrusionDetection",
+                "dictionaryDataId": "12464726",
+                "isFixed": true,
+                "parentId": "263215067183583232"
+            },
+            {
+                "name": "工单处理",
+                "parentName": "处置方式",
+                "code": "1",
+                "dictionaryDataId": "12915356",
+                "isFixed": true,
+                "parentId": "263215067301023744"
+            },
+            {
+                "name": "省份分布",
+                "parentName": "适用的图样",
+                "code": "DISTRIBUTE_PROVINCE",
+                "dictionaryDataId": "13",
+                "isFixed": true,
+                "parentId": "1"
+            },
+            {
+                "name": "URL情报",
+                "parentName": "analysis-ti_list_ticatagory",
+                "code": "ti_url",
+                "dictionaryDataId": "13185871",
+                "isFixed": true,
+                "parentId": "263215067313606656"
+            },
+            {
+                "name": "预警/一般关注",
+                "parentName": "dashboard_list_security_event_internal_event",
+                "code": "1",
+                "dictionaryDataId": "13539592",
+                "isFixed": true,
+                "parentId": "263215067431047168"
+            },
+            {
+                "name": "账户管理",
+                "parentName": "日志行为分类",
+                "code": "/AccountManagement",
+                "dictionaryDataId": "13546432",
+                "isFixed": true,
+                "parentId": "263215067183583232"
+            },
+            {
+                "name": "账户管理/新增",
+                "parentName": "日志行为分类",
+                "code": "/AccountManagement/Add",
+                "dictionaryDataId": "13627767",
+                "isFixed": true,
+                "parentId": "263215067183583232"
+            },
+            {
+                "name": "主机IDS",
+                "parentName": "eventretrieval_eqpt_device_type",
+                "code": "/IDS/Host",
+                "dictionaryDataId": "13694213",
+                "isFixed": true,
+                "parentId": "263215067321995264"
+            },
+            {
+                "name": "网络威胁分析/异常流量检测/业务异常流量",
+                "parentName": "eventretrieval_event_type",
+                "code": "/NetThreatAnalysis/AbnormalFlow/BizAbnormalTraffic",
+                "dictionaryDataId": "13783382",
+                "isFixed": true,
+                "parentId": "263215067443630080"
+            },
+            {
+                "name": "世界分布",
+                "parentName": "适用的图样",
+                "code": "DISTRIBUTE_WORLD",
+                "dictionaryDataId": "14",
+                "isFixed": true,
+                "parentId": "1"
+            },
+            {
+                "name": "交换机",
+                "parentName": "eventretrieval_eqpt_device_type",
+                "code": "/NetworkEquipment/Switches",
+                "dictionaryDataId": "14489754",
+                "isFixed": true,
+                "parentId": "263215067321995264"
+            },
+            {
+                "name": "系统安全",
+                "parentName": "ti_tree_event_type",
+                "code": "3",
+                "dictionaryDataId": "14625453",
+                "isFixed": true,
+                "parentId": "263215067397492736"
+            },
+            {
+                "name": "内部网络行为分析",
+                "parentName": "威胁情报分析",
+                "code": "14",
+                "dictionaryDataId": "14927344",
+                "isFixed": true,
+                "parentId": "99543538"
+            },
+            {
+                "name": "DLP",
+                "parentName": "eventretrieval_eqpt_device_type",
+                "code": "/DLP",
+                "dictionaryDataId": "14971377",
+                "isFixed": true,
+                "parentId": "263215067321995264"
+            },
+            {
+                "name": "Sparkline",
+                "parentName": "适用的图样",
+                "code": "SPARKLINE",
+                "dictionaryDataId": "15",
+                "isFixed": true,
+                "parentId": "1"
+            }
+        ],
+        "total": 651
+    },
+    "status": "success"
+}

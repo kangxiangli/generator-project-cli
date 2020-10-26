@@ -1,0 +1,9 @@
+{
+  "status": "success",
+  "content": {
+    "dataOperator": 2,
+    "dataVal": 85,
+    "dataFlg": 1,
+    "job": "job02"
+  }
+}

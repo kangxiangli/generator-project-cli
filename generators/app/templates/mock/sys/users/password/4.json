@@ -1,0 +1,10 @@
+{
+  "status": "success",
+  "content": null,
+  "message": [
+    {
+      "item": "password",
+      "message": "密码格式不正确"
+    }
+  ]
+}

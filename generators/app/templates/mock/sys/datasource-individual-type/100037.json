@@ -1,0 +1,20 @@
+{
+    "errorCode": "000000",
+    "message": "服务执行成功",
+    "content": {
+        "id": "100037",
+        "datasourceId": "334199804685062144",
+        "individualValue": "123",
+        "individualLogName": "a1",
+        "individualEqptName": "",
+        "individualDescName": "",
+        "topic": null,
+        "delFlag": "0",
+        "updateId": "333813463363227648",
+        "updateTime": "2019-09-18 15:42:14",
+        "createId": "333813463363227648",
+        "createTime": "2019-09-18 15:42:14",
+        "datasourceName": "0918新增数据源mysql01"
+    },
+    "status": "success"
+}

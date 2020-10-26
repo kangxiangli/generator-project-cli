@@ -1,0 +1,260 @@
+.idss-login {
+  /*由于只是登录页面颜色发生变化，因此暂时不能通过修改项目基色去修改，会影响项目里面的内容的配色*/
+  --login-panel-header-title-color: #fff;
+  --login-panel-sub-title-color: #4AB9EB;
+  --login-panel-right-input-prefix-color: #4AB9EB;
+  --login-panel-right-input-color: #4ab9e8;
+  --login-panel-right-input-placeholder-color: #0065a8;
+  --login-panel-right-button-bg: #239edb;
+  --login-panel-right-button-color: var(--color-font-5);
+  --login-panel-right-button-bg-hover: #0084cf;
+  --login-panel-right-input-border: #004a82 solid var(--line-size-default);
+  --login-panel-right-input-border-focus: var(--color-font-6) solid var(--line-size-default);
+  --login-panel-right-link-color: #4ab9e8;
+  --login-panel-right-link-color-hover: #76d3f5;
+  --login-panel-right-append-bg-color: rgba(255,255,255,0);
+  --login-loading-mask-bg: var(--color-bg-6);
+
+  position: relative;
+  height: 100%;
+  min-height: 700px;
+  background-image: url(./images/login-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .idss-bg-common {
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .idss-login-header, 
+  .idss-login-box{
+    width:1200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index:9;
+    display: flex;
+  }
+  .idss-login-header {
+    height: 75px;
+    padding-top: 25px;
+    margin: 0 auto;
+    .idss-login-header_yd, .idss-login-header_ga{
+      width:180px;
+      height:50px;
+    }
+    .idss-login-header_yd {
+      background-image: url(./images/login-header-yd-bg.png);
+    }
+    .idss-login-header_ga {
+      background-image: url(./images/login-header-ga-bg.png);
+    }
+    .idss-login-header_title {
+      width: 248px;
+      height:44px;
+      line-height: 44px;
+      font-size:30px;
+      font-weight: bold;
+      color: var(--login-panel-header-title-color);
+      margin-left: 30px;
+    }
+  }
+  .idss-login-box{
+    height: 530px;
+    margin: auto;
+    z-index: 9;
+    /* 左侧部分 start */
+    .idss-login-left{
+      width: 60%;
+      height: 100%;
+      background-image: url(./images/login-left-bg.png);
+      .idss-login-left_main_title {
+        font-size:36px;
+        margin-left:60px;
+        color:var(--login-panel-sub-title-color);
+      }
+      .idss-login-left_sub_title {
+        font-size: 20px;
+        margin-left:60px;
+        color: var(--login-panel-sub-title-color);
+      }
+      .idss-login-title-right {
+        display: flex;
+        .idss-login-title-en {
+          margin-left: 30px;
+          font-size:30px;
+          font-weight: bold;
+          color: var(--login-panel-header-title-color);
+        }
+      }
+    }
+    /* 左侧部分 end */
+
+    /* 右侧部分 start */
+    .idss-login-right{
+      width: 40%;
+      height: 480px;
+      background-image: url(./images/login-right-bg.png);
+      margin: auto;
+      .idss-login-right-inner{
+        display: none;
+        padding: 45px;
+        height: 100%;
+        position: relative;
+        &.is-active {
+          display: block;
+        }
+        .idss-login-right-title{
+          position: absolute;
+          top:20px;
+          font-size:30px;
+          color: var(--login-panel-sub-title-color)
+        }
+        /* 表单样式控制 start */
+        >>> .idss-login-form {
+          position: relative;
+          margin: 70px 0 32px;
+          .idss-login-code {
+            margin-right: 0;
+            >>> .el-input-group__append {
+              width: 110px;
+              border-bottom: var(--login-panel-right-input-border);
+              background:rgba(255,255,255,0);
+              border-radius: inherit;
+              height: 38px;
+              cursor: pointer;
+              padding: 0;
+              overflow: hidden;
+              span {
+                display: inline-block;
+                height: inherit;
+                width: inherit;
+                margin-right: 10px;
+                img {
+                  color: var(--guan-highlight-8);
+                  width: inherit;
+                  height: 40px;
+                  vertical-align: middle;
+                  line-height: 40px;
+                }
+              }
+            }
+          }
+          .el-form-item {
+            margin-right: 0;
+            .el-input__inner {
+              height: 40px;
+              line-height: 40px;
+              color: var(--login-panel-right-input-color);
+              padding-left: 45px;
+              background: var(--login-panel-right-append-bg-color);
+              border: none;
+              font-size: var(--font-size-4);
+              border-bottom: var(--login-panel-right-input-border);
+              border-radius: inherit;
+              &:focus {
+                border-bottom: var(--login-panel-right-input-border-focus);
+              }
+              &::-ms-input-placeholder{
+                color: var(--login-panel-right-input-placeholder-color)!important;
+              }
+              &::-webkit-input-placeholder{
+                color: var(--login-panel-right-input-placeholder-color)!important;
+              }
+              &::-moz-placeholder{
+                color: var(--login-panel-right-input-placeholder-color)!important;
+              }
+            }
+            .el-input__prefix {
+              left: 0;
+              width: 40px;
+              line-height: 48px;
+              height: 40px;
+              background-color: var(--login-panel-right-input-prefix-bg);
+              svg {
+                width:24px;
+                height:24px;
+                fill: var(--login-panel-right-input-prefix-color);
+              }
+            }
+            .el-form-item__error {
+              left: 45px;
+              padding-top: 1px;
+            }
+          }
+          .idss-login-link {
+            a {
+              color: var(--login-panel-right-link-color);
+              cursor: pointer;
+              font-size: var(--font-size-4);
+              &:hover {
+                color: var(--login-panel-right-link-color-hover);
+                text-decoration: underline;
+              }
+            }
+          }
+          .login-button-container {
+            margin-top: 32px;
+          }
+          .login-button {
+            width: 100%;
+            height: 48px;
+            line-height: 48px;
+            padding: 0 16px;
+            border: none;
+            background: var(--login-panel-right-button-bg);
+            color: var(--login-panel-right-button-color);
+            cursor: pointer;
+            font-size: var(--font-size-2);
+            border-radius: var(--corner-m);
+            font-weight: bold;
+            &:hover{
+              background: var(--login-panel-right-button-bg-hover);
+            }
+          }
+          .idss-login--error {
+            position: absolute;
+            top: -30px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100%;
+            height: 20px;
+            line-height: 20px;
+            color: var(--login-panel-right-input-color-error);
+          }
+          
+        }
+        /* 表单样式控制 end */
+        >>> .idss-login-form.password-reset {
+          .el-form-item.is-error {
+            margin-bottom: 28px;
+          }
+          .el-form-item {
+            .error-msg {
+              color: var(--color-font-7);
+              text-align: center;
+              font-size: var(--font-size-4);
+            }
+          }
+        }
+      }
+    }
+    /* 右侧部分 end */
+  }
+  /* loading 背景 start */
+  >>> .el-loading-mask {
+    background-color: var(--login-loading-mask-bg);
+    .el-loading-spinner {
+      .el-icon-loading {
+        font-size: 40px;
+      }
+      .el-loading-text {
+        font-size: var(--font-size-1);
+      }
+    }
+  }
+  /* loading 背景 end */
+}

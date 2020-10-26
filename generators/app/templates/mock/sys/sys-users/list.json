@@ -1,0 +1,54 @@
+{
+  "errorCode": "000000",
+  "message": "服务执行成功",
+  "content": {
+    "data": [
+      {
+        "sysUsersId": "1",
+        "sysDepartId": "",
+        "saltKey": "admin",
+        "saltValueOld": "",
+        "saltValue": "$2a$04$H5Zj6JmtZRyyrVKKMsJmO.txNXcRQNWxo5C.d0KoijnlqCbGdi0fq",
+        "name": "佟盟",
+        "areaId": "",
+        "expiredTime": "2059-11-28 10:51:54",
+        "isLocked": false,
+        "onLineStrategy": "1000",
+        "enabled": true,
+        "leader": "",
+        "sex": "",
+        "telephone": "",
+        "email": "",
+        "createTime": "",
+        "updateTime": "2019-02-25 13:43:57",
+        "sysDepart": "部门",
+        "sysRole": "角色",
+        "userNumber": "工号"
+      },
+      {
+        "sysUsersId": "259843470548668416",
+        "sysDepartId": "tong",
+        "saltKey": "tongmeng",
+        "saltValueOld": "",
+        "saltValue": "$2a$04$J9QV1JH1Brt6SaR767avsuyOutgckPLKS3fk9j7sq7zbLHNNNcqLS",
+        "name": "佟盟",
+        "areaId": "",
+        "expiredTime": "2019-12-25 00:00:00",
+        "isLocked": false,
+        "onLineStrategy": "1000",
+        "enabled": true,
+        "leader": "",
+        "sex": true,
+        "telephone": "string",
+        "email": "mydeathtrial@163.com",
+        "createTime": "2019-02-25 10:52:01",
+        "updateTime": "2019-02-25 10:52:01",
+        "sysDepart": "部门",
+        "sysRole": "角色",
+        "userNumber": "工号"
+      }
+    ],
+    "total": 2
+  },
+  "status": "success"
+}

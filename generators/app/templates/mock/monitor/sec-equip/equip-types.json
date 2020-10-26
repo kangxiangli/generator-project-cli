@@ -1,0 +1,19 @@
+{
+  "status": "success",
+  "content": [
+    {
+      "typeId": "0d33492ad3954d8d8053fd00f871402123",
+      "typeName": "WAF类设备"
+    },
+    {
+      "typeId": "0d33492ad3954d8d8053fd00f8714021289",
+      "typeName": "DNS类设备"
+    },
+    {
+      "typeId": "0d33492ad3954d8d8053fd00f871402156",
+      "typeName": "网络日志类设备"
+    }
+  ],
+  "message": null,
+  "errorCode": null
+}

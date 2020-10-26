@@ -1,0 +1,31 @@
+{
+  "errorCode": "000000",
+  "message": "服务执行成功",
+  "content": {
+    "isShardText": "是",
+    "canUseGraph": ["NUMBER", "RING", "ADV_CAL_TREND", "DENDROGRAM", "SANKEY", "SPARKLINE", "DISTRIBUTE_WORLD", "DISTRIBUTE_PROVINCE", "ATTACK", "QUADRANT", "TREND", "TABLE", "RATIO", "DASHBOARD", "RADAR", "BAR", "LINE"],
+    "dbVersion": "5.2.2",
+    "dbName": "seccurity_log_",
+    "timeField": "create_time",
+    "dbType": "es",
+    "updateTime": "2019-03-26 00:00:00",
+    "delFlag": "0",
+    "commonFieldId": "000000000000000022",
+    "shardFormat": "YYYY.MM.DD",
+    "tableName": "log",
+    "urlKey": "search",
+    "updateId": "1",
+    "serialVersionUID": 1,
+    "commonGroupId": "1",
+    "createTime": "2019-03-15 00:00:00",
+    "createId": "1",
+    "commonGroupText": "原始日志共通字段组",
+    "isShard": "1",
+    "commonFieldText": "设备IP地址",
+    "id": "1",
+    "urlKeyText": "全文检索",
+    "canUseGraphText": "数字,环图,趋势分析,树形图,桑基图,Sparkline,世界分布,省份分布,迁徙图,象限图,趋势图,表格,环比,仪表盘,雷达图,柱形图,折线图",
+    "datasourceName": "原始日志数据源"
+  },
+  "status": "success"
+}

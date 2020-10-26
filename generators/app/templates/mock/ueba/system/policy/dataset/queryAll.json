@@ -1,0 +1,21 @@
+{
+  "status": "success",
+  "content": [
+      {
+          "id": 2,
+          "name": "zx",
+          "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+          "dataSource": "CX201912271154012301210408465915318272",
+          "arithmeticalExpression": ""
+      },
+      {
+          "id": 1,
+          "name": "主机系统日志",
+          "conditionRelation": "{\"condition\":\"&&\",\"children\":[{\"key\":1577182690265,\"field\":1567,\"ruleParam\":[{\"key\":\"condition\",\"value\":171,\"type\":\"filterFun\"},{\"key\":\"param1\",\"value\":\"/OperatingSystem\",\"type\":\"string\"}],\"type\":\"function\"}]}",
+          "dataSource": "",
+          "arithmeticalExpression": "string.contains(str(eqpt_device_type),\\\"/OperatingSystem\\\")"
+      }
+  ],
+  "message": null,
+  "errorCode": null
+}

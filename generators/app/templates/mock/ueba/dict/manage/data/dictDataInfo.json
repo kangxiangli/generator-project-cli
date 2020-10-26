@@ -1,0 +1,25 @@
+{
+  "status": "success",
+  "content": {
+    "id": 174,
+    "categoryId": "C0003",
+    "name": "timePeriods",
+    "alias": "timePeriods",
+    "dataType": "condition",
+    "argument": "2",
+    "comment": "计算是否在时间段内",
+    "parentDictId": 0,
+    "seg1": "timerange",
+    "seg1Desc": "08:08:00,20:00:00",
+    "seg2": "",
+    "seg2Desc": "",
+    "seg3": null,
+    "seg3Desc": null,
+    "createUser": null,
+    "createTime": null,
+    "updateUser": "admin",
+    "updateTime": 1526896187000
+  },
+  "message": "获取字典成功",
+  "errorCode": null
+}

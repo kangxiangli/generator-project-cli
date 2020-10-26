@@ -1,0 +1,34 @@
+{
+  "status": "success",
+  "message": null,
+  "errorCode": null,
+  "content": [{
+    "deptId": 111,
+    "deptName": "观安信息股份有限公司",
+    "children": [{
+      "deptId": 1,
+      "deptName": "北京研发部",
+      "children": [{
+        "deptId": 2,
+        "deptName": "前端"
+      }, {
+        "deptId": 11,
+        "deptName": "后端"
+      }]
+    }]
+  }, {
+    "deptId": 3,
+    "deptName": "11111",
+    "children": [{
+      "deptId": 4,
+      "deptName": "222222",
+      "children": [{
+        "deptId": 5,
+        "deptName": "3333333"
+      }, {
+        "deptId": 6,
+        "deptName": "444444"
+      }]
+    }]
+  }]
+}

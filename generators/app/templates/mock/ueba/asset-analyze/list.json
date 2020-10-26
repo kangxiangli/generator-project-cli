@@ -1,0 +1,90 @@
+{
+  "status": "success",
+  "content": {
+    "total": 7,
+    "data": [
+      {
+        "alarm": 163,
+        "user": 8,
+        "riskType": 8,
+        "time": "",
+        "score": 524,
+        "holes": 0,
+        "event": 163,
+        "system": 0,
+        "ip": ""
+      },
+      {
+        "alarm": 61,
+        "user": 3,
+        "riskType": 5,
+        "time": "",
+        "score": 213,
+        "holes": 0,
+        "event": 61,
+        "system": 0,
+        "ip": "2.2.2.10"
+      },
+      {
+        "alarm": 36,
+        "user": 3,
+        "riskType": 5,
+        "time": "",
+        "score": 142,
+        "holes": 0,
+        "event": 36,
+        "system": 0,
+        "ip": "2.2.2.12"
+      },
+      {
+        "alarm": 42,
+        "user": 3,
+        "riskType": 4,
+        "time": "",
+        "score": 94,
+        "holes": 0,
+        "event": 42,
+        "system": 0,
+        "ip": "2.2.2.9"
+      },
+      {
+        "alarm": 24,
+        "user": 3,
+        "riskType": 4,
+        "time": "",
+        "score": 75,
+        "holes": 0,
+        "event": 24,
+        "system": 0,
+        "ip": "2.2.2.11"
+      },
+      {
+        "alarm": 2,
+        "user": 1,
+        "riskType": 1,
+        "time": "",
+        "score": 2,
+        "holes": 0,
+        "event": 2,
+        "system": 0,
+        "ip": "10.10.10.90"
+      },
+      {
+        "alarm": 2,
+        "user": 1,
+        "riskType": 1,
+        "time": "",
+        "score": 2,
+        "holes": 0,
+        "event": 2,
+        "system": 0,
+        "ip": "10.10.10.91"
+      }
+    ],
+    "totalPage": 1,
+    "pageSize": 10,
+    "pageNum": 1
+  },
+  "message": null,
+  "errorCode": null
+}

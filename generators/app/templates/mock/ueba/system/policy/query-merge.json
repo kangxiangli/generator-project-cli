@@ -1,0 +1,124 @@
+{
+  "status": "success",
+  "content": {
+      "filterConfig": {
+          "createTime": 1578040842000,
+          "updateUser": "sysadmin",
+          "filterRule": {
+              "ruleConfigId": 5,
+              "rules": "[{\"dId\":1,\"name\":\"主机系统日志\",\"condition\":\"&&\",\"fileds\":[{\"keyBy\":\"\",\"group\":[{\"condition\":\"&&\",\"children\":[{\"key\":1577182752435,\"field\":1761,\"ruleParam\":[{\"key\":\"termfun\",\"value\":174,\"type\":\"filterFun\"},{\"key\":\"param1\",\"value\":[\"00:00:00\",\"06:00:00\"],\"type\":\"timerange\"}],\"type\":\"term-function\"},{\"key\":1577183084180,\"field\":1559,\"ruleParam\":[{\"key\":\"termfun\",\"value\":171,\"type\":\"filterFun\"},{\"key\":\"param1\",\"value\":\"sshd\",\"type\":\"string\"}],\"type\":\"term-function\"}],\"type\":\"1\"}]}]}]",
+              "id": 5
+          },
+          "strategyId": 5,
+          "createUser": "sysadmin",
+          "updateTime": 1582785046000,
+          "id": 5,
+          "filterAgg": [
+              {
+                  "id": 12,
+                  "dataCollection1": 1,
+                  "keyBy1": "1527",
+                  "dataCollection2": 0,
+                  "keyBy2": "",
+                  "ruleConfigId": 5,
+                  "resMap": {
+                      "keyBy2": "",
+                      "keyBy1": "1527",
+                      "ruleConfigId": 5,
+                      "id": 12,
+                      "dataCollection2": 0,
+                      "dataCollection1": 1
+                  }
+              }
+          ]
+      },
+      "actionCondition": {
+          "id": 5,
+          "strategyId": 5,
+          "repaceType": "d",
+          "repaceValue": "06:22:10",
+          "timerCron": "10 22 06  * * ?",
+          "repaceTime": ""
+      },
+      "actionConfig": {
+          "id": 5,
+          "strategyId": 5,
+          "riskType": 683,
+          "riskLevel": 29,
+          "eventType": 460,
+          "eventName": "主机异常时间登陆",
+          "noticeStation": false,
+          "noticeUsers": "",
+          "killChainStage": 465,
+          "riskScore": 60,
+          "alarmCondition": "1527",
+          "mailNotice": false,
+          "mailAddress": "",
+          "internalEvent": 1,
+          "eventDeviceType": 536,
+          "earlyWarning": false
+      },
+      "dataset": {
+          "datasetTwoId": null,
+          "datasetOneId": 1
+      },
+      "strategy": {
+          "id": 5,
+          "name": "只查询不办理",
+          "description": "主机异常时间登陆",
+          "scene": null,
+          "type": "2",
+          "riskType": 460,
+          "datasetOneId": "1",
+          "datasetTwoId": "",
+          "timeWindowId": 5,
+          "filterId": 5,
+          "actionConfigId": 5,
+          "actionConditionId": 5,
+          "status": false,
+          "jobId": null,
+          "editStatus": 31,
+          "createTime": 1578040842000,
+          "createUser": "sysadmin"
+      },
+      "outPutList": [
+          {
+              "filed": "1527",
+              "addList": false,
+              "strategyId": 5,
+              "valueType": "1",
+              "valueAfter": "",
+              "eventFiled": "860",
+              "id": 23,
+              "valueBefore": ""
+          },
+          {
+              "filed": "1542",
+              "addList": false,
+              "strategyId": 5,
+              "valueType": "1",
+              "valueAfter": "",
+              "eventFiled": "871",
+              "id": 24,
+              "valueBefore": ""
+          }
+      ],
+      "timeWindow": {
+          "windowType": "m",
+          "strategyId": 5,
+          "time": {
+              "timeInterval": 0,
+              "timeUnit": null,
+              "startTime": 1577116800000,
+              "timeFlag": 2,
+              "endTime": 1577203199000
+          },
+          "step": 1,
+          "window": 1,
+          "id": 5,
+          "stepType": "m"
+      }
+  },
+  "message": null,
+  "errorCode": null
+}

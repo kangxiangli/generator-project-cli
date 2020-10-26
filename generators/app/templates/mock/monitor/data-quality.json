@@ -1,0 +1,420 @@
+{
+  "status": "success",
+  "content": {
+    "jobInfo": [
+      {
+        "jobName": "cx201808151520298181029628882472538113",
+        "checked": 1
+      },
+      {
+        "jobName": "cx201808151520298181029628882472538112",
+        "checked": 1
+      },
+      {
+        "jobName": "cx201808151520298181029628882472538133",
+        "checked": 1
+      },
+      {
+        "jobName": "cx201808151520298181029628882472534112",
+        "checked": 1
+      },
+      {
+        "jobName": "cx201808151520298181029628882572538111",
+        "checked": 0
+      },
+      {
+        "jobName": "cx2018081515202966181029628882472538113",
+        "checked": 1
+      },
+      {
+        "jobName": "cx201808151520256181029628882472538112",
+        "checked": 1
+      },
+      {
+        "jobName": "cx201808151520232181029628882472538133",
+        "checked": 1
+      },
+      {
+        "jobName": "cx201808151520128181029628882472534112",
+        "checked": 1
+      },
+      {
+        "jobName": "cx201808151520290181029628882472538111",
+        "checked": 0
+      },
+      {
+        "jobName": "cx201808151520898181029628882472538113",
+        "checked": 1
+      },
+      {
+        "jobName": "cx201808151550298181029628882472538112",
+        "checked": 1
+      },
+      {
+        "jobName": "cx201808151520298151029628882472538133",
+        "checked": 1
+      },
+      {
+        "jobName": "cx201808131520298181029628882472534112",
+        "checked": 1
+      },
+      {
+        "jobName": "cx201808151520298181029628882472538111",
+        "checked": 0
+      }
+    ],
+    "detail": [
+      {
+        "jobName": "cx201808151520298181029628882472538111",
+        "dataInfo": [
+          {
+            "key": "",
+            "name": "total",
+            "value": 5000
+          },
+          {
+            "key": "",
+            "name": "match",
+            "value": 1000,
+            "children": [
+              {
+                "key": "",
+                "name": "normal",
+                "value": 500
+              },
+              {
+                "key": "",
+                "name": "filter",
+                "value": 500
+              }
+            ]
+          },
+          {
+            "key": "",
+            "name": "failure",
+            "value": 2000
+          },
+          {
+            "key": "",
+            "name": "other",
+            "value": 2000
+          }
+        ],
+        "startTime": "08:56",
+        "endTime": "07:39"
+      },
+      {
+        "jobName": "cx201808151520298181029628882472538112",
+        "dataInfo": [
+          {
+            "key": "",
+            "name": "total",
+            "value": 5000
+          },
+          {
+            "key": "",
+            "name": "match",
+            "value": 1000,
+            "children": [
+              {
+                "key": "",
+                "name": "normal",
+                "value": 500
+              },
+              {
+                "key": "",
+                "name": "filter",
+                "value": 500
+              }
+            ]
+          },
+          {
+            "key": "",
+            "name": "failure",
+            "value": 2000
+          },
+          {
+            "key": "",
+            "name": "other",
+            "value": 2000
+          }
+        ],
+        "startTime": "07:47",
+        "endTime": "09:21"
+      },
+      {
+        "jobName": "cx201808151520298181029628882472538113",
+        "dataInfo": [
+          {
+            "key": "",
+            "name": "total",
+            "value": 5000
+          },
+          {
+            "key": "",
+            "name": "match",
+            "value": 1000,
+            "children": [
+              {
+                "key": "",
+                "name": "normal",
+                "value": 500
+              },
+              {
+                "key": "",
+                "name": "filter",
+                "value": 500
+              }
+            ]
+          },
+          {
+            "key": "",
+            "name": "failure",
+            "value": 2000
+          },
+          {
+            "key": "",
+            "name": "other",
+            "value": 2000
+          }
+        ],
+        "startTime": "11:01",
+        "endTime": "07:20"
+      },
+      {
+        "jobName": "cx201808151520298181029628882472538111",
+        "dataInfo": [
+          {
+            "key": "",
+            "name": "total",
+            "value": 5000
+          },
+          {
+            "key": "",
+            "name": "match",
+            "value": 1000,
+            "children": [
+              {
+                "key": "",
+                "name": "normal",
+                "value": 500
+              },
+              {
+                "key": "",
+                "name": "filter",
+                "value": 500
+              }
+            ]
+          },
+          {
+            "key": "",
+            "name": "failure",
+            "value": 2000
+          },
+          {
+            "key": "",
+            "name": "other",
+            "value": 2000
+          }
+        ],
+        "startTime": "08:56",
+        "endTime": "07:39"
+      },
+      {
+        "jobName": "cx201808151520298181029628882472538112",
+        "dataInfo": [
+          {
+            "key": "",
+            "name": "total",
+            "value": 5000
+          },
+          {
+            "key": "",
+            "name": "match",
+            "value": 1000,
+            "children": [
+              {
+                "key": "",
+                "name": "normal",
+                "value": 500
+              },
+              {
+                "key": "",
+                "name": "filter",
+                "value": 500
+              }
+            ]
+          },
+          {
+            "key": "",
+            "name": "failure",
+            "value": 2000
+          },
+          {
+            "key": "",
+            "name": "other",
+            "value": 2000
+          }
+        ],
+        "startTime": "07:47",
+        "endTime": "09:21"
+      },
+      {
+        "jobName": "cx201808151520298181029628882472538113",
+        "dataInfo": [
+          {
+            "key": "",
+            "name": "total",
+            "value": 5000
+          },
+          {
+            "key": "",
+            "name": "match",
+            "value": 1000,
+            "children": [
+              {
+                "key": "",
+                "name": "normal",
+                "value": 500
+              },
+              {
+                "key": "",
+                "name": "filter",
+                "value": 500
+              }
+            ]
+          },
+          {
+            "key": "",
+            "name": "failure",
+            "value": 2000
+          },
+          {
+            "key": "",
+            "name": "other",
+            "value": 2000
+          }
+        ],
+        "startTime": "11:01",
+        "endTime": "07:20"
+      },
+      {
+        "jobName": "cx201808151520298181029628882472538111",
+        "dataInfo": [
+          {
+            "key": "",
+            "name": "total",
+            "value": 5000
+          },
+          {
+            "key": "",
+            "name": "match",
+            "value": 1000,
+            "children": [
+              {
+                "key": "",
+                "name": "normal",
+                "value": 500
+              },
+              {
+                "key": "",
+                "name": "filter",
+                "value": 500
+              }
+            ]
+          },
+          {
+            "key": "",
+            "name": "failure",
+            "value": 2000
+          },
+          {
+            "key": "",
+            "name": "other",
+            "value": 2000
+          }
+        ],
+        "startTime": "08:56",
+        "endTime": "07:39"
+      },
+      {
+        "jobName": "cx201808151520298181029628882472538112",
+        "dataInfo": [
+          {
+            "key": "",
+            "name": "total",
+            "value": 5000
+          },
+          {
+            "key": "",
+            "name": "match",
+            "value": 1000,
+            "children": [
+              {
+                "key": "",
+                "name": "normal",
+                "value": 500
+              },
+              {
+                "key": "",
+                "name": "filter",
+                "value": 500
+              }
+            ]
+          },
+          {
+            "key": "",
+            "name": "failure",
+            "value": 2000
+          },
+          {
+            "key": "",
+            "name": "other",
+            "value": 2000
+          }
+        ],
+        "startTime": "07:47",
+        "endTime": "09:21"
+      },
+      {
+        "jobName": "cx201808151520298181029628882472538113",
+        "dataInfo": [
+          {
+            "key": "",
+            "name": "total",
+            "value": 5000
+          },
+          {
+            "key": "",
+            "name": "match",
+            "value": 1000,
+            "children": [
+              {
+                "key": "",
+                "name": "normal",
+                "value": 500
+              },
+              {
+                "key": "",
+                "name": "filter",
+                "value": 500
+              }
+            ]
+          },
+          {
+            "key": "",
+            "name": "failure",
+            "value": 2000
+          },
+          {
+            "key": "",
+            "name": "other",
+            "value": 2000
+          }
+        ],
+        "startTime": "11:01",
+        "endTime": "07:20"
+      }
+    ]
+  }
+}

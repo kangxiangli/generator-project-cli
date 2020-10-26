@@ -1,0 +1,18 @@
+{
+  "errorCode": "000000",
+  "message": "服务执行成功",
+  "content": {
+    "id": "281291538724687872",
+    "title": "test13",
+    "text": "溯源条件：192.168.200.1;数据源：/IDS/Network,/IDS/Network/WAF,/IDS/Host,/IDS/Host/FileIntegrity,/IDS/Host/Antivirus,/IDS/Honeypot,/Application,/Application/MailServer,/Application/FTPServer,/Application/WEBServer,/Application/DNSServer,/Application/Database,/OperatingSystem,/NetworkEquipment,/NetworkEquipment/Router,/NetworkEquipment/Switches,/NetworkEquipment/Firewall,/VPN,/IdentityManagement,/SecurityInformationManager,/AssessmentTool,/Others,/NetworkEquipment/loadblance,/NetworkEquipment/GSLB,/NetworkEquipment/NPM,/Application/APM,/IdentityManagement/LDAP,/DDOS,/BusinessApplication/BusinessRiskControlSystem,/AppOperatingLog,/CellphoneSDK,/DLP,/OperationGateway,/NetworkEquipment/NetFlow,/DBAudit,/WebIntegrity",
+    "mailReceiver": "1002356872@qq.com",
+    "status": "unread_msg",
+    "sendType": "rule_source",
+    "messageType": "inside_mail",
+    "sendTime": 1556176739202,
+    "userId": "1",
+    "modTime": "2019-04-29 11:21:12",
+    "userName": null
+  },
+  "status": "success"
+}

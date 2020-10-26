@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "content": {
+    "data": [
+      {
+        "collectorName": "xxxxx",
+        "collectorIp": "1.1.1.1",
+        "receiveCount": 1000,
+        "clientCount": 10
+      }
+    ],
+    "total": 60
+  }
+}

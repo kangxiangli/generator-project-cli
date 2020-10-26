@@ -1,0 +1,112 @@
+{
+    "status": "success",
+    "content": {
+      "pageNum": 1,
+      "pageSize": 20,
+      "orderBy": null,
+      "order": null,
+      "autoCount": true,
+      "data": [
+        {
+          "owner": "",
+          "asset_name": "",
+          "ip": "192.168.0.132",
+          "asset_value": "",
+          "asset_type": null,
+          "business_system": "",
+          "network_domain": null
+        },
+        {
+          "owner": "张盼晴",
+          "asset_name": "业务资产1",
+          "ip": "10.24.100.10",
+          "asset_value": "96",
+          "asset_type": "服务器",
+          "business_system": "业务支撑系统",
+          "network_domain": "子网A"
+        },
+        {
+          "owner": "张逸美",
+          "asset_name": "业务资产2",
+          "ip": "10.24.100.11",
+          "asset_value": "41",
+          "asset_type": "服务器",
+          "business_system": "业务支撑系统",
+          "network_domain": "子网A"
+        },
+        {
+          "owner": "张伟茂",
+          "asset_name": "业务资产3",
+          "ip": "10.24.100.12",
+          "asset_value": "44",
+          "asset_type": "服务器",
+          "business_system": "业务支撑系统",
+          "network_domain": "子网A"
+        },
+        {
+          "owner": "张香芹",
+          "asset_name": "业务资产4",
+          "ip": "10.24.100.13",
+          "asset_value": "47",
+          "asset_type": "服务器",
+          "business_system": "业务支撑系统",
+          "network_domain": "子网A"
+        },
+        {
+          "owner": "张语山",
+          "asset_name": "业务资产5",
+          "ip": "10.243.124.27",
+          "asset_value": "50",
+          "asset_type": "服务器",
+          "business_system": "业务支撑系统",
+          "network_domain": "子网A"
+        },
+        {
+          "owner": "张真如",
+          "asset_name": "业务资产6",
+          "ip": "10.30.9.220",
+          "asset_value": "53",
+          "asset_type": "服务器",
+          "business_system": "业务支撑系统",
+          "network_domain": "子网A"
+        },
+        {
+          "owner": "张琰琬",
+          "asset_name": "业务资产7",
+          "ip": "10.30.9.221",
+          "asset_value": "56",
+          "asset_type": "网络流量分析",
+          "business_system": "业务支撑系统",
+          "network_domain": "子网A"
+        },
+        {
+          "owner": "张驰颖",
+          "asset_name": "业务资产8",
+          "ip": "10.30.9.222",
+          "asset_value": "59",
+          "asset_type": "网络流量分析",
+          "business_system": "业务支撑系统",
+          "network_domain": "子网A"
+        },
+        {
+          "owner": "张向松",
+          "asset_name": "业务资产9",
+          "ip": "10.30.9.223",
+          "asset_value": "62",
+          "asset_type": "网络流量分析",
+          "business_system": "业务支撑系统",
+          "network_domain": "子网A"
+        }
+      ],
+      "total": 10,
+      "first": 1,
+      "prePage": 1,
+      "nextPage": 1,
+      "totalPages": 1,
+      "orderBySetted": false,
+      "hasNext": false,
+      "hasPre": false
+    },
+    "message": null,
+    "errorCode": null
+  }

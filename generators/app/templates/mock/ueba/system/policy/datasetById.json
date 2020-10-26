@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "content": {
+    "id": 214,
+    "name": "测试hlb1",
+    "conditionRelation": "[{\"condition\":\"&&\",\"value\":[],\"trims\":{\"kfunction\":[{\"field\":\"43\",\"condition\":168,\"unitData\":[{\"name\":\"s\"},{\"name\":\"m\"},{\"name\":\"h\"},{\"name\":\"d\"}],\"paramType\":[],\"param\":[],\"logic\":15,\"value\":\"2\",\"isUnit\":false}],\"kbaseline\":[],\"kroster\":[{\"field\":\"43\",\"condition\":14,\"param\":[6]}],\"kcompare\":[{\"field\":\"46\",\"condition\":15,\"paramType\":[{\"name\":\"string\"}],\"param\":[\"q\"]},{\"field\":\"43\",\"condition\":11,\"paramType\":[{\"name\":\"date\"}],\"param\":[1534780800000]}]}}]",
+    "dataSource": "CX201805300944363231001640486945034240",
+    "arithmeticalExpression": "operate_type_name==\\\"Login\\\"&&operate_result==\\\"Failed\\\""
+  },
+  "message": null,
+  "errorCode": null
+}

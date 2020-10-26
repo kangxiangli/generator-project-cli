@@ -1,0 +1,33 @@
+{
+  "status": "success",
+  "content": {
+    "total": 4,
+    "data": [
+      {
+        "userName": "xxx2e e e",
+        "eventCnt": 35,
+        "proportion": "61.00"
+      },
+      {
+        "userName": "xxx4e e e",
+        "eventCnt": 16,
+        "proportion": "28.00"
+      },
+      {
+        "userName": "xxx小明e e e",
+        "eventCnt": 4,
+        "proportion": "7.00"
+      },
+      {
+        "userName": "xxx小红e e e",
+        "eventCnt": 2,
+        "proportion": "3.00"
+      }
+    ],
+    "totalPage": 1,
+    "pageSize": 20,
+    "pageNum": 1
+  },
+  "message": null,
+  "errorCode": null
+}

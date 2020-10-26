@@ -1,0 +1,20 @@
+{
+  "status": "success",
+  "content": {
+    "total": 1,
+    "totalPage": 1,
+    "data": [
+      {
+        "subName": "1.0",
+        "key": "dyl_1009_74",
+        "value": 35,
+        "subKey": "1.0",
+        "name": "dyl_1009_74"
+      }
+    ],
+    "pageSize": 20,
+    "pageNum": 1
+  },
+  "message": null,
+  "errorCode": null
+}

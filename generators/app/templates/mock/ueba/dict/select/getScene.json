@@ -1,0 +1,67 @@
+{
+  "status": "success",
+  "content": [
+    {
+      "id": "D5001",
+      "name": "密码登录场景",
+      "parentCategoryId": "C0005",
+      "comment": null,
+      "createUser": null,
+      "createTime": null,
+      "updateUser": null,
+      "updateTime": null
+    },
+    {
+      "id": "D5002",
+      "name": "注册场景",
+      "parentCategoryId": "C0005",
+      "comment": null,
+      "createUser": null,
+      "createTime": null,
+      "updateUser": null,
+      "updateTime": null
+    },
+    {
+      "id": "D5003",
+      "name": "账号是否存在验证场景",
+      "parentCategoryId": "C0005",
+      "comment": null,
+      "createUser": null,
+      "createTime": null,
+      "updateUser": null,
+      "updateTime": null
+    },
+    {
+      "id": "D5004",
+      "name": "支付场景",
+      "parentCategoryId": "C0005",
+      "comment": null,
+      "createUser": null,
+      "createTime": null,
+      "updateUser": null,
+      "updateTime": null
+    },
+    {
+      "id": "D5005",
+      "name": "领券场景",
+      "parentCategoryId": "C0005",
+      "comment": null,
+      "createUser": null,
+      "createTime": null,
+      "updateUser": null,
+      "updateTime": null
+    },
+    {
+      "id": "D5006",
+      "name": "活动场景",
+      "parentCategoryId": "C0005",
+      "comment": null,
+      "createUser": null,
+      "createTime": null,
+      "updateUser": null,
+      "updateTime": null
+    }
+  ],
+  "message": "获取字典成功",
+  "errorCode": null
+}

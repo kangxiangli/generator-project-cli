@@ -1,0 +1,34 @@
+{
+    "status": "success",
+    "content": [
+        {
+            "id": 1,
+            "workerHostName": "idss-01",
+            "workerIp": "192.168.0.128",
+            "workType": "collect",
+            "activity": true,
+            "createTime": 1550200338000,
+            "updateTime": 1551775021000
+        },
+        {
+            "id": 2,
+            "workerHostName": "idss-02",
+            "workerIp": "192.168.0.129",
+            "workType": "collect",
+            "activity": true,
+            "createTime": 1550200341000,
+            "updateTime": 1551775009000
+        },
+        {
+            "id": 3,
+            "workerHostName": "idss-03",
+            "workerIp": "192.168.0.130",
+            "workType": "collect",
+            "activity": true,
+            "createTime": 1550200344000,
+            "updateTime": 1551774992000
+        }
+    ],
+    "message": null,
+    "errorCode": null
+}

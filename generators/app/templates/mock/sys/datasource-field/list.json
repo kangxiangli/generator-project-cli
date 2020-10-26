@@ -1,0 +1,34 @@
+{
+  "errorCode" : "000000",
+  "message" : "服务执行成功",
+  "content" : {
+    "data" : [  {
+      "computeTypes" : "none",
+      "dspOrder" : "1",
+      "isCommonText" : "否",
+      "groupId" : null,
+      "updateTime" : "2019-03-25 00:00:00",
+      "canGroupText" : "是",
+      "operatorsRefer" : "input-str",
+      "type" : "string",
+      "canGroup" : "1",
+      "delFlag" : "0",
+      "individualValue" : "/IDS/Network",
+      "updateId" : "1",
+      "serialVersionUID" : 1,
+      "dictionary" : "",
+      "individualDatasourceId" : "1",
+      "field" : "app_version",
+      "createTime" : "2019-03-21 00:00:00",
+      "formatUnit" : null,
+      "createId" : "1",
+      "typeText" : "字符串",
+      "name" : "APP程序版本信息",
+      "isCommon" : "0",
+      "id" : "164",
+      "formatStyle" : null
+    } ],
+    "total" : 358
+  },
+  "status" : "success"
+}

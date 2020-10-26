@@ -1,0 +1,37 @@
+{
+  "status": "success",
+  "content": [
+    {
+      "id": "D1101",
+      "name": "IP类",
+      "parentCategoryId": "C0011",
+      "comment": "IP",
+      "createUser": null,
+      "createTime": null,
+      "updateUser": null,
+      "updateTime": null
+    },
+    {
+      "id": "D1102",
+      "name": "数值类",
+      "parentCategoryId": "C0011",
+      "comment": "NUMBER",
+      "createUser": null,
+      "createTime": null,
+      "updateUser": null,
+      "updateTime": null
+    },
+    {
+      "id": "D1103",
+      "name": "字符类",
+      "parentCategoryId": "C0011",
+      "comment": "STRING",
+      "createUser": null,
+      "createTime": null,
+      "updateUser": null,
+      "updateTime": null
+    }
+  ],
+  "message": "获取字典成功",
+  "errorCode": null
+}

@@ -1,0 +1,29 @@
+{
+  "status": "success",
+  "message": null,
+  "errorCode": null,
+  "content": {
+    "userId": "4",
+    "userName": "LkXdp5UBfII2DylBCiZ8VA==",
+    "realName": "jinq",
+    "code": null,
+    "sex": "女",
+    "telephone": null,
+    "email": "wb8WMusT//FvgIBgSdmP0g==",
+    "leader": null,
+    "periodFrom": "2018-05-22",
+    "periodTo": "2018-11-01",
+    "status": "锁定",
+    "loginVoucher": null,
+    "deptId": null,
+    "deptName": null,
+    "roleId": "r1",
+    "roleName": "管理员",
+    "roleIdList": [
+        "r1"
+    ],
+    "roleNameList": [
+        "管理员"
+    ]
+  }
+}

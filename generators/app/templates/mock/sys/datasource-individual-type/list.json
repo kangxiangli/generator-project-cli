@@ -1,0 +1,40 @@
+{
+    "errorCode": "000000",
+    "message": "服务执行成功",
+    "content": {
+        "data": [
+            {
+                "id": "100037",
+                "datasourceId": "334199804685062144",
+                "individualValue": "123",
+                "individualLogName": "a1",
+                "individualEqptName": "",
+                "individualDescName": "",
+                "topic": null,
+                "delFlag": "0",
+                "updateId": "333813463363227648",
+                "updateTime": "2019-09-18 15:42:14",
+                "createId": "333813463363227648",
+                "createTime": "2019-09-18 15:42:14",
+                "datasourceName": "0918新增数据源mysql01"
+            },
+            {
+                "id": "100036",
+                "datasourceId": "1",
+                "individualValue": "/WebIntegrity",
+                "individualLogName": "网页防篡改/防挂马日志",
+                "individualEqptName": "网页防篡改设备",
+                "individualDescName": "网页防篡改",
+                "topic": "WebIntegrity",
+                "delFlag": "0",
+                "updateId": "1",
+                "updateTime": "2019-08-19 16:14:57",
+                "createId": "1",
+                "createTime": "2019-05-05 15:34:56",
+                "datasourceName": "原始日志数据源"
+            }
+        ],
+        "total": 37
+    },
+    "status": "success"
+}

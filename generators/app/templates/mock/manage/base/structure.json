@@ -1,0 +1,112 @@
+{
+  "status": "success",
+  "message": "查询成功",
+  "content": {
+    "data": [
+      {
+        "type": "1",
+        "label": "北京研发",
+        "count": 4,
+        "children": [
+          {
+            "type": "2",
+            "label": "研发",
+            "count": 1,
+            "children": [
+              {
+                "id": 1,
+                "type": "2",
+                "label": "liuhao",
+                "remark": "coding"
+              }
+            ]
+          },
+          {
+            "type": "3",
+            "label": "pmo",
+            "count": 0
+          },
+          {
+            "type": "1",
+            "label": "测试",
+            "count": 1,
+            "children": [
+              {
+                "id": 9,
+                "type": "2",
+                "label": "faery**&",
+                "remark": null
+              }
+            ]
+          },
+          {
+            "id": 25,
+            "type": "2",
+            "label": "aaaaaa",
+            "remark": "coding"
+          },
+          {
+            "id": 4,
+            "type": "2",
+            "label": "zhangrb",
+            "remark": "coding"
+          }
+        ]
+      },
+      {
+        "type": "1",
+        "label": "运维",
+        "count": 0
+      },
+      {
+        "type": "1",
+        "label": "11111",
+        "count": 0,
+        "children": [
+          {
+            "type": "1",
+            "label": "2222",
+            "count": 0
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "label": "未分配",
+        "count": 5,
+        "children": [
+          {
+            "id": 2,
+            "type": "2",
+            "label": "guot",
+            "remark": null
+          },
+          {
+            "id": 22,
+            "type": "2",
+            "label": "lgtest",
+            "remark": null
+          },
+          {
+            "id": 26,
+            "type": "2",
+            "label": "sdfewewr",
+            "remark": null
+          },
+          {
+            "id": 24,
+            "type": "2",
+            "label": "sdfsdfsf",
+            "remark": null
+          },
+          {
+            "id": 6,
+            "type": "2",
+            "label": "快乐仙子@gaoyifang",
+            "remark": null
+          }
+        ]
+      }
+    ]
+  }
+}

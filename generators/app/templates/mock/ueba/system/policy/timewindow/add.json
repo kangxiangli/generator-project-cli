@@ -1,0 +1,19 @@
+{
+  "status": "success",
+  "content": {
+    "id": 2094,
+    "strategyId": 625,
+    "timeFlag": 2,
+    "startTime": 1535524181945,
+    "endTime": 1535610581945,
+    "timeInterval": 1,
+    "timeUnit": "d",
+    "window": 1,
+    "windowType": "s",
+    "step": 1,
+    "stepType": "s",
+    "confidenceInterval": null
+  },
+  "message": "添加成功",
+  "errorCode": null
+}

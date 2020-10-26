@@ -1,0 +1,19 @@
+{
+  "status": "success",
+  "content": {
+    "id": 429,
+    "filterAgg": [
+      {
+        "dataCollection1": 229,
+        "dataCollection2": 0,
+        "keyBy1": "74"
+      }
+    ],
+    "filterRule": {
+      "rules": "[{\"dId\":229,\"name\":\"wtj0828\",\"condition\":\"&&\",\"fileds\":[{\"key\":1535610800516,\"keyBy\":\"94\",\"group\":[]}]}]"
+    },
+    "strategyId": 625
+  },
+  "message": "添加筛选器成功",
+  "errorCode": null
+}

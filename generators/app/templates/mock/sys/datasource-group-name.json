@@ -1,0 +1,20 @@
+{
+  "errorCode": "000000",
+  "message": "服务执行成功",
+  "content": [{
+    "id": "1",
+    "name": "原始日志共通字段组",
+    "createId": "1",
+    "createTime": "2019-03-25 10:18:37",
+    "updateId": "1",
+    "updateTime": "2019-03-25 10:18:40"
+  }, {
+    "id": "2",
+    "name": "测试用",
+    "createId": "1",
+    "createTime": "2019-03-25 16:45:47",
+    "updateId": "1",
+    "updateTime": "2019-03-25 16:45:50"
+  }],
+  "status": "success"
+}

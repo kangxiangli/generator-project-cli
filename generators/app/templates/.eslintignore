@@ -1,0 +1,13 @@
+dist/
+mock/
+build/
+config/
+output.js
+node_modules/
+src/assets/icons/
+src/assets/images/
+src/fusion-utils
+src/fusion-charts
+src/fusion-components
+src/custom/utils/logic/parser/
+src/custom/components/flowgrid/flowgrid.js

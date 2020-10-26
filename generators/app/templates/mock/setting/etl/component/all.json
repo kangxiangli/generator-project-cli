@@ -1,0 +1,11 @@
+{
+    "status": "success",
+    "content": [
+        {
+            "clusterName": "idss-es",
+            "clusterUrl": "192.168.0.128:9300,192.168.0.129:9300,192.168.0.130:9300"
+        }
+    ],
+    "message": null,
+    "errorCode": null
+}

@@ -1,0 +1,15 @@
+{
+  "errorCode": "000000",
+  "message": "服务执行成功",
+  "content": {
+    "sysDepartId": "259845098248998912",
+    "parentId": "root",
+    "departName": "虚拟部",
+    "departDesc": "针对于系统开发测试过程中使用的专属虚拟部门",
+    "enable": true,
+    "updateTime": "2019-02-25 10:58:29",
+    "createTime": "2019-02-25 10:58:29",
+    "children": []
+  },
+  "status": "success"
+}

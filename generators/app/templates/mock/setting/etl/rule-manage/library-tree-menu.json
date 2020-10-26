@@ -1,0 +1,721 @@
+{
+    "status": "success",
+    "content": [
+        {
+            "label": "资产类型",
+            "enName": "root",
+            "id": "root",
+            "type": "root",
+            "level": null,
+            "children": [
+                {
+                    "label": "主机操作系统",
+                    "enName": "oper_system",
+                    "id": "idss100001",
+                    "type": "device_type",
+                    "level": 2,
+                    "children": [
+                        {
+                            "label": "Linux及其变种",
+                            "enName": "linux",
+                            "id": "idss100002",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "Microsoft Windows",
+                            "enName": "Windows",
+                            "id": "idss100003",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "IBM AIX ",
+                            "enName": "aix",
+                            "id": "idss100004",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "HP-UX ",
+                            "enName": "ux",
+                            "id": "idss100005",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "SUN Solaris",
+                            "enName": "Solaris",
+                            "id": "idss100006",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "中标麒麟",
+                            "enName": "kylin",
+                            "id": "idss100007",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "其他",
+                            "enName": "other",
+                            "id": "idss100099",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "label": "安全设备",
+                    "enName": "security_device",
+                    "id": "idss200001",
+                    "type": "device_type",
+                    "level": 2,
+                    "children": [
+                        {
+                            "label": "防火墙 /UTM/USG ",
+                            "enName": "firewall",
+                            "id": "idss200002",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "WAF",
+                            "enName": "WAF",
+                            "id": "idss200003",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "VPN",
+                            "enName": "VPN",
+                            "id": "idss200004",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "网闸",
+                            "enName": "gateway",
+                            "id": "idss200005",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "APT",
+                            "enName": "APT",
+                            "id": "idss200006",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "数据库审计",
+                            "enName": "database_audit",
+                            "id": "idss200007",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "堡垒机",
+                            "enName": "fortress",
+                            "id": "idss200008",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "日志审计",
+                            "enName": "log_audit",
+                            "id": "idss200009",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "IDS/IPS/IDP",
+                            "enName": "IDS/IPS/IDP",
+                            "id": "idss200010",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "抗DDOS",
+                            "enName": "DDOS",
+                            "id": "idss200011",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "流量检测",
+                            "enName": "traffic monitoring",
+                            "id": "idss200012",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "网页防篡改",
+                            "enName": "Tamper-resistant",
+                            "id": "idss200013",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "防病毒",
+                            "enName": "antivirus",
+                            "id": "idss200014",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "终端安全",
+                            "enName": "Terminal_security",
+                            "id": "idss200015",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "DLP",
+                            "enName": "DLP",
+                            "id": "idss200016",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "反垃圾邮件网管",
+                            "enName": "Anti_spam",
+                            "id": "idss200017",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "TDA",
+                            "enName": "TDA",
+                            "id": "idss200018",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "蜜罐",
+                            "enName": "Honeypot",
+                            "id": "idss200019",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "身份认证",
+                            "enName": "identity_authentication",
+                            "id": "idss200020",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "准入",
+                            "enName": "admittance",
+                            "id": "idss200021",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "漏洞扫描",
+                            "enName": "Vulnerability_scanning",
+                            "id": "idss200022",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "其他",
+                            "enName": "other",
+                            "id": "idss200099",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "label": "网络设备",
+                    "enName": "network_device",
+                    "id": "idss300001",
+                    "type": "device_type",
+                    "level": 2,
+                    "children": [
+                        {
+                            "label": "交换机",
+                            "enName": "Switch",
+                            "id": "idss300002",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "路由器",
+                            "enName": "router",
+                            "id": "idss300003",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "负载均衡",
+                            "enName": "load_banlance",
+                            "id": "idss300004",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "网管系统",
+                            "enName": "bomc",
+                            "id": "idss300005",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "打印机",
+                            "enName": "printer",
+                            "id": "idss300006",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "SNMP Trap",
+                            "enName": "SNMP_Trap",
+                            "id": "idss300007",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "Flow类",
+                            "enName": "flow",
+                            "id": "idss300008",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "其他",
+                            "enName": "other",
+                            "id": "idss300099",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "label": "中间件",
+                    "enName": "middleware",
+                    "id": "idss400001",
+                    "type": "device_type",
+                    "level": 2,
+                    "children": [
+                        {
+                            "label": "apache",
+                            "enName": "apache",
+                            "id": "idss400002",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "iis",
+                            "enName": "iis",
+                            "id": "idss400003",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "weblogic",
+                            "enName": "weblogic",
+                            "id": "idss400004",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "websphere",
+                            "enName": "websphere",
+                            "id": "idss400005",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "jboss",
+                            "enName": "jboss",
+                            "id": "idss400006",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "tomcat",
+                            "enName": "tomcat",
+                            "id": "idss400007",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "nginx",
+                            "enName": "nginx",
+                            "id": "idss400008",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "其他",
+                            "enName": "other",
+                            "id": "idss400099",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "label": "数据库",
+                    "enName": "databases",
+                    "id": "idss500001",
+                    "type": "device_type",
+                    "level": 2,
+                    "children": [
+                        {
+                            "label": "mysql",
+                            "enName": "mysql",
+                            "id": "idss500002",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "db2",
+                            "enName": "db2",
+                            "id": "idss500003",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "sqlserver",
+                            "enName": "sqlserver",
+                            "id": "idss500004",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "informix",
+                            "enName": "informix",
+                            "id": "idss500005",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "达梦",
+                            "enName": "dermal",
+                            "id": "idss500006",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "HBase",
+                            "enName": "HBase",
+                            "id": "idss500007",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "PostgreSql",
+                            "enName": "PostgreSql",
+                            "id": "idss500008",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "MongoDB",
+                            "enName": "MongoDB",
+                            "id": "idss500009",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "oracle",
+                            "enName": "oracle",
+                            "id": "idss500010",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "其他",
+                            "enName": "other",
+                            "id": "idss500099",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "label": "存储设备",
+                    "enName": "storage_device",
+                    "id": "idss600001",
+                    "type": "device_type",
+                    "level": 2,
+                    "children": [
+                        {
+                            "label": "EMC",
+                            "enName": "EMC",
+                            "id": "idss600002",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "Netapp",
+                            "enName": "Netapp",
+                            "id": "idss600003",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "HP",
+                            "enName": "HP",
+                            "id": "idss600004",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "IBM",
+                            "enName": "IBM",
+                            "id": "idss600005",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "VERITA",
+                            "enName": "VERITA",
+                            "id": "idss600006",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "其他",
+                            "enName": "other",
+                            "id": "idss600099",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "label": "虚拟化设备",
+                    "enName": "Virtualization_devices",
+                    "id": "idss700001",
+                    "type": "device_type",
+                    "level": 2,
+                    "children": [
+                        {
+                            "label": "KVM",
+                            "enName": "KVM",
+                            "id": "idss700002",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "Xen",
+                            "enName": "Xen",
+                            "id": "idss700003",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "ESXi",
+                            "enName": "ESXi",
+                            "id": "idss700004",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "Hyper-V",
+                            "enName": "Hyper-V",
+                            "id": "idss700005",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "Xenserver",
+                            "enName": "Xenserver",
+                            "id": "idss700006",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "其他",
+                            "enName": "other",
+                            "id": "idss700099",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "label": "物理环境",
+                    "enName": "physical_environment",
+                    "id": "idss800001",
+                    "type": "device_type",
+                    "level": 2,
+                    "children": [
+                        {
+                            "label": "安防",
+                            "enName": "Security",
+                            "id": "idss800002",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "环境",
+                            "enName": "Environmental",
+                            "id": "idss800003",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "其他",
+                            "enName": "other",
+                            "id": "idss800099",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "label": "应用系统",
+                    "enName": "application_system",
+                    "id": "idss900001",
+                    "type": "device_type",
+                    "level": 2,
+                    "children": [
+                        {
+                            "label": "邮件",
+                            "enName": "email",
+                            "id": "idss900002",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "OA",
+                            "enName": "OA",
+                            "id": "idss900003",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "4A",
+                            "enName": "4A",
+                            "id": "idss900004",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "SMP",
+                            "enName": "SMP",
+                            "id": "idss900005",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "手机令牌",
+                            "enName": "Mobile_token",
+                            "id": "idss900006",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "SSO",
+                            "enName": "SSO",
+                            "id": "idss900007",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        },
+                        {
+                            "label": "其他",
+                            "enName": "other",
+                            "id": "idss900099",
+                            "type": "device_type",
+                            "level": 3,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "label": "其他设备",
+                    "enName": "Other_equipment",
+                    "id": "idss999999",
+                    "type": "device_type",
+                    "level": 2,
+                    "children": []
+                }
+            ]
+        }
+    ],
+    "message": null,
+    "errorCode": null
+}

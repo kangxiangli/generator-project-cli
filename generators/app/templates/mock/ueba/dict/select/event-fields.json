@@ -1,0 +1,382 @@
+{
+  "status": "success",
+  "content": [
+    {
+      "comment": "日志编号",
+      "name": "id",
+      "id": "851"
+    },
+    {
+      "comment": "威胁等级",
+      "name": "severity",
+      "id": "852"
+    },
+    {
+      "comment": "日志发生时间",
+      "name": "create_time",
+      "id": "853"
+    },
+    {
+      "comment": "来源IP地址资产名",
+      "name": "src_asset_name",
+      "id": "854"
+    },
+    {
+      "comment": "来源IP地址资产类型",
+      "name": "src_asset_type",
+      "id": "855"
+    },
+    {
+      "comment": "来源IP地址资产价值",
+      "name": "src_asset_value",
+      "id": "856"
+    },
+    {
+      "comment": "来源IP地址业务系统",
+      "name": "src_business_system",
+      "id": "857"
+    },
+    {
+      "comment": "来源IP地址所属市",
+      "name": "src_city",
+      "id": "858"
+    },
+    {
+      "comment": "来源IP地址所属国家",
+      "name": "src_country",
+      "id": "859"
+    },
+    {
+      "comment": "来源IP地址",
+      "name": "src_ip",
+      "id": "860"
+    },
+    {
+      "comment": "来源IP地址网络域",
+      "name": "src_network_domain",
+      "id": "861"
+    },
+    {
+      "comment": "来源IP地址资产责任人",
+      "name": "src_owner",
+      "id": "862"
+    },
+    {
+      "comment": "来源IP地址端口",
+      "name": "src_port",
+      "id": "863"
+    },
+    {
+      "comment": "来源IP地址所属省份",
+      "name": "src_province",
+      "id": "864"
+    },
+    {
+      "comment": "目的IP地址资产名",
+      "name": "dst_asset_name",
+      "id": "865"
+    },
+    {
+      "comment": "目的IP地址资产类型",
+      "name": "dst_asset_type",
+      "id": "866"
+    },
+    {
+      "comment": "目的IP地址资产价值",
+      "name": "dst_asset_value",
+      "id": "867"
+    },
+    {
+      "comment": "目的IP地址业务系统",
+      "name": "dst_business_system",
+      "id": "868"
+    },
+    {
+      "comment": "目的IP地址所属市",
+      "name": "dst_city",
+      "id": "869"
+    },
+    {
+      "comment": "目的IP地址所属国家",
+      "name": "dst_country",
+      "id": "870"
+    },
+    {
+      "comment": "目的IP地址",
+      "name": "dst_ip",
+      "id": "871"
+    },
+    {
+      "comment": "目的IP地址网络域",
+      "name": "dst_network_domain",
+      "id": "872"
+    },
+    {
+      "comment": "目的IP地址资产责任人",
+      "name": "dst_owner",
+      "id": "873"
+    },
+    {
+      "comment": "目的IP地址端口",
+      "name": "dst_port",
+      "id": "874"
+    },
+    {
+      "comment": "目的IP地址所属省份",
+      "name": "dst_province",
+      "id": "875"
+    },
+    {
+      "comment": "协议",
+      "name": "protocol",
+      "id": "876"
+    },
+    {
+      "comment": "用户名称",
+      "name": "username",
+      "id": "877"
+    },
+    {
+      "comment": "事件名称",
+      "name": "event_name",
+      "id": "878"
+    },
+    {
+      "comment": "事件行为分类",
+      "name": "event_behavior_type",
+      "id": "879"
+    },
+    {
+      "comment": "事件技术分类",
+      "name": "event_technique_type",
+      "id": "880"
+    },
+    {
+      "comment": "事件来源",
+      "name": "event_model_source",
+      "id": "881"
+    },
+    {
+      "comment": "规则名称",
+      "name": "rule_name",
+      "id": "882"
+    },
+    {
+      "comment": "原始日志条数",
+      "name": "event_nums",
+      "id": "883"
+    },
+    {
+      "comment": "原始日志首次时间",
+      "name": "alarm_first_time",
+      "id": "884"
+    },
+    {
+      "comment": "原始日志最后时间",
+      "name": "alarm_last_time",
+      "id": "885"
+    },
+    {
+      "comment": "原始日志的ID",
+      "name": "org_log_id",
+      "id": "886"
+    },
+    {
+      "comment": "处置状态",
+      "name": "warn_status",
+      "id": "887"
+    },
+    {
+      "comment": "事件详细描述",
+      "name": "event_description",
+      "id": "888"
+    },
+    {
+      "comment": "url",
+      "name": "url",
+      "id": "889"
+    },
+    {
+      "comment": "domain",
+      "name": "domain",
+      "id": "890"
+    },
+    {
+      "comment": "cookie",
+      "name": "cookie",
+      "id": "891"
+    },
+    {
+      "comment": "关注点",
+      "name": "focus_point",
+      "id": "892"
+    },
+    {
+      "comment": "关注内容",
+      "name": "focus_content",
+      "id": "893"
+    },
+    {
+      "comment": "工单号",
+      "name": "ticket_id",
+      "id": "894"
+    },
+    {
+      "comment": "处置时间",
+      "name": "process_time",
+      "id": "895"
+    },
+    {
+      "comment": "处置方式",
+      "name": "process_type",
+      "id": "896"
+    },
+    {
+      "comment": "标签",
+      "name": "tag",
+      "id": "897"
+    },
+    {
+      "comment": "事件设备类型",
+      "name": "event_device_type",
+      "id": "898"
+    },
+    {
+      "comment": "风险类型",
+      "name": "risk_type",
+      "id": "899"
+    },
+    {
+      "comment": "风险分值",
+      "name": "risk_score",
+      "id": "900"
+    },
+    {
+      "comment": "系统名称",
+      "name": "system",
+      "id": "901"
+    },
+    {
+      "comment": "事件渠道",
+      "name": "event_channel",
+      "id": "902"
+    },
+    {
+      "comment": "Openid",
+      "name": "openid",
+      "id": "903"
+    },
+    {
+      "comment": "设备ID",
+      "name": "device_fingerprint_id",
+      "id": "904"
+    },
+    {
+      "comment": "浏览器指纹",
+      "name": "browser_fingerprint_id",
+      "id": "905"
+    },
+    {
+      "comment": "Cookieid",
+      "name": "cookieid",
+      "id": "906"
+    },
+    {
+      "comment": "风险说明",
+      "name": "risk_explain",
+      "id": "907"
+    },
+    {
+      "comment": "事件类型",
+      "name": "event_type",
+      "id": "908"
+    },
+    {
+      "comment": "情报ID",
+      "name": "intelligence_id",
+      "id": "909"
+    },
+    {
+      "comment": "情报类型",
+      "name": "intelligence_type",
+      "id": "910"
+    },
+    {
+      "comment": "内部事件",
+      "name": "internal_event",
+      "id": "911"
+    },
+    {
+      "comment": "已读/未读",
+      "name": "is_read",
+      "id": "912"
+    },
+    {
+      "comment": "DDOS攻击类型",
+      "name": "ddos_att_type",
+      "id": "913"
+    },
+    {
+      "comment": "DDOS攻击流量总值",
+      "name": "ddos_total_flow",
+      "id": "914"
+    },
+    {
+      "comment": "DDOS攻击流量峰值",
+      "name": "ddos_peak_flow",
+      "id": "915"
+    },
+    {
+      "comment": "业务异常流量事件类型",
+      "name": "biz_event_type",
+      "id": "916"
+    },
+    {
+      "comment": "业务异常上行流量",
+      "name": "biz_up_flow",
+      "id": "917"
+    },
+    {
+      "comment": "业务异常下行流量",
+      "name": "biz_down_flow",
+      "id": "918"
+    },
+    {
+      "comment": "业务异常当前流量",
+      "name": "biz_now_flow",
+      "id": "919"
+    },
+    {
+      "comment": "业务异常当前流量基线值",
+      "name": "biz_now_base_flow",
+      "id": "920"
+    },
+    {
+      "comment": "业务异常总流量基线值",
+      "name": "biz_total_base_flow",
+      "id": "921"
+    },
+    {
+      "comment": "厂商",
+      "name": "vendor",
+      "id": "922"
+    },
+    {
+      "comment": "来源IP地址资产所属部门名称",
+      "name": "src_asset_dept",
+      "id": "923"
+    },
+    {
+      "comment": "目的IP地址资产所属部门名称",
+      "name": "dst_asset_dept",
+      "id": "924"
+    },
+    {
+      "comment": "设备IP地址资产所属部门名称",
+      "name": "eqpt_asset_dept",
+      "id": "925"
+    }
+  ],
+  "message": "获取字典成功",
+  "errorCode": null
+}

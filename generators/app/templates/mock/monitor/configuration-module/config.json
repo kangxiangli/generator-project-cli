@@ -1,0 +1,15 @@
+{
+  "status": "success",
+  "content": {
+    "module": "flume",
+    "ips": "10.10.10.13,10.10.10.14",
+    "cpuOperator": 3,
+    "cpuVal": 61,
+    "cpuFlg": 0,
+    "memOperator": 1,
+    "memVal": 41,
+    "memFlg": 1,
+    "processFlg": 1,
+    "showFlg": 0
+  }
+}

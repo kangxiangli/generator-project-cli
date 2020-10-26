@@ -1,0 +1,42 @@
+{
+  "status": "success",
+  "content": [
+    {
+      "value": [
+        {
+          "riskTypeName": "撞库",
+          "count": 3,
+          "riskTypeId": 21
+        }
+      ],
+      "name": "密码登录场景"
+    },
+    {
+      "value": [
+        {
+          "riskTypeName": "批量注册",
+          "count": 3,
+          "riskTypeId": 25
+        },
+        {
+          "riskTypeName": "机器行为",
+          "count": 1,
+          "riskTypeId": 26
+        }
+      ],
+      "name": "注册场景"
+    },
+    {
+      "value": [
+        {
+          "riskTypeName": "日志风险字段",
+          "count": 1,
+          "riskTypeId": 683
+        }
+      ],
+      "name": "其他"
+    }
+  ],
+  "message": null,
+  "errorCode": null
+}

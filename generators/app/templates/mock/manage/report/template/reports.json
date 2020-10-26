@@ -1,0 +1,46 @@
+{
+  "status": "success",
+  "content": [
+    {
+      "key": "1",
+      "name": "安全事件报表",
+      "children": [
+        {
+          "key": "2",
+          "name": "安全事件月报表v1232323232323232"
+        }
+      ]
+    },
+    {
+      "key": "3",
+      "name": "威胁分析报表",
+      "children": [
+        {
+          "key": "4",
+          "name": "威胁分析报表v1"
+        }, {
+          "key": "5",
+          "name": "威胁分析报表v1"
+        }
+      ]
+    },
+    {
+      "key": "6",
+      "name": "补丁 XX报表",
+      "children": [
+        {
+          "key": "7",
+          "name": "XX报表v1"
+        }, {
+          "key": "8",
+          "name": "XX报表v1"
+        }
+      ]
+    },
+    {
+      "key": "9",
+      "name": "Threat XX报表",
+      "children": []
+    }
+  ]
+}

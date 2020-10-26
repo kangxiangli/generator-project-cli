@@ -1,0 +1,211 @@
+{
+  "status": "success",
+  "content": [
+    {
+      "id": 5,
+      "name": "ip黑名单",
+      "listId": "48,31,62,68,74,84",
+      "createUser": "admin",
+      "createTime": 1526035775000,
+      "updateUser": "admin",
+      "updateTime": 1531454109000,
+      "dspMap": {
+        "createTime": 1526035775000,
+        "name": "ip黑名单",
+        "updateUser": "admin",
+        "createUser": "admin",
+        "updateTime": 1531454109000,
+        "id": 5
+      }
+    },
+    {
+      "id": 6,
+      "name": "ip白名单",
+      "listId": "48,57,31,51,66,68,73,79",
+      "createUser": "admin",
+      "createTime": 1526036089000,
+      "updateUser": "admin",
+      "updateTime": 1530849238000,
+      "dspMap": {
+        "createTime": 1526036089000,
+        "name": "ip白名单",
+        "updateUser": "admin",
+        "createUser": "admin",
+        "updateTime": 1530849238000,
+        "id": 6
+      }
+    },
+    {
+      "id": 7,
+      "name": "用户白名单",
+      "listId": "31,56,62,66,73",
+      "createUser": "admin",
+      "createTime": 1527478825000,
+      "updateUser": "admin",
+      "updateTime": 1530849246000,
+      "dspMap": {
+        "createTime": 1527478825000,
+        "name": "用户白名单",
+        "updateUser": "admin",
+        "createUser": "admin",
+        "updateTime": 1530849246000,
+        "id": 7
+      }
+    },
+    {
+      "id": 8,
+      "name": "用户黑名单",
+      "listId": "56,57,58,70,83,85,86,87,88,89,90",
+      "createUser": "admin",
+      "createTime": 1527478993000,
+      "updateUser": "admin",
+      "updateTime": 1531468757000,
+      "dspMap": {
+        "createTime": 1527478993000,
+        "name": "用户黑名单",
+        "updateUser": "admin",
+        "createUser": "admin",
+        "updateTime": 1531468757000,
+        "id": 8
+      }
+    },
+    {
+      "id": 9,
+      "name": "sendSize",
+      "listId": "56",
+      "createUser": "admin",
+      "createTime": 1527498570000,
+      "updateUser": "admin",
+      "updateTime": 1530849238000,
+      "dspMap": {
+        "createTime": 1527498570000,
+        "name": "sendSize",
+        "updateUser": "admin",
+        "createUser": "admin",
+        "updateTime": 1530849238000,
+        "id": 9
+      }
+    },
+    {
+      "id": 10,
+      "name": "堡垒机IP",
+      "listId": null,
+      "createUser": "admin",
+      "createTime": 1527754840000,
+      "updateUser": "admin",
+      "updateTime": 1527754840000,
+      "dspMap": {
+        "createTime": 1527754840000,
+        "name": "堡垒机IP",
+        "updateUser": "admin",
+        "createUser": "admin",
+        "updateTime": 1527754840000,
+        "id": 10
+      }
+    },
+    {
+      "id": 11,
+      "name": "运维帐号",
+      "listId": null,
+      "createUser": "admin",
+      "createTime": 1527760261000,
+      "updateUser": "admin",
+      "updateTime": 1527760261000,
+      "dspMap": {
+        "createTime": 1527760261000,
+        "name": "运维帐号",
+        "updateUser": "admin",
+        "createUser": "admin",
+        "updateTime": 1527760261000,
+        "id": 11
+      }
+    },
+    {
+      "id": 12,
+      "name": "TD数据库",
+      "listId": null,
+      "createUser": "admin",
+      "createTime": 1528354617000,
+      "updateUser": "admin",
+      "updateTime": 1528354617000,
+      "dspMap": {
+        "createTime": 1528354617000,
+        "name": "TD数据库",
+        "updateUser": "admin",
+        "createUser": "admin",
+        "updateTime": 1528354617000,
+        "id": 12
+      }
+    },
+    {
+      "id": 13,
+      "name": "IP区间",
+      "listId": "63,64,65",
+      "createUser": "admin",
+      "createTime": 1530692787000,
+      "updateUser": "admin",
+      "updateTime": 1538382399000,
+      "dspMap": {
+        "createTime": 1530692787000,
+        "name": "IP区间",
+        "updateUser": "admin",
+        "createUser": "admin",
+        "updateTime": 1538382399000,
+        "id": 13
+      }
+    },
+    {
+      "id": 15,
+      "name": "子网",
+      "listId": "80",
+      "createUser": "admin",
+      "createTime": 1530787580000,
+      "updateUser": "admin",
+      "updateTime": 1530787593000,
+      "dspMap": {
+        "createTime": 1530787580000,
+        "name": "子网",
+        "updateUser": "admin",
+        "createUser": "admin",
+        "updateTime": 1530787593000,
+        "id": 15
+      }
+    },
+    {
+      "id": 16,
+      "name": "数值",
+      "listId": "81",
+      "createUser": "admin",
+      "createTime": 1530848508000,
+      "updateUser": "admin",
+      "updateTime": 1530848523000,
+      "dspMap": {
+        "createTime": 1530848508000,
+        "name": "数值",
+        "updateUser": "admin",
+        "createUser": "admin",
+        "updateTime": 1530848523000,
+        "id": 16
+      }
+    },
+    {
+      "id": 17,
+      "name": "字符",
+      "listId": "82",
+      "createUser": "admin",
+      "createTime": 1530849390000,
+      "updateUser": "admin",
+      "updateTime": 1530849403000,
+      "dspMap": {
+        "createTime": 1530849390000,
+        "name": "字符",
+        "updateUser": "admin",
+        "createUser": "admin",
+        "updateTime": 1530849403000,
+        "id": 17
+      }
+    }
+  ],
+  "message": "获取名单库标签列表成功",
+  "errorCode": null
+}

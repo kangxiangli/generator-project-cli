@@ -1,0 +1,708 @@
+{
+  "errorCode" : "000000",
+  "message" : "服务执行成功",
+  "content" : {
+    "routers" : [ {
+      "name" : "situation",
+      "children" : [ {
+        "name" : "situation-synthetical-safety",
+        "children" : [ ],
+        "sysModulesId" : "258894358017871872",
+        "meta" : {
+          "title" : "综合安全态势"
+        },
+        "order" : 1
+      }, {
+        "name" : "situation-imp-biz-sys",
+        "children" : [ ],
+        "sysModulesId" : "258894491245744128",
+        "meta" : {
+          "title" : "重要业务系统态势"
+        },
+        "order" : 2
+      }, {
+        "name" : "situation-attack-portrait",
+        "children" : [ ],
+        "sysModulesId" : "258894571805741056",
+        "meta" : {
+          "title" : "攻击画像"
+        },
+        "order" : 3
+      }, {
+        "name" : "situation-report",
+        "children" : [ ],
+        "sysModulesId" : "258894698024931328",
+        "meta" : {
+          "title" : "安全态势报告"
+        },
+        "order" : 4
+      }, {
+        "name" : "situation-big-screen",
+        "children" : [ {
+          "name" : "situation-big-screen",
+          "children" : [ ],
+          "sysModulesId" : "258899785791180800",
+          "meta" : {
+            "title" : "总览"
+          },
+          "order" : 1
+        } ],
+        "sysModulesId" : "258895072240734208",
+        "meta" : {
+          "title" : "安全态势大屏展示"
+        },
+        "order" : 5
+      }, {
+        "name" : "insight",
+        "children" : [ {
+          "name" : "idss-insight-dashboard",
+          "children" : [ ],
+          "sysModulesId" : "258900259537817600",
+          "meta" : {
+            "title" : "自定义仪表盘"
+          },
+          "order" : 1
+        }, {
+          "name" : "idss-insight-component-group",
+          "children" : [ ],
+          "sysModulesId" : "258900347089719296",
+          "meta" : {
+            "title" : "自定义组件组"
+          },
+          "order" : 2
+        }, {
+          "name" : "idss-insight-component-config-add",
+          "children" : [ ],
+          "sysModulesId" : "258900428559880192",
+          "meta" : {
+            "title" : "自定义组件添加"
+          },
+          "order" : 3
+        }, {
+          "name" : "idss-insight-component-config-edit",
+          "children" : [ ],
+          "sysModulesId" : "258900512513069056",
+          "meta" : {
+            "title" : "自定义组件编辑"
+          },
+          "order" : 4
+        }, {
+          "name" : "idss-insight-task-config",
+          "children" : [ ],
+          "sysModulesId" : "258900605341405184",
+          "meta" : {
+            "title" : "组件任务管理"
+          },
+          "order" : 5
+        }, {
+          "name" : "idss-insight-linkage",
+          "children" : [ ],
+          "sysModulesId" : "258900693396623360",
+          "meta" : {
+            "title" : "联动配置"
+          },
+          "order" : 6
+        }, {
+          "name" : "idss-insight-data-import",
+          "children" : [ ],
+          "sysModulesId" : "258900766897606656",
+          "meta" : {
+            "title" : "数据导入"
+          },
+          "order" : 7
+        } ],
+        "sysModulesId" : "258895186820730880",
+        "meta" : {
+          "title" : "仪表盘"
+        },
+        "order" : 6
+      } ],
+      "sysModulesId" : "258891691862396928",
+      "meta" : {
+        "title" : "态势"
+      },
+      "order" : 1
+    }, {
+      "name" : "event",
+      "children" : [ {
+        "name" : "event-monitor",
+        "children" : [ ],
+        "sysModulesId" : "258896522446508032",
+        "meta" : {
+          "title" : "事件监控"
+        },
+        "order" : 1
+      }, {
+        "name" : "event-event-board",
+        "children" : [ ],
+        "sysModulesId" : "258896616038207488",
+        "meta" : {
+          "title" : "事件看板"
+        },
+        "order" : 2
+      }, {
+        "name" : "event-ip-board",
+        "children" : [ ],
+        "sysModulesId" : "258896707729887232",
+        "meta" : {
+          "title" : "ip看板"
+        },
+        "order" : 3
+      }, {
+        "name" : "event-domain-board",
+        "children" : [ ],
+        "sysModulesId" : "258896798997942272",
+        "meta" : {
+          "title" : "域名看板"
+        },
+        "order" : 4
+      } ],
+      "sysModulesId" : "258892107740221440",
+      "meta" : {
+        "title" : "事件"
+      },
+      "order" : 2
+    }, {
+      "name" : "analysis",
+      "children" : [ {
+        "name" : "analysis-search",
+        "children" : [ ],
+        "sysModulesId" : "258897105937108992",
+        "meta" : {
+          "title" : "全文检索"
+        },
+        "order" : 1
+      }, {
+        "name" : "analysis-event-source",
+        "children" : [ {
+          "name" : "analysis-event-source-threaten",
+          "children" : [ ],
+          "sysModulesId" : "258901059660025856",
+          "meta" : {
+            "title" : "威胁溯源"
+          },
+          "order" : 1
+        }, {
+          "name" : "analysis-event-source-add",
+          "children" : [ ],
+          "sysModulesId" : "258901258532950016",
+          "meta" : {
+            "title" : "新建威胁溯源"
+          },
+          "order" : 2
+        }, {
+          "name" : "analysis-event-source-search",
+          "children" : [ ],
+          "sysModulesId" : "258901327705411584",
+          "meta" : {
+            "title" : "溯源结果查看"
+          },
+          "order" : 3
+        } ],
+        "sysModulesId" : "258897275374407680",
+        "meta" : {
+          "title" : "威胁溯源分析"
+        },
+        "order" : 2
+      }, {
+        "name" : "analysis-model",
+        "children" : [ {
+          "name" : "analysis-model-webshell",
+          "children" : [ ],
+          "sysModulesId" : "258901489450356736",
+          "meta" : {
+            "title" : "WEBSHELL 检测模型"
+          },
+          "order" : 1
+        }, {
+          "name" : "analysis-model-abnormal-user",
+          "children" : [ ],
+          "sysModulesId" : "258901572820537344",
+          "meta" : {
+            "title" : "WEB 异常用户检测模型"
+          },
+          "order" : 2
+        } ],
+        "sysModulesId" : "258897391896367104",
+        "meta" : {
+          "title" : "模型分析"
+        },
+        "order" : 3
+      }, {
+        "name" : "analysis-threat",
+        "children" : [ ],
+        "sysModulesId" : "258897481130184704",
+        "meta" : {
+          "title" : "威胁情报分析"
+        },
+        "order" : 4
+      }, {
+        "name" : "analysis-warning",
+        "children" : [ ],
+        "sysModulesId" : "258897567922917376",
+        "meta" : {
+          "title" : "安全态势预警"
+        },
+        "order" : 5
+      } ],
+      "sysModulesId" : "258893001533820928",
+      "meta" : {
+        "title" : "分析"
+      },
+      "order" : 3
+    }, {
+      "name" : "probe",
+      "children" : [ {
+        "name" : "probe-manage",
+        "children" : [ ],
+        "sysModulesId" : "258897801860222976",
+        "meta" : {
+          "title" : "探针管理"
+        },
+        "order" : 1
+      } ],
+      "sysModulesId" : "258893103526711296",
+      "meta" : {
+        "title" : "探针管理"
+      },
+      "order" : 4
+    }, {
+      "name" : "operation",
+      "children" : [ {
+        "name" : "operation-asset",
+        "children" : [ {
+          "name" : "operation-asset-manage",
+          "children" : [ ],
+          "sysModulesId" : "261301269283606528",
+          "meta" : {
+            "title" : "内部资产管理"
+          },
+          "order" : 1
+        }, {
+          "name" : "operation-asset-manage-details",
+          "children" : [ ],
+          "sysModulesId" : "261301364964069376",
+          "meta" : {
+            "title" : "资产详情"
+          },
+          "order" : 2
+        }, {
+          "name" : "operation-asset-assess",
+          "children" : [ ],
+          "sysModulesId" : "261301484757585920",
+          "meta" : {
+            "title" : "资产稽核"
+          },
+          "order" : 3
+        }, {
+          "name" : "operation-asset-ip-report",
+          "children" : [ ],
+          "sysModulesId" : "261301585693511680",
+          "meta" : {
+            "title" : "资产生命周期报告"
+          },
+          "order" : 4
+        }, {
+          "name" : "operation-asset-oa-report",
+          "children" : [ ],
+          "sysModulesId" : "261301866321809408",
+          "meta" : {
+            "title" : "资产生命周期报告"
+          },
+          "order" : 5
+        } ],
+        "sysModulesId" : "261300669129035776",
+        "meta" : {
+          "title" : "资产管理"
+        },
+        "order" : 1
+      }, {
+        "name" : "event-classification-management",
+        "children" : [ ],
+        "sysModulesId" : "2613007796522404805",
+        "meta" : {
+          "title" : "事件分类管理"
+        },
+        "order" : 2
+      },  {
+        "name" : "operation-name-list",
+        "children" : [ ],
+        "sysModulesId" : "2613007734522404805",
+        "meta" : {
+          "title" : "名单管理"
+        },
+        "order" : 2
+      }, {
+        "name": "operation-leak-management",
+        "children": [],
+        "sysModulesId": "261300712353149090",
+        "meta": {
+          "title": "漏洞管理"
+        }
+      },{
+        "name" : "interface-setup-management",
+        "children" : [ ],
+        "sysModulesId" : "261300712353140480",
+        "meta" : {
+          "title" : "接口设置管理"
+        },
+        "order" : 1
+      }, {
+        "name" : "interface-setup-component",
+        "children" : [ ],
+        "sysModulesId" : "261300779653190880",
+        "meta" : {
+          "title" : "接口设置"
+        },
+        "order" : 2
+      }, {
+        "name" : "operation-repository-manage",
+        "children" : [ ],
+        "sysModulesId" : "261300779653140480",
+        "meta" : {
+          "title" : "知识库管理"
+        },
+        "order" : 2
+      }, {
+        "name" : "operation-outside-information",
+        "children" : [ {
+          "name" : "operation-outside-information-manage",
+          "children" : [ ],
+          "sysModulesId" : "261303113200308224",
+          "meta" : {
+            "title" : "外部情报管理"
+          },
+          "order" : 1
+        } ],
+        "sysModulesId" : "261300883621548032",
+        "meta" : {
+          "title" : "外部情报管理"
+        },
+        "order" : 3
+      } ],
+      "sysModulesId" : "261300340798918656",
+      "meta" : {
+        "title" : "安全运维"
+      },
+      "order" : 5
+    }, {
+      "name" : "manage",
+      "children" : [ {
+        "name" : "manage-base",
+        "children" : [ {
+          "name" : "manage-base-user",
+          "children" : [ ],
+          "sysModulesId" : "258901777259302912",
+          "meta" : {
+            "title" : "用户管理"
+          },
+          "order" : 1
+        }, {
+          "name" : "manage-base-dept",
+          "children" : [ ],
+          "sysModulesId" : "258901839985119232",
+          "meta" : {
+            "title" : "部门管理"
+          },
+          "order" : 2
+        }, {
+          "name" : "manage-base-role",
+          "children" : [ ],
+          "sysModulesId" : "258902142176333824",
+          "meta" : {
+            "title" : "角色管理"
+          },
+          "order" : 3
+        }, {
+          "name" : "manage-base-org",
+          "children" : [ ],
+          "sysModulesId" : "258902221331238912",
+          "meta" : {
+            "title" : "组织架构"
+          },
+          "order" : 4
+        }, {
+          "name" : "manage-base-log",
+          "children" : [ ],
+          "sysModulesId" : "258902292886065152",
+          "meta" : {
+            "title" : "系统日志"
+          },
+          "order" : 5
+        }, {
+          "name" : "manage-base-data-dictionary",
+          "children" : [ ],
+          "sysModulesId" : "258902375966838784",
+          "meta" : {
+            "title" : "数据字典管理"
+          },
+          "order" : 6
+        }, {
+          "name" : "manage-base-sys",
+          "children" : [ ],
+          "sysModulesId" : "258902444048781312",
+          "meta" : {
+            "title" : "系统参数管理"
+          },
+          "order" : 7
+        } ],
+        "sysModulesId" : "258898055116492800",
+        "meta" : {
+          "title" : "基础管理"
+        },
+        "order" : 1
+      }, {
+        "name" : "report",
+        "children" : [ ],
+        "sysModulesId" : "258898239359684608",
+        "meta" : {
+          "title" : "报表管理"
+        },
+        "order" : 2
+      }, {
+        "name" : "manage-realtimestrategy",
+        "children" : [ {
+          "name" : "manage-realtimestrategy-correlative",
+          "children" : [ ],
+          "sysModulesId" : "258902719220289536",
+          "meta" : {
+            "title" : "关联策略"
+          },
+          "order" : 1
+        }, {
+          "name" : "manage-realtimestrategy-correlativeLook",
+          "children" : [ ],
+          "sysModulesId" : "258902791387484160",
+          "meta" : {
+            "title" : "策略详情"
+          },
+          "order" : 2
+        }, {
+          "name" : "manage-realtimestrategy-correlativeEdit",
+          "children" : [ ],
+          "sysModulesId" : "258902885595746304",
+          "meta" : {
+            "title" : "策略编辑"
+          },
+          "order" : 3
+        }, {
+          "name" : "manage-realtimestrategy-filterrule",
+          "children" : [ ],
+          "sysModulesId" : "258902961143549952",
+          "meta" : {
+            "title" : "筛选规则"
+          },
+          "order" : 4
+        } ],
+        "sysModulesId" : "258898311573016576",
+        "meta" : {
+          "title" : "实时策略管理"
+        },
+        "order" : 3
+      }, {
+        "name" : "manage-strategy",
+        "children" : [ {
+          "name" : "manage-strategy-manage",
+          "children" : [ ],
+          "sysModulesId" : "258903086322552832",
+          "meta" : {
+            "title" : "策略配置"
+          },
+          "order" : 1
+        }, {
+          "name" : "manage-strategy-manage-config-add",
+          "children" : [ ],
+          "sysModulesId" : "258903169571098624",
+          "meta" : {
+            "title" : "新建策略"
+          },
+          "order" : 2
+        }, {
+          "name" : "manage-strategy-manage-config-look",
+          "children" : [ ],
+          "sysModulesId" : "258903262881779712",
+          "meta" : {
+            "title" : "查看策略"
+          },
+          "order" : 3
+        }, {
+          "name" : "manage-strategy-manage-config-edit",
+          "children" : [ ],
+          "sysModulesId" : "258903335871057920",
+          "meta" : {
+            "title" : "编辑策略"
+          },
+          "order" : 4
+        }, {
+          "name" : "manage-strategy-field",
+          "children" : [ ],
+          "sysModulesId" : "258903418675007488",
+          "meta" : {
+            "title" : "字段管理"
+          },
+          "order" : 5
+        } ],
+        "sysModulesId" : "258898399397548032",
+        "meta" : {
+          "title" : "离线策略管理"
+        },
+        "order" : 4
+      }, {
+        "name" : "manage-data",
+        "children" : [ ],
+        "sysModulesId" : "258898491848396800",
+        "meta" : {
+          "title" : "数据"
+        },
+        "order" : 5
+      },{
+        "name" : "manage-monitor",
+        "children" : [ {
+          "name" : "manage-monitor-server",
+          "children" : [ ],
+          "sysModulesId" : "262741381502603264",
+          "meta" : {
+            "title" : "服务器监控"
+          },
+          "order" : 1
+        }, {
+          "name" : "manage-monitor-components",
+          "children" : [ ],
+          "sysModulesId" : "262741499081527296",
+          "meta" : {
+            "title" : "组件监控"
+          },
+          "order" : 2
+        }, {
+          "name" : "manage-monitor-quality",
+          "children" : [ ],
+          "sysModulesId" : "262741600193613824",
+          "meta" : {
+            "title" : "数据质量监控"
+          },
+          "order" : 3
+        }, {
+          "name" : "manage-monitor-collector",
+          "children" : [ ],
+          "sysModulesId" : "262741706905096192",
+          "meta" : {
+            "title" : "采集器数据量监控"
+          },
+          "order" : 4
+        }, {
+          "name" : "manage-monitor-terminal-log",
+          "children" : [ ],
+          "sysModulesId" : "262741806654033920",
+          "meta" : {
+            "title" : "终端发送日志量监控"
+          },
+          "order" : 5
+        }, {
+          "name" : "manage-monitor-setting",
+          "children" : [ ],
+          "sysModulesId" : "262741914464423936",
+          "meta" : {
+            "title" : "监控配置"
+          },
+          "order" : 6
+        } ],
+        "sysModulesId" : "262740919705538560",
+        "meta" : {
+          "title" : "健康监控"
+        },
+        "order" : 7
+      }, {
+        "name" : "manage-upgrade",
+        "children" : [ ],
+        "sysModulesId" : "258898691719565312",
+        "meta" : {
+          "title" : "系统升级"
+        },
+        "order" : 8
+      }, {
+        "name" : "manage-archive",
+        "children" : [ ],
+        "sysModulesId" : "258898761797996544",
+        "meta" : {
+          "title" : "系统归档"
+        },
+        "order" : 9
+      } ],
+      "sysModulesId" : "258893191703564288",
+      "meta" : {
+        "title" : "系统管理"
+      },
+      "order" : 6
+    }, {
+      "name" : "user",
+      "children" : [ {
+        "name" : "user-msg",
+        "children" : [ ],
+        "sysModulesId" : "258899001166925824",
+        "meta" : {
+          "title" : "消息中心"
+        },
+        "order" : 1
+      } ],
+      "sysModulesId" : "258893268417384448",
+      "meta" : {
+        "title" : "用户信息"
+      },
+      "order" : 7
+    }, {
+      "name" : "permission",
+      "children" : [ {
+        "name" : "permission-401",
+        "children" : [ ],
+        "sysModulesId" : "258899375936376832",
+        "meta" : {
+          "title" : "401"
+        },
+        "order" : 1
+      }, {
+        "name" : "permission-403",
+        "children" : [ ],
+        "sysModulesId" : "258899439664631808",
+        "meta" : {
+          "title" : "403"
+        },
+        "order" : 2
+      }, {
+        "name" : "permission-404",
+        "children" : [ ],
+        "sysModulesId" : "258899483700629504",
+        "meta" : {
+          "title" : "404"
+        },
+        "order" : 3
+      }, {
+        "name" : "permission-500",
+        "children" : [ ],
+        "sysModulesId" : "258899541548470272",
+        "meta" : {
+          "title" : "500"
+        },
+        "order" : 4
+      } ],
+      "sysModulesId" : "258893330048487424",
+      "meta" : {
+        "title" : "权限"
+      },
+      "order" : 8
+    } ],
+    "permission" : {
+      "idss-insight-linkage" : 15,
+      "idss-insight-data-import" : 15,
+      "idss-insight-task-config" : 15,
+      "manage-base-user" : 15,
+      "manage-base-dept" : 15,
+      "idss-insight-component-group" : 15,
+      "manage-base-org" : 15,
+      "idss-insight-dashboard" : 15,
+      "idss-insight-component-config-edit" : 15,
+      "manage-base-role" : 15,
+      "idss-insight-component-config-add" : 15
+    }
+  },
+  "status" : "success"
+}

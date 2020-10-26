@@ -1,0 +1,11 @@
+{
+  "status": "success",
+  "content": {
+    "id": 221,
+    "name": "11",
+    "conditionRelation": "{\"condition\":\"&&\",\"children\":[]}",
+    "dataSource": "CX201807271428332531022730441205092352"
+  },
+  "message": "添加成功",
+  "errorCode": null
+}

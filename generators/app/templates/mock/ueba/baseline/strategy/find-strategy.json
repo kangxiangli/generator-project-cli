@@ -1,0 +1,17 @@
+{
+  "status": "success",
+  "content": {
+    "paramType": [],
+    "field": "46",
+    "param": [],
+    "groupByFields": "94",
+    "function": "480",
+    "strategyId": 601,
+    "id": 10,
+    "time": "hour",
+    "operation": "+",
+    "value": "1"
+  },
+  "message": null,
+  "errorCode": null
+}

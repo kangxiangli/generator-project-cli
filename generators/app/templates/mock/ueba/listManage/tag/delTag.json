@@ -1,0 +1,6 @@
+{
+  "status": "error",
+  "content": null,
+  "message": "删除名单库标签失败, 该名单库下还有名单",
+  "errorCode": null
+}

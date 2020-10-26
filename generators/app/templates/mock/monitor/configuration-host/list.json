@@ -1,0 +1,29 @@
+{
+  "status": "success",
+  "content": {
+    "data": [
+      {
+        "id": 1,
+        "ip": "245.133.45.198",
+        "hostName": "test",
+        "use": "test",
+        "system": "window"
+      },
+      {
+        "id": 2,
+        "ip": "110.34.133.57",
+        "hostName": "test",
+        "use": "test",
+        "system": "mac"
+      },
+      {
+        "id": 3,
+        "ip": "173.190.238.56",
+        "hostName": "test",
+        "use": "test",
+        "system": "linux"
+      }
+    ],
+    "total": 3
+  }
+}

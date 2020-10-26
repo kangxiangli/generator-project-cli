@@ -1,0 +1,161 @@
+{
+  "status": "success",
+  "content": [
+    {
+      "id": 10,
+      "name": "基线10",
+      "frequency": "每周一次",
+      "primaryKey": null,
+      "description": null,
+      "status": 0,
+      "strategyId": 6,
+      "generatedDate": 1512456071000,
+      "createTime": null
+    },
+    {
+      "id": 11,
+      "name": "基线11",
+      "frequency": "每周一次",
+      "primaryKey": null,
+      "description": null,
+      "status": 0,
+      "strategyId": 4,
+      "generatedDate": 1512456071000,
+      "createTime": null
+    },
+    {
+      "id": 12,
+      "name": "基线11",
+      "frequency": "每天一次",
+      "primaryKey": null,
+      "description": null,
+      "status": 0,
+      "strategyId": 3,
+      "generatedDate": 1512456071000,
+      "createTime": null
+    },
+    {
+      "id": 13,
+      "name": "基线13",
+      "frequency": "每天一次",
+      "primaryKey": null,
+      "description": null,
+      "status": 0,
+      "strategyId": 2,
+      "generatedDate": 1512456071000,
+      "createTime": null
+    },
+    {
+      "id": 14,
+      "name": "基线14",
+      "frequency": "每天一次",
+      "primaryKey": null,
+      "description": null,
+      "status": 0,
+      "strategyId": 1,
+      "generatedDate": 1512456071000,
+      "createTime": null
+    },
+    {
+      "id": 15,
+      "name": "基线15",
+      "frequency": "每天一次",
+      "primaryKey": null,
+      "description": null,
+      "status": 0,
+      "strategyId": 0,
+      "generatedDate": 1512456071000,
+      "createTime": null
+    },
+    {
+      "id": 16,
+      "name": "基线16",
+      "frequency": "每天一次",
+      "primaryKey": null,
+      "description": null,
+      "status": 0,
+      "strategyId": 0,
+      "generatedDate": 1512456071000,
+      "createTime": null
+    },
+    {
+      "id": 17,
+      "name": "基线17",
+      "frequency": "每天一次",
+      "primaryKey": null,
+      "description": null,
+      "status": 0,
+      "strategyId": 0,
+      "generatedDate": 1512456071000,
+      "createTime": null
+    },
+    {
+      "id": 18,
+      "name": "基线18",
+      "frequency": "每天一次",
+      "primaryKey": null,
+      "description": null,
+      "status": 0,
+      "strategyId": 0,
+      "generatedDate": 1512456071000,
+      "createTime": null
+    },
+    {
+      "id": 19,
+      "name": "基线19",
+      "frequency": "每天一次",
+      "primaryKey": null,
+      "description": null,
+      "status": 0,
+      "strategyId": 0,
+      "generatedDate": 1512456071000,
+      "createTime": null
+    },
+    {
+      "id": 20,
+      "name": "基线20",
+      "frequency": "每天一次",
+      "primaryKey": null,
+      "description": null,
+      "status": 0,
+      "strategyId": 0,
+      "generatedDate": 1512456071000,
+      "createTime": null
+    },
+    {
+      "id": 21,
+      "name": "基线21",
+      "frequency": "每天一次",
+      "primaryKey": null,
+      "description": null,
+      "status": 0,
+      "strategyId": 0,
+      "generatedDate": 1512456071000,
+      "createTime": null
+    },
+    {
+      "id": 4,
+      "name": "基线4",
+      "frequency": "每天一次",
+      "primaryKey": null,
+      "description": null,
+      "status": 0,
+      "strategyId": 0,
+      "generatedDate": 1512456071000,
+      "createTime": null
+    },
+    {
+      "id": 5,
+      "name": "基线5",
+      "frequency": "每天一次",
+      "primaryKey": null,
+      "description": null,
+      "status": 0,
+      "strategyId": 0,
+      "generatedDate": 1512456071000,
+      "createTime": null
+    }
+  ],
+  "message": "查询成功",
+  "errorCode": null
+}

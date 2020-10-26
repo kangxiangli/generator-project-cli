@@ -1,0 +1,27 @@
+{
+  "status": "success",
+  "content": [
+    {
+      "id": "E1101",
+      "name": "ip情报表",
+      "parentCategoryId": "D1101",
+      "comment": "ti_ipaddr",
+      "createUser": "admin",
+      "createTime": 1534841244000,
+      "updateUser": "admin",
+      "updateTime": 1534841244000
+    },
+    {
+      "id": "E1104",
+      "name": "域名情报表",
+      "parentCategoryId": "D1104",
+      "comment": "ti_url",
+      "createUser": "admin",
+      "createTime": 1534841351000,
+      "updateUser": "admin",
+      "updateTime": 1534841351000
+    }
+  ],
+  "message": "获取外部情报表成功",
+  "errorCode": null
+}

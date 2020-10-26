@@ -1,0 +1,24 @@
+{
+  "status": "success",
+  "content": {
+    "id": 558,
+    "name": "string",
+    "description": "string",
+    "scene": "string",
+    "type": "string",
+    "riskType": 0,
+    "datasetOneId": 0,
+    "datasetTwoId": 0,
+    "timeWindowId": 0,
+    "filterId": 0,
+    "actionConfigId": 0,
+    "actionConditionId": 0,
+    "status": 0,
+    "jobId": "string",
+    "editStatus": 0,
+    "createTime": 1533803520933,
+    "createUser": "admin"
+  },
+  "message": null,
+  "errorCode": null
+}

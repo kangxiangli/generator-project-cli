@@ -1,0 +1,187 @@
+.idss-login {
+  --login-bg: linear-gradient(180deg, #434343, #333, #242424);
+  /* --login-bg: linear-gradient(90deg, var(--guan-7), var(--guan-4)); */
+  --login-loading-mask-bg: var(--color-bg-6);
+  /* --login-panel-bg: var(--light-gray-1-a90); */
+  --login-panel-bg: rgba(0, 0, 0, .1);
+  /* --login-panel-border: var(--color-line-default) solid var( --line-size-l); */
+  --login-panel-border: #424242 solid var( --line-size-l);
+  --login-panel-corner: var(--corner-m);
+
+
+  --login-panel-shadow: 0px 0px 10px var(--guan-6);
+  --login-panel-input-border: var(--color-line-default) solid var(--line-size-default);
+  --login-panel-input-border-focus: var(--color-font-6) solid var(--line-size-default);
+  --login-panel-input-color: var(--color-font-1);
+  --login-panel-input-prefix-bg: var(--guan-highlight-1);
+  --login-panel-input-prefix-color: var(--guan-highlight-7);
+  --login-panel-input-color-error: var(--color-font-7);
+  --login-panel-input-code-border: var(--guan-6) solid var(--line-size-default);
+
+  --login-panel-button-bg: linear-gradient(180deg, var(--guan-highlight-6), var(--guan-highlight-7));
+  --login-panel-button-bg-hover: linear-gradient(0deg, var(--guan-highlight-6), var(--guan-highlight-7));
+  --login-panel-button-color: var(--color-font-5);
+  --login-panel-button-text-shadow: 0px 1px 2px var(--guan-highlight-8);
+
+  --login-panel-title-color: var(--guan-highlight-7);
+  --login-panel-link-color: var(--color-font-2);
+  --login-panel-link-color-hover: var(--color-font-6);
+
+  height: 100%;
+  min-height: 700px;
+  background: var(--login-bg);
+
+  .idss-login-box {
+    width: 432px;
+    display: none;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--login-panel-bg);
+    border: var(--login-panel-border);
+    border-radius: var(--login-panel-corner);
+    padding: 50px 80px 6px;
+
+    &.is-active {
+      display: block;
+    }
+    .idss-login-title {
+      color: var(--login-panel-title-color);
+      padding: 10px 0 10px;
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    /* 表单样式控制 start */
+    >>> .idss-login-form {
+      position: relative;
+      .idss-login-code {
+        margin-right: 0;
+        .el-input-group__append {
+          width: 110px;
+          border: var(--login-panel-input-code-border);
+          border-left: 0;
+          height: 38px;
+          cursor: pointer;
+          padding: 0;
+          overflow: hidden;
+          background: var(--login-panel-input-prefix-bg);
+          span {
+            display: inline-block;
+            height: inherit;
+            width: inherit;
+            img {
+              color: var(--guan-highlight-8);
+              width: inherit;
+              height: 40px;
+              vertical-align: middle;
+              line-height: 40px;
+            }
+          }
+        }
+      }
+      .el-form-item {
+        margin-right: 0;
+        .el-input__inner {
+          height: 40px;
+          line-height: 40px;
+          border: var(--login-panel-input-border);
+          color: var(--login-panel-input-color);
+          padding-left: 45px;
+          &:focus {
+            border: var(--login-panel-input-border-focus);
+          }
+        }
+
+        .el-input__prefix {
+          left: 0;
+          width: 40px;
+          line-height: 38px;
+          height: 38px;
+          margin: 1px 0 1px 1px;
+          background-color: var(--login-panel-input-prefix-bg);
+          svg {
+            fill: var(--login-panel-input-prefix-color);
+          }
+        }
+        .el-form-item__error {
+          left: 45px;
+          padding-top: 1px;
+        }
+      }
+      .idss-login-link {
+        a {
+          color: var(--login-panel-link-color);
+          cursor: pointer;
+          &:hover {
+            color: var(--login-panel-link-color-hover);
+            text-decoration: underline;
+          }
+        }
+      }
+      
+      .login-button-container {
+        margin-top: 32px;
+      }
+      .login-button {
+        width: 100%;
+        height: 48px;
+        line-height: 48px;
+        padding: 0 16px;
+        border: none;
+        background: var(--login-panel-button-bg);
+        color: var(--login-panel-button-color);
+        cursor: pointer;
+        font-size: var(--font-size-3);
+        border-radius: var(--corner-m);
+        text-shadow: var(--login-panel-button-text-shadow);
+        &:hover{
+          background: var(--login-panel-button-bg-hover);
+        }
+      }
+      .idss-login--error {
+        position: absolute;
+        top: -30px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        height: 20px;
+        line-height: 20px;
+        color: var(--login-panel-input-color-error);
+      }
+      /* 表单样式控制 end */
+      .idss-svg-icon {
+        height: 20px;
+        width: 20px;
+        vertical-align: -0.5em;
+      }
+    }
+    
+    >>> .idss-login-form.password-reset {
+      .el-form-item.is-error {
+        margin-bottom: 28px;
+      }
+      .el-form-item {
+        .error-msg {
+          color: var(--color-font-7);
+          text-align: center;
+          font-size: var(--font-size-4);
+        }
+      }
+    }
+    /* loading 背景 start */
+    >>> .el-loading-mask {
+      background-color: var(--login-loading-mask-bg);
+      .el-loading-spinner {
+        .el-icon-loading {
+          font-size: 40px;
+        }
+        .el-loading-text {
+          font-size: var(--font-size-1);
+        }
+      }
+    }
+    /* loading 背景 end */
+  }
+}

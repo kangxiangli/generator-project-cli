@@ -1,0 +1,233 @@
+{
+  "status": "success",
+  "content": {
+    "total": 29,
+    "data": [
+      {
+        "id": 38,
+        "name": "AAAS",
+        "frequency": null,
+        "primaryKey": null,
+        "description": "AAA",
+        "status": false,
+        "strategyId": 602,
+        "generatedDate": null,
+        "createTime": 1534758341000
+      },
+      {
+        "id": 37,
+        "name": "基线测试hlb_v3",
+        "frequency": "每天一次",
+        "primaryKey": "用户名 周",
+        "description": "基线测试hlb",
+        "status": true,
+        "strategyId": 601,
+        "generatedDate": 1534759786000,
+        "createTime": 1534757449000
+      },
+      {
+        "id": 36,
+        "name": "test101",
+        "frequency": null,
+        "primaryKey": null,
+        "description": "test101",
+        "status": false,
+        "strategyId": 599,
+        "generatedDate": null,
+        "createTime": 1534489867000
+      },
+      {
+        "id": 35,
+        "name": "基线测试hlb_v2",
+        "frequency": "每小时一次",
+        "primaryKey": "用户名 周",
+        "description": "基线测试hlb",
+        "status": false,
+        "strategyId": 598,
+        "generatedDate": 1534757185000,
+        "createTime": 1534412187000
+      },
+      {
+        "id": 34,
+        "name": "ccc",
+        "frequency": null,
+        "primaryKey": null,
+        "description": "ccc",
+        "status": false,
+        "strategyId": 596,
+        "generatedDate": null,
+        "createTime": 1534404863000
+      },
+      {
+        "id": 33,
+        "name": "基线测试hlb",
+        "frequency": "",
+        "primaryKey": "用户名 周",
+        "description": "基线测试hlb",
+        "status": false,
+        "strategyId": 594,
+        "generatedDate": null,
+        "createTime": 1534400630000
+      },
+      {
+        "id": 32,
+        "name": "ok",
+        "frequency": "每小时一次",
+        "primaryKey": null,
+        "description": "ok",
+        "status": false,
+        "strategyId": 593,
+        "generatedDate": null,
+        "createTime": 1534391035000
+      },
+      {
+        "id": 31,
+        "name": "test`",
+        "frequency": null,
+        "primaryKey": null,
+        "description": "1",
+        "status": false,
+        "strategyId": 591,
+        "generatedDate": null,
+        "createTime": 1534384804000
+      },
+      {
+        "id": 30,
+        "name": "wlb_基线",
+        "frequency": "每小时一次",
+        "primaryKey": null,
+        "description": "qqqqqq",
+        "status": false,
+        "strategyId": 587,
+        "generatedDate": null,
+        "createTime": 1534311544000
+      },
+      {
+        "id": 28,
+        "name": "基线策略测试1(副本)",
+        "frequency": "每小时一次",
+        "primaryKey": "源IP,目的IP 周",
+        "description": "基线策略测试1",
+        "status": false,
+        "strategyId": 536,
+        "generatedDate": null,
+        "createTime": 1532920510000
+      },
+      {
+        "id": 22,
+        "name": "基线策略测试1",
+        "frequency": "每小时一次",
+        "primaryKey": "源IP,目的IP 周",
+        "description": "基线策略测试1",
+        "status": false,
+        "strategyId": 520,
+        "generatedDate": null,
+        "createTime": 1532586941000
+      },
+      {
+        "id": 21,
+        "name": "基线21",
+        "frequency": "每天一次",
+        "primaryKey": null,
+        "description": null,
+        "status": false,
+        "strategyId": 0,
+        "generatedDate": 1512456071000,
+        "createTime": null
+      },
+      {
+        "id": 20,
+        "name": "基线20",
+        "frequency": "每天一次",
+        "primaryKey": null,
+        "description": null,
+        "status": false,
+        "strategyId": 0,
+        "generatedDate": 1512456071000,
+        "createTime": null
+      },
+      {
+        "id": 19,
+        "name": "基线19",
+        "frequency": "每天一次",
+        "primaryKey": null,
+        "description": null,
+        "status": false,
+        "strategyId": 0,
+        "generatedDate": 1512456071000,
+        "createTime": null
+      },
+      {
+        "id": 18,
+        "name": "基线18",
+        "frequency": "每天一次",
+        "primaryKey": null,
+        "description": null,
+        "status": false,
+        "strategyId": 0,
+        "generatedDate": 1512456071000,
+        "createTime": null
+      },
+      {
+        "id": 17,
+        "name": "基线17",
+        "frequency": "每天一次",
+        "primaryKey": null,
+        "description": null,
+        "status": false,
+        "strategyId": 0,
+        "generatedDate": 1512456071000,
+        "createTime": null
+      },
+      {
+        "id": 16,
+        "name": "基线16",
+        "frequency": "每天一次",
+        "primaryKey": null,
+        "description": null,
+        "status": false,
+        "strategyId": 0,
+        "generatedDate": 1512456071000,
+        "createTime": null
+      },
+      {
+        "id": 15,
+        "name": "基线15",
+        "frequency": "每天一次",
+        "primaryKey": null,
+        "description": null,
+        "status": false,
+        "strategyId": 0,
+        "generatedDate": 1512456071000,
+        "createTime": null
+      },
+      {
+        "id": 14,
+        "name": "基线14",
+        "frequency": "每天一次",
+        "primaryKey": null,
+        "description": null,
+        "status": false,
+        "strategyId": 0,
+        "generatedDate": 1512456071000,
+        "createTime": null
+      },
+      {
+        "id": 13,
+        "name": "基线13",
+        "frequency": "每天一次",
+        "primaryKey": null,
+        "description": null,
+        "status": false,
+        "strategyId": 0,
+        "generatedDate": 1512456071000,
+        "createTime": null
+      }
+    ],
+    "totalPage": 2,
+    "pageSize": 20,
+    "pageNum": 1
+  },
+  "message": "查询成功",
+  "errorCode": null
+}

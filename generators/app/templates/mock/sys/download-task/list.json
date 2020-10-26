@@ -1,0 +1,227 @@
+{
+  "status": "success",
+  "content": {
+    "total": 22,
+    "data": [
+      {
+        "id": "1",
+        "taskName": "安全态势报告--asd",
+        "fileName": "安全态势报告_20190525145403.pdf",
+        "taskPeriod": "2019-05-01 00:00:00 ~ 2019-05-20 23:59:59",
+        "createDate": "2019-05-25 14:54:03",
+        "finishedTime": "",
+        "taskStatus": "2"
+      },
+      {
+        "id": "2",
+        "taskName": "安全态势报告--we",
+        "fileName": "安全事件导出_20190525141239.xlsx",
+        "taskFileDownloadUrl": "http://localhost:8088/api/system/temp/filedownload/安全事件导出_20190525141239.xlsx",
+        "taskPeriod": "2019-05-01 00:00:00 ~ 2019-05-20 23:59:59",
+        "createDate": "2019-05-25 14:12:39",
+        "finishedTime": "",
+        "taskStatus": "4"
+      },
+      {
+        "id": "3",
+        "taskName": "原始日志导出",
+        "fileName": "原始日志导出_20190525141127.xlsx",
+        "taskPeriod": "2019-05-01 00:00:00 ~ 2019-05-20 23:59:59",
+        "createDate": "2019-05-25 14:11:27",
+        "finishedTime": "2019-05-25 14:11:27",
+        "taskStatus": "2"
+      },
+      {
+        "id": "3",
+        "taskName": "原始日志导出",
+        "fileName": "原始日志导出_20190525141127.xlsx",
+        "taskPeriod": "2019-05-01 00:00:00 ~ 2019-05-20 23:59:59",
+        "createDate": "2019-05-25 14:11:27",
+        "finishedTime": "2019-05-25 14:11:27",
+        "taskStatus": "1"
+      },
+      {
+        "id": "3",
+        "taskName": "原始日志导出",
+        "fileName": "原始日志导出_20190525141127.xlsx",
+        "taskPeriod": "2019-05-01 00:00:00 ~ 2019-05-20 23:59:59",
+        "createDate": "2019-05-25 14:11:27",
+        "finishedTime": "2019-05-25 14:11:27",
+        "taskStatus": "3"
+      },
+      {
+        "id": "3",
+        "taskName": "原始日志导出",
+        "fileName": "原始日志导出_20190525141127.xlsx",
+        "taskPeriod": "2019-05-01 00:00:00 ~ 2019-05-20 23:59:59",
+        "createDate": "2019-05-25 14:11:27",
+        "finishedTime": "2019-05-25 14:11:27",
+        "taskStatus": "4"
+      },
+      {
+        "id": "3",
+        "taskName": "原始日志导出",
+        "fileName": "原始日志导出_20190525141127.xlsx",
+        "taskPeriod": "2019-05-01 00:00:00 ~ 2019-05-20 23:59:59",
+        "createDate": "2019-05-25 14:11:27",
+        "finishedTime": "2019-05-25 14:11:27",
+        "taskStatus": "3"
+      },
+      {
+        "id": "3",
+        "taskName": "原始日志导出",
+        "fileName": "原始日志导出_20190525141127.xlsx",
+        "taskPeriod": "2019-05-01 00:00:00 ~ 2019-05-20 23:59:59",
+        "createDate": "2019-05-25 14:11:27",
+        "finishedTime": "2019-05-25 14:11:27",
+        "taskStatus": "1"
+      },
+      {
+        "id": "3",
+        "taskName": "原始日志导出",
+        "fileName": "原始日志导出_20190525141127.xlsx",
+        "taskPeriod": "2019-05-01 00:00:00 ~ 2019-05-20 23:59:59",
+        "createDate": "2019-05-25 14:11:27",
+        "finishedTime": "2019-05-25 14:11:27",
+        "taskStatus": "3"
+      },
+      {
+        "id": "3",
+        "taskName": "原始日志导出",
+        "fileName": "原始日志导出_20190525141127.xlsx",
+        "taskPeriod": "2019-05-01 00:00:00 ~ 2019-05-20 23:59:59",
+        "createDate": "2019-05-25 14:11:27",
+        "finishedTime": "2019-05-25 14:11:27",
+        "taskStatus": "1"
+      },
+      {
+        "id": "3",
+        "taskName": "原始日志导出",
+        "fileName": "原始日志导出_20190525141127.xlsx",
+        "taskPeriod": "2019-05-01 00:00:00 ~ 2019-05-20 23:59:59",
+        "createDate": "2019-05-25 14:11:27",
+        "finishedTime": "2019-05-25 14:11:27",
+        "taskStatus": "3"
+      },
+      {
+        "id": "3",
+        "taskName": "原始日志导出",
+        "fileName": "原始日志导出_20190525141127.xlsx",
+        "taskPeriod": "2019-05-01 00:00:00 ~ 2019-05-20 23:59:59",
+        "createDate": "2019-05-25 14:11:27",
+        "finishedTime": "2019-05-25 14:11:27",
+        "taskStatus": "1"
+      },
+      {
+        "id": "3",
+        "taskName": "原始日志导出",
+        "fileName": "原始日志导出_20190525141127.xlsx",
+        "taskPeriod": "2019-05-01 00:00:00 ~ 2019-05-20 23:59:59",
+        "createDate": "2019-05-25 14:11:27",
+        "finishedTime": "2019-05-25 14:11:27",
+        "taskStatus": "3"
+      },
+      {
+        "id": "3",
+        "taskName": "原始日志导出",
+        "fileName": "原始日志导出_20190525141127.xlsx",
+        "taskPeriod": "2019-05-01 00:00:00 ~ 2019-05-20 23:59:59",
+        "createDate": "2019-05-25 14:11:27",
+        "finishedTime": "2019-05-25 14:11:27",
+        "taskStatus": "1"
+      },
+      {
+        "id": "3",
+        "taskName": "原始日志导出",
+        "fileName": "原始日志导出_20190525141127.xlsx",
+        "taskPeriod": "2019-05-01 00:00:00 ~ 2019-05-20 23:59:59",
+        "createDate": "2019-05-25 14:11:27",
+        "finishedTime": "2019-05-25 14:11:27",
+        "taskStatus": "3"
+      },
+      {
+        "id": "3",
+        "taskName": "原始日志导出",
+        "fileName": "原始日志导出_20190525141127.xlsx",
+        "taskPeriod": "2019-05-01 00:00:00 ~ 2019-05-20 23:59:59",
+        "createDate": "2019-05-25 14:11:27",
+        "finishedTime": "2019-05-25 14:11:27",
+        "taskStatus": "3"
+      },
+      {
+        "id": "3",
+        "taskName": "原始日志导出",
+        "fileName": "原始日志导出_20190525141127.xlsx",
+        "taskPeriod": "2019-05-01 00:00:00 ~ 2019-05-20 23:59:59",
+        "createDate": "2019-05-25 14:11:27",
+        "finishedTime": "2019-05-25 14:11:27",
+        "taskStatus": "1"
+      },
+      {
+        "id": "3",
+        "taskName": "原始日志导出",
+        "fileName": "原始日志导出_20190525141127.xlsx",
+        "taskPeriod": "2019-05-01 00:00:00 ~ 2019-05-20 23:59:59",
+        "createDate": "2019-05-25 14:11:27",
+        "finishedTime": "2019-05-25 14:11:27",
+        "taskStatus": "3"
+      },
+      {
+        "id": "3",
+        "taskName": "原始日志导出",
+        "fileName": "原始日志导出_20190525141127.xlsx",
+        "taskPeriod": "2019-05-01 00:00:00 ~ 2019-05-20 23:59:59",
+        "createDate": "2019-05-25 14:11:27",
+        "finishedTime": "2019-05-25 14:11:27",
+        "taskStatus": "1"
+      },
+      {
+        "id": "3",
+        "taskName": "原始日志导出",
+        "fileName": "原始日志导出_20190525141127.xlsx",
+        "taskPeriod": "2019-05-01 00:00:00 ~ 2019-05-20 23:59:59",
+        "createDate": "2019-05-25 14:11:27",
+        "finishedTime": "2019-05-25 14:11:27",
+        "taskStatus": "3"
+      },
+      {
+        "id": "3",
+        "taskName": "原始日志导出",
+        "fileName": "原始日志导出_20190525141127.xlsx",
+        "taskPeriod": "2019-05-01 00:00:00 ~ 2019-05-20 23:59:59",
+        "createDate": "2019-05-25 14:11:27",
+        "finishedTime": "2019-05-25 14:11:27",
+        "taskStatus": "1"
+      },
+      {
+        "id": "3",
+        "taskName": "原始日志导出",
+        "fileName": "原始日志导出_20190525141127.xlsx",
+        "taskPeriod": "2019-05-01 00:00:00 ~ 2019-05-20 23:59:59",
+        "createDate": "2019-05-25 14:11:27",
+        "finishedTime": "2019-05-25 14:11:27",
+        "taskStatus": "3"
+      },
+      {
+        "id": "3",
+        "taskName": "原始日志导出",
+        "fileName": "原始日志导出_20190525141127.xlsx",
+        "taskPeriod": "2019-05-01 00:00:00 ~ 2019-05-20 23:59:59",
+        "createDate": "2019-05-25 14:11:27",
+        "finishedTime": "2019-05-25 14:11:27",
+        "taskStatus": "1"
+      },
+      {
+        "id": "3",
+        "taskName": "原始日志导出",
+        "fileName": "原始日志导出_20190525141127.xlsx",
+        "taskPeriod": "2019-05-01 00:00:00 ~ 2019-05-20 23:59:59",
+        "createDate": "2019-05-25 14:11:27",
+        "finishedTime": "2019-05-25 14:11:27",
+        "taskStatus": "3"
+      }
+    ]
+  },
+  "message": null,
+  "errorCode": null
+}

@@ -1,0 +1,88 @@
+{
+  "status": "success",
+  "message": null,
+  "errorCode": null,
+  "content":  [{
+    "type": "0",
+    "deptId": "11",
+    "deptName": "北京研发",
+    "depth": 1,
+    "userCount": 4,
+    "children": [{
+      "type": "0",
+      "deptId": "22",
+      "deptName": "研发",
+      "userCount": 1,
+      "children": [{
+        "userId": 1,
+        "type": "1",
+        "userName": "liuhao"
+      }]
+    }, {
+      "type": "0",
+      "deptId": "33",
+      "deptName": "pmo",
+      "userCount": 0
+    }, {
+      "type": "0",
+      "deptId": "44",
+      "deptName": "测试",
+      "userCount": 1,
+      "children": [{
+        "userId": 9,
+        "type": "1",
+        "userName": "faery**&"
+      }]
+    }, {
+      "userId": 25,
+      "type": "1",
+      "userName": "aaaaaa"
+    }, {
+      "userId": 4,
+      "type": "1",
+      "userName": "zhangrb"
+    }]
+  }, {
+    "type": "0",
+    "deptId": "666",
+    "deptName": "运维",
+    "userCount": 0
+  }, {
+    "type": "0",
+    "deptId": "76",
+    "deptName": "11111",
+    "userCount": 0,
+    "children": [{
+      "type": "0",
+      "deptId": "88",
+      "deptName": "2222",
+      "userCount": 0
+    }]
+  }, {
+    "type": "0",
+    "deptId": "99",
+    "deptName": "未分配",
+    "userCount": 5,
+    "children": [{
+      "userId": 2,
+      "type": "1",
+      "userName": "guot"
+    }, {
+      "userId": 22,
+      "type": "1",
+      "userName": "lgtest"
+    }, {
+      "userId": 26,
+      "type": "1",
+      "userName": "sdfewewr"
+    }, {
+      "userId": 24,
+      "type": "1",
+      "userName": "sdfsdfsf"
+    }, {
+      "userId": 6,
+      "type": "1",
+      "userName": "快乐仙子@gaoyifang"
+    }]
+  }]
+}

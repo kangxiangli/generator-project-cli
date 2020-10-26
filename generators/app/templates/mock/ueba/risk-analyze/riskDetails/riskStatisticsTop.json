@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "content": {
+    "system": ["dyl_1009_74"],
+    "location": ["dyl_1009_74"],
+    "eventName": [
+      "dyl_1009_74"
+    ],
+    "department": ["dyl_1009_74"]
+  },
+  "message": null,
+  "errorCode": null
+}

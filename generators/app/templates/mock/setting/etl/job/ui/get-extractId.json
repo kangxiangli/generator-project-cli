@@ -1,0 +1,121 @@
+{
+  "status": "success",
+  "content": [
+    {
+      "id": 67,
+      "jobSerialNumber": "CX201904261747223641121712362831876096",
+      "extractName": "111",
+      "fieldName": "severity,create_time,eqpt_name,protocol,action_result,src_ip,src_port,dst_ip,dst_port,dst_interface,",
+      "extractData": "\\<(?<severity>\\d+)\\>(?<create_time>(\\d+-\\d+-\\d+\\s\\d+:\\d+:\\d+))\\s*(?<eqpt_name>[^\\s]*)\\s*:\\s*([^\\s]*):\\s*([^\\s]*)\\s*(?<protocol>[^\\s]*)\\s*([^\\s]*)\\s*(?<action_result>[^\\s]*)\\s*from\\s*(?<src_ip>[^\\:]*)/(?<src_port>\\d+)\\s*to\\s*(?<dst_ip>[^\\:]*)/(?<dst_port>\\d+)\\s*([^\\s]*)\\s*([^\\s]*)\\s*on\\s*interface\\s*(?<dst_interface>[^\\:]*).*",
+      "extractDataCatalog": "/IDS/Network",
+      "extractDataSample": "{\"severity\":\"162\",\"src_ip\":\"192.168.19.60\",\"src_port\":\"2228\",\"protocol\":\"TCP\",\"create_time\":\"2018-10-15 09:37:00\",\"eqpt_name\":\"SSCC-FWC-GSJY\",\"action_result\":\"denied\",\"dst_port\":\"139\",\"dst_interface\":\"Seg16\\\\n\\n\",\"dst_ip\":\"192.168.16.204\"}",
+      "extractType": "regex",
+      "oldContent": "<162>2018-10-15 09:37:00 SSCC-FWC-GSJY : %ASA-2-106001: Inbound TCP connection denied from 192.168.19.60/2228 to 192.168.16.204/139 flags SYN  on interface Seg16\\n\n",
+      "orderNum": 1,
+      "jsonRegexExtractList": null
+    },
+    {
+      "id": 68,
+      "jobSerialNumber": "CXTEST20180319115928956975582503580602368",
+      "extractName": "222",
+      "fieldName": "severity,create_time,eqpt_name,protocol,action_result,src_ip,src_port,dst_ip,dst_port,dst_interface,",
+      "extractData": "\\<(?<severity>\\d+)\\>(?<create_time>(\\d+-\\d+-\\d+\\s\\d+:\\d+:\\d+))\\s*(?<eqpt_name>[^\\s]*)\\s*:\\s*([^\\s]*):\\s*([^\\s]*)\\s*(?<protocol>[^\\s]*)\\s*([^\\s]*)\\s*(?<action_result>[^\\s]*)\\s*from\\s*(?<src_ip>[^\\:]*)/(?<src_port>\\d+)\\s*to\\s*(?<dst_ip>[^\\:]*)/(?<dst_port>\\d+)\\s*([^\\s]*)\\s*([^\\s]*)\\s*on\\s*interface\\s*(?<dst_interface>[^\\:]*).*",
+      "extractDataCatalog": "/IDS/Network/WAF",
+      "extractDataSample": "{\"severity\":\"162\",\"src_ip\":\"192.168.19.60\",\"src_port\":\"2228\",\"protocol\":\"TCP\",\"create_time\":\"2018-10-15 09:37:00\",\"eqpt_name\":\"SSCC-FWC-GSJY\",\"action_result\":\"denied\",\"dst_port\":\"139\",\"dst_interface\":\"Seg16\",\"dst_ip\":\"192.168.16.204\"}",
+      "extractType": "regex",
+      "oldContent": "<162>2018-10-15 09:37:00 SSCC-FWC-GSJY : %ASA-2-106001: Inbound TCP connection denied from 192.168.19.60/2228 to 192.168.16.204/139 flags SYN  on interface Seg16",
+      "orderNum": 1,
+      "jsonRegexExtractList": null
+    },
+    {
+      "id": 69,
+      "jobSerialNumber": "CXTEST20180319115928956975582503580602368",
+      "extractName": "333",
+      "fieldName": "measures->newMeasures,normalfields.logchecktime->newLogchecktime,dimensions.demo->newDemo",
+      "extractData": "",
+      "extractDataCatalog": "/IDS/Network",
+      "extractDataSample": "{\"newLogchecktime\":\"2017-11-29T10:59:42.090+08:00\",\"newDemo\":\"<162>2018-10-15 09:37:00 SSCC-FWC-GSJY : %ASA-2-106001: Inbound TCP connection denied from 192.168.19.60/2228 to 192.168.16.204/139 flags SYN  on interface Seg16\",\"newMeasures\":\"{}\"}",
+      "extractType": "jsonRegex",
+      "oldContent": "{\"measures\":{},\"offset\":\"0\",\"logTypeName\":\"vpn_syslog\",\"source\":\"SHZCTG-Array-VPN-A\",\"normalfields\":{\"logchecktime\":\"2017-11-29T10:59:42.090+08:00\",\"message\":\"SHZCTG-Array-VPN-A 2017-11-29 10:59:42 +0800 Informational local0 INFO    id=ArrayOS time=\\\"2017-11-29 10:59:42\\\" timezone=CST(+0800) fw=SHZCTG-Array-VPN-A pri=6 vpn=vpnfm88 user=gvpn287001 proto=ip src=113.116.59.142 sport=53896 dst=10.17.14.1 dport=443 type=vpn msg=\\\"VPN: A new VPN tunnel has been established successfully.\\\"\\u0000\"},\"timestamp\":\"2017-11-29T10:59:42.000+08:00\",\"dimensions\":{\"severity\":\"Informational\",\"appprogramname\":\"10.229.246.161_system\",\"hostname\":\"SHZCTG-Array-VPN-A\",\"appsystem\":\"network\",\"brand\":\"array\",\"demo\":\"<162>2018-10-15 09:37:00 SSCC-FWC-GSJY : %ASA-2-106001: Inbound TCP connection denied from 192.168.19.60/2228 to 192.168.16.204/139 flags SYN  on interface Seg16\"}}",
+      "orderNum": 1,
+      "jsonRegexExtractList": []
+    },
+    {
+      "id": 70,
+      "jobSerialNumber": "CXTEST20180319115928956975582503580602368",
+      "extractName": "444",
+      "fieldName": "measures->newMeasures,normalfields.logchecktime->newLogchecktime,dimensions.demo->newDemo",
+      "extractData": "",
+      "extractDataCatalog": "/IDS/Network",
+      "extractDataSample": "{\"newLogchecktime\":\"2017-11-29T10:59:42.090+08:00\",\"newDemo\":\"<162>2018-10-15 09:37:00 SSCC-FWC-GSJY : %ASA-2-106001: Inbound TCP connection denied from 192.168.19.60/2228 to 192.168.16.204/139 flags SYN  on interface Seg16\",\"newMeasures\":\"{}\"}",
+      "extractType": "jsonRegex",
+      "oldContent": "{\"measures\":{},\"offset\":\"0\",\"logTypeName\":\"vpn_syslog\",\"source\":\"SHZCTG-Array-VPN-A\",\"normalfields\":{\"logchecktime\":\"2017-11-29T10:59:42.090+08:00\",\"message\":\"SHZCTG-Array-VPN-A 2017-11-29 10:59:42 +0800 Informational local0 INFO    id=ArrayOS time=\\\"2017-11-29 10:59:42\\\" timezone=CST(+0800) fw=SHZCTG-Array-VPN-A pri=6 vpn=vpnfm88 user=gvpn287001 proto=ip src=113.116.59.142 sport=53896 dst=10.17.14.1 dport=443 type=vpn msg=\\\"VPN: A new VPN tunnel has been established successfully.\\\"\\u0000\"},\"timestamp\":\"2017-11-29T10:59:42.000+08:00\",\"dimensions\":{\"severity\":\"Informational\",\"appprogramname\":\"10.229.246.161_system\",\"hostname\":\"SHZCTG-Array-VPN-A\",\"appsystem\":\"network\",\"brand\":\"array\",\"demo\":\"<162>2018-10-15 09:37:00 SSCC-FWC-GSJY : %ASA-2-106001: Inbound TCP connection denied from 192.168.19.60/2228 to 192.168.16.204/139 flags SYN  on interface Seg16\"}}\n",
+      "orderNum": 1,
+      "jsonRegexExtractList": [
+        {
+          "id": 11,
+          "extractId": 70,
+          "parentField": "newDemo",
+          "fieldName": "severity,create_time,eqpt_name,protocol,action_result,src_ip,src_port,dst_ip,dst_port,dst_interface,",
+          "extractData": "\\<(?<severity>\\d+)\\>(?<create_time>(\\d+-\\d+-\\d+\\s\\d+:\\d+:\\d+))\\s*(?<eqpt_name>[^\\s]*)\\s*:\\s*([^\\s]*):\\s*([^\\s]*)\\s*(?<protocol>[^\\s]*)\\s*([^\\s]*)\\s*(?<action_result>[^\\s]*)\\s*from\\s*(?<src_ip>[^\\:]*)/(?<src_port>\\d+)\\s*to\\s*(?<dst_ip>[^\\:]*)/(?<dst_port>\\d+)\\s*([^\\s]*)\\s*([^\\s]*)\\s*on\\s*interface\\s*(?<dst_interface>[^\\:]*).*",
+          "extractDataSample": "{\"severity\":\"162\",\"src_ip\":\"192.168.19.60\",\"src_port\":\"2228\",\"protocol\":\"TCP\",\"create_time\":\"2018-10-15 09:37:00\",\"eqpt_name\":\"SSCC-FWC-GSJY\",\"action_result\":\"denied\",\"dst_port\":\"139\",\"dst_interface\":\"Seg16\",\"dst_ip\":\"192.168.16.204\"}",
+          "oldContent": "<162>2018-10-15 09:37:00 SSCC-FWC-GSJY : %ASA-2-106001: Inbound TCP connection denied from 192.168.19.60/2228 to 192.168.16.204/139 flags SYN  on interface Seg16"
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "jobSerialNumber": "CXTEST20180319115928956975582503580602368",
+      "extractName": "555",
+      "fieldName": "action->action,create_time->create_time,event_id->event_id,dst_ip->dst_ip",
+      "extractData": "",
+      "extractDataCatalog": "/IDS/Network",
+      "extractDataSample": "{\"event_id\":\"1384\",\"create_time\":\"1539667905000\",\"action\":\"认证失败\",\"dst_ip\":\"192.31.5.19\"}",
+      "extractType": "json",
+      "oldContent": "{\"action\":\"认证失败\",\"create_time\":\"1539667905000\",\"event_id\":\"1384\",\"dst_ip\":\"192.31.5.19\"}",
+      "orderNum": 1,
+      "jsonRegexExtractList": null
+    },
+    {
+      "id": 72,
+      "jobSerialNumber": "CXTEST20180319115928956975582503580602368",
+      "extractName": "666",
+      "fieldName": "action->action,create_time->create_time,event_id->event_id,dst_ip->dst_ip",
+      "extractData": "",
+      "extractDataCatalog": "/IDS/Network",
+      "extractDataSample": "{\"event_id\":\"1384\",\"create_time\":\"1539667905000\",\"action\":\"认证失败\",\"dst_ip\":\"192.31.5.19\"}",
+      "extractType": "json",
+      "oldContent": "{\"action\":\"认证失败\",\"create_time\":\"1539667905000\",\"event_id\":\"1384\",\"dst_ip\":\"192.31.5.19\"}\n",
+      "orderNum": 1,
+      "jsonRegexExtractList": null
+    },
+    {
+      "id": 73,
+      "jobSerialNumber": "CXTEST20180319115928956975582503580602368",
+      "extractName": "777",
+      "fieldName": "action->action,create_time->create_time,event_id->event_id,dst_ip->dst_ip",
+      "extractData": "",
+      "extractDataCatalog": "/IDS/Network",
+      "extractDataSample": "{\"event_id\":\"1384\",\"create_time\":\"1539667905000\",\"action\":\"认证失败\",\"dst_ip\":\"192.31.5.19\"}",
+      "extractType": "json",
+      "oldContent": "{\"action\":\"认证失败\",\"create_time\":\"1539667905000\",\"event_id\":\"1384\",\"dst_ip\":\"192.31.5.19\"}\n",
+      "orderNum": 1,
+      "jsonRegexExtractList": null
+    },
+    {
+      "id": 74,
+      "jobSerialNumber": "CXTEST20180319115928956975582503580602368",
+      "extractName": "888",
+      "fieldName": "action->action,create_time->create_time,event_id->event_id,dst_ip->dst_ip",
+      "extractData": "",
+      "extractDataCatalog": "/IDS/Network",
+      "extractDataSample": "{\"event_id\":\"1384\",\"create_time\":\"1539667905000\",\"action\":\"认证失败\",\"dst_ip\":\"192.31.5.19\"}",
+      "extractType": "json",
+      "oldContent": "{\"action\":\"认证失败\",\"create_time\":\"1539667905000\",\"event_id\":\"1384\",\"dst_ip\":\"192.31.5.19\"}\n",
+      "orderNum": 1,
+      "jsonRegexExtractList": null
+    }
+  ],
+  "message": null,
+  "errorCode": null
+}

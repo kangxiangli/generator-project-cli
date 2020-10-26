@@ -1,0 +1,87 @@
+{
+  "status": "success",
+  "content": [
+    {
+      "name": "Router",
+      "key": "Router",
+      "value": 3634
+    },
+    {
+      "name": "Switch",
+      "key": "Switch",
+      "value": 3516
+    },
+    {
+      "name": "Host",
+      "key": "Host",
+      "value": 3445
+    },
+    {
+      "name": "TOR",
+      "key": "TOR",
+      "value": 3421
+    },
+    {
+      "name": "TOR12",
+      "key": "TOR12",
+      "value": 3421
+    },
+    {
+      "name": "TOR10",
+      "key": "TOR10",
+      "value": 3421
+    },
+    {
+      "name": "TOR11",
+      "key": "TOR11",
+      "value": 3421
+    },
+    {
+      "name": "TOR9",
+      "key": "TOR9",
+      "value": 3421
+    },
+    {
+      "name": "TOR8",
+      "key": "TOR8",
+      "value": 3421
+    },
+    {
+      "name": "TOR7",
+      "key": "TOR7",
+      "value": 3421
+    },
+    {
+      "name": "TOR6",
+      "key": "TOR6",
+      "value": 3421
+    },
+    {
+      "name": "TOR5",
+      "key": "TOR5",
+      "value": 3421
+    },
+    {
+      "name": "TOR4",
+      "key": "TOR4",
+      "value": 3421
+    },
+    {
+      "name": "TOR1",
+      "key": "TOR1",
+      "value": 3421
+    },
+    {
+      "name": "TOR2",
+      "key": "TOR2",
+      "value": 3421
+    },
+    {
+      "name": "TOR3",
+      "key": "TOR3",
+      "value": 3421
+    }
+  ],
+  "message": null,
+  "errorCode": null
+}

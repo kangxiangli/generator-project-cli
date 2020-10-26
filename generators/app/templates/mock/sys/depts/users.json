@@ -1,0 +1,24 @@
+{
+  "status": "success",
+  "message": null,
+  "errorCode": null,
+  "content": [{
+    "deptId": "4",
+    "deptName": "部门2",
+    "parentDeptId": "",
+    "userCount": 0,
+    "type": "0",
+    "children": []
+  }, {
+    "deptId": null,
+    "deptName": "未分配",
+    "parentDeptId": null,
+    "type": "0",
+    "userCount": 1,
+    "children": [{
+      "userId": "eb8ab3a2dab74bafbb556397735cb934",
+      "userName": "liuh",
+      "type": "1"
+    }]
+  }]
+}

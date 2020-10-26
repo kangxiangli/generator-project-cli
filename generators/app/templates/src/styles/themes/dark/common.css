@@ -1,0 +1,27 @@
+/* :global(:root) 需要去掉 :global theme.var.css 才能使用变量【#929AA6】转换 rgba() 方法。 */
+[data-theme="dark"] {
+  /* 【系统主题色】
+  ----------------------------------------------------------------- */
+  @mixin themeColor guan, #60606D, true; /* 观安主题色【影响框架主题色】    【 主题_a 至 主题_f：#60606D  主题_g：#4A90E2 】*/ 
+  @mixin themeColor guan-highlight, #DF1722, true; /* Menu【菜单】高亮颜色【 主题_a：#EDCF62  主题_b：#1890FF  主题_c：#3077BC  主题_d：#4F82CE  主题_e：#1DAFDB  主题_f：#3AA1E0  主题_g：#4A90E2 】 */   
+  @mixin themeColor guan-gray, #929AA6, true; /* 观安主题色的辅助色【影响字体、边线颜色】 */
+
+  /* 【定义13组基础颜色，根据每组主颜色衍生出另外9种副颜色】
+  ----------------------------------------------------------------- */
+  @mixin themeColor red, #CA3C4B; /* 红色 */
+  @mixin themeColor volcano, #DB693D; /* 火山红 */
+  @mixin themeColor orange, #DCA23E; /* 日暮黄 */
+  @mixin themeColor gold, #E5C042; /* 金盏花【金色】 */
+  @mixin themeColor yellow, #CDBD29; /* 日出黄*/
+  @mixin themeColor lime, #32B368; /* 青柠绿 */
+  @mixin themeColor green, #2CB990; /* 极光绿 */
+  @mixin themeColor green-cyan, #35C6B4; /* 青绿 */
+  @mixin themeColor cyan, #3FAFD2; /* 明青 */
+  @mixin themeColor blue, #3B9AD0, true; /* 拂晓蓝 */
+  @mixin themeColor geekblue, #3E8FDD; /* 极客蓝 */
+  @mixin themeColor science-purple, #3A56D2; /* 科技紫 */
+  @mixin themeColor blue-purple, #4636BF; /* 蓝紫 */
+  @mixin themeColor purple, #8238BE; /* 酱紫 */
+  @mixin themeColor magenta, #C53A7B; /* 洋红 */
+  @mixin themeColor light-gray, #BFBFBF, true; /* 高亮灰 */
+}

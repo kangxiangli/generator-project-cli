@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "content": {
+    "alarm": 9,
+    "user": 2,
+    "riskType": 2,
+    "event": 0,
+    "holes": 0
+  },
+  "message": null,
+  "errorCode": null
+}

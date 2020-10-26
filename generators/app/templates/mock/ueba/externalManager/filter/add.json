@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "content": {
+    "id": 10,
+    "type": "E1101",
+    "intelligenceType": "D1001",
+    "filterExpression": "aaa=bb and aa=adasd",
+    "conditionRelation": "{\"condition\": \"&&\",\"children\": []}"
+  },
+  "message": "增加成功",
+  "errorCode": null
+}

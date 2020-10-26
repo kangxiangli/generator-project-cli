@@ -1,0 +1,37 @@
+{
+  "status": "success",
+  "content": {
+    "total": 4,
+    "totalPage": 1,
+    "data": [
+      {
+        "key": "TEST4",
+        "accountId": 447,
+        "value": 119,
+        "name": "TEST4"
+      },
+      {
+        "key": "TEST3",
+        "accountId": 434,
+        "value": 82,
+        "name": "TEST3"
+      },
+      {
+        "key": "TEST1",
+        "accountId": 433,
+        "value": 81,
+        "name": "TEST1"
+      },
+      {
+        "key": "TEST8",
+        "accountId": 435,
+        "value": 59,
+        "name": "TEST8"
+      }
+    ],
+    "pageSize": 10,
+    "pageNum": 1
+  },
+  "message": null,
+  "errorCode": null
+}

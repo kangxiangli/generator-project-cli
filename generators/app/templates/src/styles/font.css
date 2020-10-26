@@ -1,0 +1,5 @@
+/* 引入字体 */
+  @font-face {
+    font-family: 'digital';
+    src: url("../assets/fonts/DS-DIGI.ttf");
+  }

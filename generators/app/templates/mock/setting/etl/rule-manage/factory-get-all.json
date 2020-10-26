@@ -1,0 +1,22 @@
+{
+    "status": "success",
+    "content": [
+        {
+            "uuid": "ff8080816a24f6e9016a24f9f98e0003",
+            "chName": "厂商-3",
+            "enName": "factory_3"
+        },
+        {
+            "uuid": "ff8080816a24f6e9016a24fa4cce0005",
+            "chName": "厂商-4",
+            "enName": "factory_4"
+        },
+        {
+            "uuid": "ff8080816a24f6e9016a24fa627a0006",
+            "chName": "厂商-5",
+            "enName": "factory_5"
+        }
+    ],
+    "message": null,
+    "errorCode": null
+}

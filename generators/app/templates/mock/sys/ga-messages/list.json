@@ -1,0 +1,61 @@
+{
+  "status": "success",
+  "content": {
+    "total": 1,
+    "data": [
+      {
+        "sendTime": 1555672005385,
+        "modTime": "2019-04-24 14:44:26",
+        "mailReceiver": "1002356872@qq.com",
+        "userId": "1",
+        "sendType": "规则引擎",
+        "messageType": "站内和邮件",
+        "id": "279174531627749376",
+        "text": "测试保存消息接口",
+        "title": "test",
+        "userName": "佟盟",
+        "status": "read_msg"
+      },
+      {
+        "sendTime": 1555672359582,
+        "modTime": "2019-04-19 19:12:36",
+        "mailReceiver": "1002356872@qq.com",
+        "userId": "1",
+        "sendType": "规则引擎",
+        "messageType": "站内和邮件",
+        "id": "279176017233448960",
+        "text": "测试保存消息接口",
+        "title": "test",
+        "userName": "佟盟",
+        "status": "unread_msg"
+      },
+      {
+        "sendTime": 1555901916854,
+        "modTime": "2019-04-22 10:58:32",
+        "mailReceiver": "1002356872@qq.com",
+        "userId": "1",
+        "sendType": "规则引擎",
+        "messageType": "站内和邮件",
+        "id": "280138847688462336",
+        "text": "测试保存消息接口",
+        "title": "test",
+        "userName": "佟盟",
+        "status": "read_msg"
+      },
+      {
+        "sendTime": 1555901956995,
+        "modTime": "2019-04-22 11:00:08",
+        "mailReceiver": "1002356872@qq.com",
+        "userId": "1",
+        "sendType": "规则引擎",
+        "messageType": "站内和邮件",
+        "id": "280139018602156032",
+        "text": "测试保存消息接口",
+        "title": "test",
+        "userName": "佟盟",
+        "status": "unread_msg"
+      }
+    ]
+  },
+  "message": "查询Msg分页数据成功"
+}

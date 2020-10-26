@@ -1,0 +1,22 @@
+{
+  "errorCode": "000000",
+  "message": "服务执行成功",
+  "content": {
+    "data": [
+      {
+        "vulnerability_type": "WEB-CLIENT Attempt To Access Malformed File\\nAccess Database MDB Download\\n",
+        "id": 3,
+        "remark_name": "攻击组合555",
+        "attack_type": "WEB-CLIENT Attempt To Access Malformed File\\nAccess Database MDB Download\\n"
+      },
+      {
+        "vulnerability_type": "",
+        "id": 19,
+        "remark_name": "攻击组合3",
+        "attack_type": ""
+      }
+    ],
+    "total": 26
+  },
+  "status": "success"
+}

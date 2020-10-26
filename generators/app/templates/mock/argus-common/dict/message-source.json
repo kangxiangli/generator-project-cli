@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "name": "规则引擎",
+  "content": [
+    {
+      "key": "1",
+      "name": "规则引擎"
+    },
+    {
+      "key": "2",
+      "name": "态势预警"
+    }
+  ],
+  "message": "获取字典信息 D0060 成功",
+  "errorCode": "null"
+}

@@ -1,0 +1,19 @@
+{
+  "status": "success",
+  "content": {
+    "ip": "245.133.45.198",
+    "cpuOperator": 1,
+    "cpuVal": 77,
+    "cpuFlg": 0,
+    "memOperator": 1,
+    "memVal": 97,
+    "memFlg": 1,
+    "diskOperator": 2,
+    "diskVal": 87,
+    "diskFlg": 1,
+    "networkOperator": 3,
+    "networkVal": 43,
+    "networkFlg": 0,
+    "showFlg": 1
+  }
+}

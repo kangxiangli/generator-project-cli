@@ -1,0 +1,16 @@
+{
+	"status": "success",
+	"content": {
+		"1": {
+			"title": "态势测试啊啊啊啊",
+			"clientIp": "",
+			"collectNodeIps": "172.16.0.25",
+			"filePath": "file.js",
+			"filePattern": "",
+			"logType": "",
+			"sourceCharset": "UTF-8"
+		}
+	},
+	"message": null,
+	"errorCode": null
+}

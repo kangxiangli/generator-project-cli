@@ -1,0 +1,20 @@
+{
+  "status": "success",
+  "content": {
+    "data": [
+      {
+        "id": 1,
+        "job": "job1"
+      },
+      {
+        "id": 2,
+        "job": "job2"
+      },
+      {
+        "id": 3,
+        "job": "job3"
+      }
+    ],
+    "total": 3
+  }
+}

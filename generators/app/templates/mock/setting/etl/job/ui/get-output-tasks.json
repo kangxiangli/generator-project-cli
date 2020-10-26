@@ -1,0 +1,17 @@
+{
+	"status": "success",
+	"content": {
+		"kafka": {
+			"id": "erererer",
+			"clientIp": "",
+			"collectNodeIps": "172.16.0.25",
+			"filePath": "file.js",
+			"filePattern": "",
+			"logType": "",
+			"sourceCharset": "UTF-8",
+			"title": "kafka"
+		}
+	},
+	"message": null,
+	"errorCode": null
+}

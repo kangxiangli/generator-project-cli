@@ -1,0 +1,41 @@
+{
+  "errorCode" : "000000",
+  "message" : "服务执行成功",
+  "content" : {
+    "data" : [ {
+      "isShardText" : null,
+      "commonGroupText" : "原始日志共通字段组",
+      "dbName" : "seccurity_log_",
+      "dbType" : "es",
+      "id" : "1",
+      "datasourceName" : "原始日志数据源",
+      "tableName" : "log"
+    }, {
+      "isShardText" : null,
+      "commonGroupText" : "-",
+      "dbName" : "1",
+      "dbType" : "mysql",
+      "id" : "270478509477072896",
+      "datasourceName" : "18",
+      "tableName" : "1"
+    }, {
+      "isShardText" : null,
+      "commonGroupText" : "-",
+      "dbName" : "1",
+      "dbType" : "mysql",
+      "id" : "270478557036285952",
+      "datasourceName" : "19",
+      "tableName" : "1"
+    }, {
+      "isShardText" : null,
+      "commonGroupText" : "-",
+      "dbName" : "20",
+      "dbType" : "mysql",
+      "id" : "270478636639981568",
+      "datasourceName" : "20",
+      "tableName" : "2"
+    } ],
+    "total" : 21
+  },
+  "status" : "success"
+}

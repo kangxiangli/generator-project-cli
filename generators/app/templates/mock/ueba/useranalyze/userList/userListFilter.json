@@ -1,0 +1,117 @@
+{
+  "status": "success",
+  "content": {
+    "dept": {
+      "value": [
+        {
+          "name": "研发部",
+          "key": "研发部",
+          "value": 1
+        },
+        {
+          "name": "创新部",
+          "key": "创新部",
+          "value": 1
+        },
+        {
+          "name": "行政人事部",
+          "key": "行政人事部",
+          "value": 1
+        },
+        {
+          "name": "产品部",
+          "key": "产品部",
+          "value": 1
+        },
+        {
+          "name": "上海研发",
+          "key": "上海研发",
+          "value": 1
+        },
+        {
+          "name": "静态脱敏",
+          "key": "静态脱敏",
+          "value": 1
+        },
+        {
+          "name": "研发",
+          "key": "研发",
+          "value": 1
+        },
+        {
+          "name": "信息系统部",
+          "key": "信息系统部",
+          "value": 1
+        },
+        {
+          "name": "1",
+          "key": "1",
+          "value": 1
+        }
+      ],
+      "name": "部门"
+    },
+    "asset_type": {
+      "value": [],
+      "name": "资产类型"
+    },
+    "risk_score": {
+      "value": [
+        {
+          "name": "44",
+          "key": "44",
+          "value": 53834
+        }
+      ],
+      "name": "风险分值"
+    },
+    "risk_type": {
+      "value": [
+        {
+          "name": "越权使用账号",
+          "key": "越权使用账号",
+          "value": 53834
+        }
+      ],
+      "name": "风险类型"
+    },
+    "event_type": {
+      "value": [],
+      "name": "事件类型"
+    },
+    "system": {
+      "value": [],
+      "name": "系统"
+    },
+    "alarm_type": {
+      "value": [],
+      "name": "告警类型"
+    },
+    "location": {
+      "value": [
+        {
+          "name": "生产网络",
+          "key": "生产网络",
+          "value": 53834
+        }
+      ],
+      "name": "位置"
+    },
+    "event_channel": {
+      "value": [],
+      "name": "事件渠道"
+    },
+    "risk_level": {
+      "value": [
+        {
+          "name": "低",
+          "key": "低",
+          "value": 53834
+        }
+      ],
+      "name": "风险级别"
+    }
+  },
+  "message": null,
+  "errorCode": null
+}

@@ -1,0 +1,32 @@
+{
+  "status": "success",
+  "content": [
+    {
+      "name": "Router",
+      "key": "Router",
+      "value": 53
+    },
+    {
+      "name": "Switch",
+      "key": "Switch",
+      "value": 100
+    },
+    {
+      "name": "Host",
+      "key": "Host",
+      "value": 80
+    },
+    {
+      "name": "TOR",
+      "key": "TOR",
+      "value": 10
+    },
+    {
+      "name": "TOR12",
+      "key": "TOR12",
+      "value": 20
+    }
+  ],
+  "message": null,
+  "errorCode": null
+}

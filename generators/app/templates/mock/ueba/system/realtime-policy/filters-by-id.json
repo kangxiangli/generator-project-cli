@@ -1,0 +1,32 @@
+{
+  "status": "success",
+  "content": {
+      "data": [
+          {
+              "number": "20201581997786953788",
+              "filterCategoryId": 0,
+              "createTime": 1581997787000,
+              "name": "yan021812",
+              "ruleShow": "{src_ip = 61.130.169.128}",
+              "description": "辽宁大屏调整测试数据-12",
+              "updateUser": null,
+              "createUser": null,
+              "updateTime": 1582784847000,
+              "id": 28,
+              "value": [
+                  {
+                      "filterId": 28,
+                      "conditional": "src_ip",
+                      "id": 276,
+                      "logic": "=",
+                      "nodeType": "condition",
+                      "value": "61.130.169.128"
+                  }
+              ],
+              "status": 1
+          }
+      ]
+  },
+  "message": "查询成功！",
+  "errorCode": null
+}

@@ -1,0 +1,173 @@
+{
+  "status": "success",
+  "content": {
+    "total": 8,
+    "data": [
+      {
+        "id": 29,
+        "name": "ip情报",
+        "createUser": "admin",
+        "createTime": 1535436195000,
+        "updateUser": "admin",
+        "updateTime": 1535436195000,
+        "type": "D1101",
+        "description": "ip标签",
+        "dspMap": {
+          "createTime": 1535436195000,
+          "name": "ip情报",
+          "updateUser": "admin",
+          "description": "ip标签",
+          "createUser": "admin",
+          "updateTime": 1535436195000,
+          "id": 29,
+          "type": "D1101"
+        }
+      },
+      {
+        "id": 30,
+        "name": "iptest1",
+        "createUser": "admin",
+        "createTime": 1535436607000,
+        "updateUser": "admin",
+        "updateTime": 1535436607000,
+        "type": "D1101",
+        "description": "iptest1",
+        "dspMap": {
+          "createTime": 1535436607000,
+          "name": "iptest1",
+          "updateUser": "admin",
+          "description": "iptest1",
+          "createUser": "admin",
+          "updateTime": 1535436607000,
+          "id": 30,
+          "type": "D1101"
+        }
+      },
+      {
+        "id": 31,
+        "name": "iptest2",
+        "createUser": "admin",
+        "createTime": 1535436622000,
+        "updateUser": "admin",
+        "updateTime": 1535436622000,
+        "type": "D1101",
+        "description": "iptest2",
+        "dspMap": {
+          "createTime": 1535436622000,
+          "name": "iptest2",
+          "updateUser": "admin",
+          "description": "iptest2",
+          "createUser": "admin",
+          "updateTime": 1535436622000,
+          "id": 31,
+          "type": "D1101"
+        }
+      },
+      {
+        "id": 32,
+        "name": "phone1",
+        "createUser": "admin",
+        "createTime": 1535436645000,
+        "updateUser": "admin",
+        "updateTime": 1535436645000,
+        "type": "D1105",
+        "description": "phone1",
+        "dspMap": {
+          "createTime": 1535436645000,
+          "name": "phone1",
+          "updateUser": "admin",
+          "description": "phone1",
+          "createUser": "admin",
+          "updateTime": 1535436645000,
+          "id": 32,
+          "type": "D1105"
+        }
+      },
+      {
+        "id": 33,
+        "name": "phone2",
+        "createUser": "admin",
+        "createTime": 1535436663000,
+        "updateUser": "admin",
+        "updateTime": 1535436663000,
+        "type": "D1105",
+        "description": "phone2",
+        "dspMap": {
+          "createTime": 1535436663000,
+          "name": "phone2",
+          "updateUser": "admin",
+          "description": "phone2",
+          "createUser": "admin",
+          "updateTime": 1535436663000,
+          "id": 33,
+          "type": "D1105"
+        }
+      },
+      {
+        "id": 34,
+        "name": "iptest3",
+        "createUser": "admin",
+        "createTime": 1535436690000,
+        "updateUser": "admin",
+        "updateTime": 1535436690000,
+        "type": "D1101",
+        "description": "ip区间1",
+        "dspMap": {
+          "createTime": 1535436690000,
+          "name": "iptest3",
+          "updateUser": "admin",
+          "description": "ip区间1",
+          "createUser": "admin",
+          "updateTime": 1535436690000,
+          "id": 34,
+          "type": "D1101"
+        }
+      },
+      {
+        "id": 35,
+        "name": "iptest4",
+        "createUser": "admin",
+        "createTime": 1535436705000,
+        "updateUser": "admin",
+        "updateTime": 1535437471000,
+        "type": "D1101",
+        "description": "test333",
+        "dspMap": {
+          "createTime": 1535436705000,
+          "name": "iptest4",
+          "updateUser": "admin",
+          "description": "test333",
+          "createUser": "admin",
+          "updateTime": 1535437471000,
+          "id": 35,
+          "type": "D1101"
+        }
+      },
+      {
+        "id": 36,
+        "name": "iptest5",
+        "createUser": "admin",
+        "createTime": 1535437260000,
+        "updateUser": "admin",
+        "updateTime": 1535437260000,
+        "type": "D1101",
+        "description": "iptest5",
+        "dspMap": {
+          "createTime": 1535437260000,
+          "name": "iptest5",
+          "updateUser": "admin",
+          "description": "iptest5",
+          "createUser": "admin",
+          "updateTime": 1535437260000,
+          "id": 36,
+          "type": "D1101"
+        }
+      }
+    ],
+    "totalPage": 1,
+    "pageSize": 20,
+    "pageNum": 1
+  },
+  "message": "查询成功",
+  "errorCode": null
+}

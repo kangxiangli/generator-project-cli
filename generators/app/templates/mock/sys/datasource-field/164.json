@@ -1,0 +1,39 @@
+{
+  "errorCode": "000000",
+  "message": "服务执行成功",
+  "content": {
+    "computeTypes": [
+      "none"
+    ],
+    "dspOrder": "999",
+    "computeTypesText": "无计算方式",
+    "isCommonText": "否",
+    "groupId": [
+      "1",
+      "2"
+    ],
+    "type": "string",
+    "delFlag": "0",
+    "updateId": "1",
+    "serialVersionUID": 1,
+    "formatUnit": null,
+    "isCommon": "0",
+    "id": "357",
+    "operatorsReferText": "字符串",
+    "updateTime": "2019-03-25 10:24:32",
+    "canGroupText": "是",
+    "operatorsRefer": "input-str",
+    "canGroup": "1",
+    "individualValue": "/NetworkEquipment/NetFlow",
+    "dictionary": "",
+    "individualDatasourceId": "1",
+    "field": "ack",
+    "createTime": "2019-03-21 16:13:11",
+    "createId": "1",
+    "typeText": "字符串",
+    "name": "是否有tcp第三次确认",
+    "formatStyle": null,
+    "datasourceText": "原始日志数据源"
+  },
+  "status": "success"
+}

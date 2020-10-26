@@ -1,0 +1,112 @@
+{
+  "status": "success",
+  "content": {
+    "total": 11,
+    "data": [
+      {
+        "id": 4,
+        "name": "交互式分析测试",
+        "createTime": 1533006040000,
+        "frequency": "每天一次",
+        "status": 0,
+        "description": "交互式分析测试",
+        "strategyId": 537
+      },
+      {
+        "id": 5,
+        "name": "交互式分析测试1",
+        "createTime": 1533006286000,
+        "frequency": "每周一次",
+        "status": 0,
+        "description": "交互式分析测试1",
+        "strategyId": 538
+      },
+      {
+        "id": 14,
+        "name": "交互式分析测试10",
+        "createTime": 1533006348000,
+        "frequency": "每天一次",
+        "status": 0,
+        "description": "交互式分析测试10",
+        "strategyId": 547
+      },
+      {
+        "id": 6,
+        "name": "交互式分析测试2",
+        "createTime": 1533006296000,
+        "frequency": "每周一次",
+        "status": 0,
+        "description": "交互式分析测试2",
+        "strategyId": 539
+      },
+      {
+        "id": 7,
+        "name": "交互式分析测试3",
+        "createTime": 1533006301000,
+        "frequency": "每周一次",
+        "status": 0,
+        "description": "交互式分析测试3",
+        "strategyId": 540
+      },
+      {
+        "id": 8,
+        "name": "交互式分析测试4",
+        "createTime": 1533006308000,
+        "frequency": "每周一次",
+        "status": 0,
+        "description": "交互式分析测试4",
+        "strategyId": 541
+      },
+      {
+        "id": 9,
+        "name": "交互式分析测试5",
+        "createTime": 1533006314000,
+        "frequency": "每周一次",
+        "status": 0,
+        "description": "交互式分析测试5",
+        "strategyId": 542
+      },
+      {
+        "id": 10,
+        "name": "交互式分析测试6",
+        "createTime": 1533006320000,
+        "frequency": "每天一次",
+        "status": 0,
+        "description": "交互式分析测试6",
+        "strategyId": 543
+      },
+      {
+        "id": 11,
+        "name": "交互式分析测试7",
+        "createTime": 1533006327000,
+        "frequency": "每天一次",
+        "status": 0,
+        "description": "交互式分析测试7",
+        "strategyId": 544
+      },
+      {
+        "id": 12,
+        "name": "交互式分析测试8",
+        "createTime": 1533006334000,
+        "frequency": "每天一次",
+        "status": 0,
+        "description": "交互式分析测试8",
+        "strategyId": 545
+      },
+      {
+        "id": 13,
+        "name": "交互式分析测试9",
+        "createTime": 1533006340000,
+        "frequency": "每天一次",
+        "status": 0,
+        "description": "交互式分析测试9",
+        "strategyId": 546
+      }
+    ],
+    "totalPage": 1,
+    "pageSize": 20,
+    "pageNum": 1
+  },
+  "message": "查询成功",
+  "errorCode": null
+}
